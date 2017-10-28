@@ -33,6 +33,7 @@ to have stable reliable expected results. but which i dont have ;D.
 
 # What i learned ?
 
+0) Heroku
 1) Spring Theme Leaf
 2) Reflection in details designing
 3) Designing Json facilities, architecture
