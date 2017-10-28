@@ -1,5 +1,6 @@
 package com.expedia.domain;
 
+import com.expedia.web.types.Webinizer;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.io.UnsupportedEncodingException;
@@ -12,7 +13,7 @@ import java.util.List;
  * main object that encapsulate the big json into one
  * domain class with sub classes
  */
-public class OffersContainer {
+public class OffersContainer extends Webinizer {
 
     /**
      * offerInfo : {"siteID":"1","language":"en_US","currency":"USD"}
@@ -48,7 +49,7 @@ public class OffersContainer {
         this.offers = offers;
     }
 
-    public static class OfferInfo {
+    public static class OfferInfo extends Webinizer {
         /**
          * siteID : 1
          * language : en_US
@@ -84,7 +85,7 @@ public class OffersContainer {
         }
     }
 
-    public static class UserInfo {
+    public static class UserInfo extends Webinizer {
         /**
          * persona : {"personaType":"OTHERS"}
          * userId : foo
@@ -109,7 +110,7 @@ public class OffersContainer {
             this.userId = userId;
         }
 
-        public static class Persona {
+        public static class Persona extends Webinizer {
             /**
              * personaType : OTHERS
              */
@@ -126,7 +127,7 @@ public class OffersContainer {
         }
     }
 
-    public static class Offers {
+    public static class Offers extends Webinizer {
         @JsonProperty(value = "Hotel")
         private List<Offers.Hotel> hotel;
 
@@ -138,7 +139,7 @@ public class OffersContainer {
             this.hotel = Hotel;
         }
 
-        public static class Hotel {
+        public static class Hotel extends Webinizer {
             /**
              * offerDateRange : {"travelStartDate":[2017,12,7],"travelEndDate":[2017,12,18],"lengthOfStay":11}
              * destination : {"regionID":"178293","associatedMultiCityRegionId":"178293","longName":"New York (and vicinity), New York, United States of America","shortName":"New York","country":"United States of America","province":"New York","city":"New York","tla":"NYC","nonLocalizedCity":"New York"}
@@ -203,7 +204,7 @@ public class OffersContainer {
                 this.hotelUrls = hotelUrls;
             }
 
-            public static class OfferDateRange {
+            public static class OfferDateRange extends Webinizer {
                 /**
                  * travelStartDate : [2017,12,7]
                  * travelEndDate : [2017,12,18]
@@ -239,7 +240,7 @@ public class OffersContainer {
                 }
             }
 
-            public static class Destincation {
+            public static class Destincation extends Webinizer {
                 /**
                  * regionID : 178293
                  * associatedMultiCityRegionId : 178293
@@ -335,7 +336,7 @@ public class OffersContainer {
                 }
             }
 
-            public static class HotelInfo {
+            public static class HotelInfo extends Webinizer {
                 /**
                  * hotelId : 4818574
                  * hotelName : the OUT NYC
@@ -511,7 +512,7 @@ public class OffersContainer {
                 }
             }
 
-            public static class HotelUrgencyInfo {
+            public static class HotelUrgencyInfo extends Webinizer {
                 /**
                  * airAttachRemainingTime : 0
                  * numberOfPeopleViewing : 32
@@ -597,7 +598,7 @@ public class OffersContainer {
                 }
             }
 
-            public static class HotelPricingInfo {
+            public static class HotelPricingInfo extends Webinizer {
                 /**
                  * averagePriceValue : 267.87
                  * totalPriceValue : 2946.57
@@ -663,7 +664,7 @@ public class OffersContainer {
                 }
             }
 
-            public static class HotelUrls {
+            public static class HotelUrls extends Webinizer {
                 /**
                  * hotelInfositeUrl : https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F4818574%2F2017-12-07%2F2017-12-18
                  * hotelSearchResultUrl : https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2017-12-07%2F2017-12-18%3FSearchType%3DDestination%26CityName%3DNew+York%26RegionId%3D178293%26Selected%3D4818574
