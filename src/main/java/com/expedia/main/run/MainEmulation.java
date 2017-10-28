@@ -40,7 +40,7 @@ import static com.expedia.Constants.*;
 
 /**
  * @author shareef on 27/10/2017
- *
+ * <p>
  * Main application with spring boot
  */
 @Controller
@@ -84,11 +84,14 @@ public class MainEmulation {
      */
     @RequestMapping("/db")
     String db(Map<String, Object> model) {
+        ResultSet rs = null;
+        Statement stmt = null;
+
         try (Connection connection = dataSource.getConnection()) {
-            Statement stmt = connection.createStatement();
-            stmt.executeUpdate("CREATE TABLE IF NOT EXISTS ticks (tick timestamp)");
+            stmt = connection.createStatement();
+            stmt.executeUpdate("CREATE TABLE IF NOT EXISTS ticks (tick TIMESTAMP)");
             stmt.executeUpdate("INSERT INTO ticks VALUES (now())");
-            ResultSet rs = stmt.executeQuery("SELECT tick FROM ticks");
+            rs = stmt.executeQuery("SELECT tick FROM ticks");
 
             ArrayList<String> output = new ArrayList<>();
             while (rs.next()) {
@@ -100,6 +103,16 @@ public class MainEmulation {
         } catch (Exception e) {
             model.put("message", e.getMessage());
             return "error";
+        } finally {
+            try {
+                if (stmt != null)
+                    stmt.close();
+
+                if (rs != null)
+                    rs.close();
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
         }
     }
 
@@ -120,7 +133,7 @@ public class MainEmulation {
 
     @RequestMapping("/index")
     String homepage(Map<String, Object> model) {
-            return "index";
+        return "index";
     }
 
 
@@ -191,7 +204,7 @@ public class MainEmulation {
     }
 
     private String ApiCallModel(Map<String, Object> model, String apiCall) {
-        try{
+        try {
 
             String response = JsonUtils.getJSONFromUrl(
                     EXPEDIA_API_V2_URL
