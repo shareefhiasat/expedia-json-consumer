@@ -1,0 +1,1690 @@
+{
+  "offerInfo": {
+    "siteID": "1",
+    "language": "en_US",
+    "currency": "USD"
+  },
+  "userInfo": {
+    "persona": {
+      "personaType": "OTHERS"
+    },
+    "userId": "foo"
+  },
+  "offers": {
+    "Hotel": [
+      {
+        "offerDateRange": {
+          "travelStartDate": [
+            2017,
+            12,
+            15
+          ],
+          "travelEndDate": [
+            2017,
+            12,
+            28
+          ],
+          "lengthOfStay": 13
+        },
+        "destination": {
+          "regionID": "178236",
+          "associatedMultiCityRegionId": "178236",
+          "longName": "Bangkok (and vicinity), Thailand",
+          "shortName": "Bangkok",
+          "country": "Thailand",
+          "province": "Bangkok (province)",
+          "city": "Bangkok",
+          "tla": "BKK",
+          "nonLocalizedCity": "Bangkok"
+        },
+        "hotelInfo": {
+          "hotelId": "3607",
+          "hotelName": "Montien Riverside Hotel",
+          "localizedHotelName": "Montien Riverside Hotel",
+          "hotelDestination": "Bangkok",
+          "hotelDestinationRegionID": "604",
+          "hotelLongDestination": "Bangkok,Bangkok,THA",
+          "hotelStreetAddress": "372 Rama 3 Road",
+          "hotelCity": "Bangkok",
+          "hotelProvince": "Bangkok",
+          "hotelCountryCode": "THA",
+          "hotelLatitude": 13.689531,
+          "hotelLongitude": 100.508163,
+          "hotelStarRating": "5.0",
+          "hotelGuestReviewRating": 3.91,
+          "hotelReviewTotal": 391,
+          "hotelImageUrl": "https:\/\/images.trvl-media.com\/hotels\/1000000\/10000\/3700\/3607\/3607_246_t.jpg",
+          "isOfficialRating": false
+        },
+        "hotelUrgencyInfo": {
+          "airAttachRemainingTime": 0,
+          "numberOfPeopleViewing": 12,
+          "numberOfPeopleBooked": 4,
+          "numberOfRoomsLeft": -1,
+          "lastBookedTime": 1509096264219,
+          "almostSoldStatus": "AVAILABLE",
+          "link": "\/Hotel-Search#selected=3607",
+          "airAttachEnabled": false
+        },
+        "hotelPricingInfo": {
+          "averagePriceValue": 67.31,
+          "totalPriceValue": 875.03,
+          "crossOutPriceValue": 192.3,
+          "originalPricePerNight": 192.3,
+          "percentSavings": 65,
+          "drr": false
+        },
+        "hotelUrls": {
+          "hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F3607%2F2017-12-15%2F2017-12-28",
+          "hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2017-12-15%2F2017-12-28%3FSearchType%3DDestination%26CityName%3DBangkok%26RegionId%3D178236%26Selected%3D3607"
+        }
+      },
+      {
+        "offerDateRange": {
+          "travelStartDate": [
+            2017,
+            11,
+            25
+          ],
+          "travelEndDate": [
+            2017,
+            11,
+            27
+          ],
+          "lengthOfStay": 2
+        },
+        "destination": {
+          "regionID": "178267",
+          "associatedMultiCityRegionId": "178267",
+          "longName": "Istanbul (and vicinity), Turkey",
+          "shortName": "Istanbul",
+          "country": "Turkey",
+          "city": "Istanbul",
+          "tla": "IST",
+          "nonLocalizedCity": "Istanbul"
+        },
+        "hotelInfo": {
+          "hotelId": "9684493",
+          "hotelName": "Movenpick Hotel Istanbul Golden Horn",
+          "localizedHotelName": "Movenpick Hotel Istanbul Golden Horn",
+          "hotelDestination": "Eyup",
+          "hotelDestinationRegionID": "179865",
+          "hotelLongDestination": "Eyup,Istanbul,TUR",
+          "hotelStreetAddress": "Silahtaraga Caddesi, No. 87",
+          "hotelCity": "Eyup",
+          "hotelProvince": "Istanbul",
+          "hotelCountryCode": "TUR",
+          "hotelLatitude": 41.059263,
+          "hotelLongitude": 28.94413,
+          "hotelStarRating": "5.0",
+          "hotelGuestReviewRating": 4.31,
+          "hotelReviewTotal": 68,
+          "hotelImageUrl": "https:\/\/images.trvl-media.com\/hotels\/10000000\/9690000\/9684500\/9684493\/cd3ff363_t.jpg",
+          "isOfficialRating": false
+        },
+        "hotelUrgencyInfo": {
+          "airAttachRemainingTime": 0,
+          "numberOfPeopleViewing": 11,
+          "numberOfPeopleBooked": 3,
+          "numberOfRoomsLeft": -1,
+          "lastBookedTime": 1509120916825,
+          "almostSoldStatus": "AVAILABLE",
+          "link": "\/Hotel-Search#selected=9684493",
+          "airAttachEnabled": false
+        },
+        "hotelPricingInfo": {
+          "averagePriceValue": 69.87,
+          "totalPriceValue": 139.74,
+          "crossOutPriceValue": 139.75,
+          "originalPricePerNight": 139.75,
+          "percentSavings": 50,
+          "drr": false
+        },
+        "hotelUrls": {
+          "hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F9684493%2F2017-11-25%2F2017-11-27",
+          "hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2017-11-25%2F2017-11-27%3FSearchType%3DDestination%26CityName%3DEyup%26RegionId%3D178267%26Selected%3D9684493"
+        }
+      },
+      {
+        "offerDateRange": {
+          "travelStartDate": [
+            2017,
+            10,
+            28
+          ],
+          "travelEndDate": [
+            2017,
+            10,
+            31
+          ],
+          "lengthOfStay": 3
+        },
+        "destination": {
+          "regionID": "179995",
+          "associatedMultiCityRegionId": "179995",
+          "longName": "Cancun (and vicinity), Quintana Roo, Mexico",
+          "shortName": "Cancun",
+          "country": "Mexico",
+          "province": "Quintana Roo",
+          "city": "Cancun",
+          "tla": "CUN",
+          "nonLocalizedCity": "Cancun"
+        },
+        "hotelInfo": {
+          "hotelId": "12689",
+          "hotelName": "Grand Fiesta Americana Coral Beach Cancun",
+          "localizedHotelName": "Grand Fiesta Americana Coral Beach Cancun",
+          "hotelDestination": "Cancun",
+          "hotelDestinationRegionID": "935",
+          "hotelLongDestination": "Cancun,QROO,MEX",
+          "hotelStreetAddress": "Blvd. Kukulcan km. 9.5",
+          "hotelCity": "Cancun",
+          "hotelProvince": "QROO",
+          "hotelCountryCode": "MEX",
+          "hotelLatitude": 21.134977,
+          "hotelLongitude": -86.744745,
+          "hotelStarRating": "5.0",
+          "hotelGuestReviewRating": 4.63,
+          "hotelReviewTotal": 3243,
+          "hotelImageUrl": "https:\/\/images.trvl-media.com\/hotels\/1000000\/20000\/12700\/12689\/12689_494_t.jpg",
+          "isOfficialRating": false
+        },
+        "hotelUrgencyInfo": {
+          "airAttachRemainingTime": 0,
+          "numberOfPeopleViewing": 38,
+          "numberOfPeopleBooked": 17,
+          "numberOfRoomsLeft": -1,
+          "lastBookedTime": 1509122169903,
+          "almostSoldStatus": "ALMOST_SOLD",
+          "link": "\/Hotel-Search#selected=12689",
+          "airAttachEnabled": false
+        },
+        "hotelPricingInfo": {
+          "averagePriceValue": 196.91,
+          "totalPriceValue": 590.73,
+          "crossOutPriceValue": 393.81,
+          "originalPricePerNight": 393.81,
+          "percentSavings": 50,
+          "drr": false
+        },
+        "hotelUrls": {
+          "hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F12689%2F2017-10-28%2F2017-10-31",
+          "hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2017-10-28%2F2017-10-31%3FSearchType%3DDestination%26CityName%3DCancun%26RegionId%3D179995%26Selected%3D12689"
+        }
+      },
+      {
+        "offerDateRange": {
+          "travelStartDate": [
+            2017,
+            10,
+            29
+          ],
+          "travelEndDate": [
+            2017,
+            10,
+            31
+          ],
+          "lengthOfStay": 2
+        },
+        "destination": {
+          "regionID": "178293",
+          "associatedMultiCityRegionId": "178293",
+          "longName": "New York (and vicinity), New York, United States of America",
+          "shortName": "New York",
+          "country": "United States of America",
+          "province": "New York",
+          "city": "New York",
+          "tla": "NYC",
+          "nonLocalizedCity": "New York"
+        },
+        "hotelInfo": {
+          "hotelId": "8303678",
+          "hotelName": "Jet Luxury at the Trump SoHo",
+          "localizedHotelName": "Jet Luxury at the Trump SoHo",
+          "hotelDestination": "New York",
+          "hotelDestinationRegionID": "2621",
+          "hotelLongDestination": "New York,NY,USA",
+          "hotelStreetAddress": "246 Spring Street",
+          "hotelCity": "New York",
+          "hotelProvince": "NY",
+          "hotelCountryCode": "USA",
+          "hotelLatitude": 40.725619,
+          "hotelLongitude": -74.005458,
+          "hotelStarRating": "5.0",
+          "hotelGuestReviewRating": 4.31,
+          "hotelReviewTotal": 157,
+          "hotelImageUrl": "https:\/\/images.trvl-media.com\/hotels\/9000000\/8310000\/8303700\/8303678\/137b9b9a_t.jpg",
+          "isOfficialRating": false
+        },
+        "hotelUrgencyInfo": {
+          "airAttachRemainingTime": 0,
+          "numberOfPeopleViewing": 6,
+          "numberOfPeopleBooked": 2,
+          "numberOfRoomsLeft": -1,
+          "lastBookedTime": 1509002462717,
+          "almostSoldStatus": "ALMOST_SOLD",
+          "link": "\/Hotel-Search#selected=8303678",
+          "airAttachEnabled": false
+        },
+        "hotelPricingInfo": {
+          "averagePriceValue": 493.02,
+          "totalPriceValue": 986.04,
+          "crossOutPriceValue": 896.4,
+          "originalPricePerNight": 896.4,
+          "percentSavings": 45,
+          "drr": false
+        },
+        "hotelUrls": {
+          "hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F8303678%2F2017-10-29%2F2017-10-31",
+          "hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2017-10-29%2F2017-10-31%3FSearchType%3DDestination%26CityName%3DNew+York%26RegionId%3D178293%26Selected%3D8303678"
+        }
+      },
+      {
+        "offerDateRange": {
+          "travelStartDate": [
+            2017,
+            12,
+            4
+          ],
+          "travelEndDate": [
+            2017,
+            12,
+            5
+          ],
+          "lengthOfStay": 1
+        },
+        "destination": {
+          "regionID": "179898",
+          "associatedMultiCityRegionId": "179898",
+          "longName": "Paris (and vicinity), France",
+          "shortName": "Paris",
+          "country": "France",
+          "city": "Paris",
+          "tla": "PAR",
+          "nonLocalizedCity": "Paris"
+        },
+        "hotelInfo": {
+          "hotelId": "6083370",
+          "hotelName": "Buddha-Bar Hotel Paris",
+          "localizedHotelName": "Buddha-Bar Hotel Paris",
+          "hotelDestination": "Paris",
+          "hotelDestinationRegionID": "2734",
+          "hotelLongDestination": "Paris,Ile de France,FRA",
+          "hotelStreetAddress": "4 rue d'Anjou",
+          "hotelCity": "Paris",
+          "hotelProvince": "Ile de France",
+          "hotelCountryCode": "FRA",
+          "hotelLatitude": 48.86957,
+          "hotelLongitude": 2.320636,
+          "hotelStarRating": "5.0",
+          "hotelGuestReviewRating": 4.63,
+          "hotelReviewTotal": 156,
+          "hotelImageUrl": "https:\/\/images.trvl-media.com\/hotels\/7000000\/6090000\/6083400\/6083370\/2288fe21_t.jpg",
+          "isOfficialRating": false
+        },
+        "hotelUrgencyInfo": {
+          "airAttachRemainingTime": 0,
+          "numberOfPeopleViewing": 22,
+          "numberOfPeopleBooked": 5,
+          "numberOfRoomsLeft": -1,
+          "lastBookedTime": 1509126587357,
+          "almostSoldStatus": "ALMOST_SOLD",
+          "link": "\/Hotel-Search#selected=6083370",
+          "airAttachEnabled": false
+        },
+        "hotelPricingInfo": {
+          "averagePriceValue": 356.35,
+          "totalPriceValue": 356.35,
+          "crossOutPriceValue": 601.26,
+          "originalPricePerNight": 601.26,
+          "percentSavings": 40.73,
+          "drr": false
+        },
+        "hotelUrls": {
+          "hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F6083370%2F2017-12-04%2F2017-12-05",
+          "hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2017-12-04%2F2017-12-05%3FSearchType%3DDestination%26CityName%3DParis%26RegionId%3D179898%26Selected%3D6083370"
+        }
+      },
+      {
+        "offerDateRange": {
+          "travelStartDate": [
+            2017,
+            11,
+            13
+          ],
+          "travelEndDate": [
+            2017,
+            11,
+            29
+          ],
+          "lengthOfStay": 16
+        },
+        "destination": {
+          "regionID": "178280",
+          "associatedMultiCityRegionId": "178280",
+          "longName": "Los Angeles (and vicinity), California, United States Of America",
+          "shortName": "Los Angeles",
+          "country": "United States of America",
+          "province": "California",
+          "city": "Los Angeles",
+          "tla": "QLA",
+          "nonLocalizedCity": "Los Angeles"
+        },
+        "hotelInfo": {
+          "hotelId": "15409084",
+          "hotelName": "The Jeremy Hotel West Hollywood",
+          "localizedHotelName": "The Jeremy Hotel West Hollywood",
+          "hotelDestination": "West Hollywood",
+          "hotelDestinationRegionID": "10371",
+          "hotelLongDestination": "West Hollywood,CA,USA",
+          "hotelStreetAddress": "8490 Sunset Boulevard",
+          "hotelCity": "West Hollywood",
+          "hotelProvince": "CA",
+          "hotelCountryCode": "USA",
+          "hotelLatitude": 34.0941,
+          "hotelLongitude": -118.37601,
+          "hotelStarRating": "5.0",
+          "hotelGuestReviewRating": 3.94,
+          "hotelReviewTotal": 18,
+          "hotelImageUrl": "https:\/\/images.trvl-media.com\/hotels\/16000000\/15410000\/15409100\/15409084\/2c5436ce_t.jpg",
+          "isOfficialRating": false
+        },
+        "hotelUrgencyInfo": {
+          "airAttachRemainingTime": 0,
+          "numberOfPeopleViewing": 73,
+          "numberOfPeopleBooked": 29,
+          "numberOfRoomsLeft": 56,
+          "lastBookedTime": 1509124083657,
+          "almostSoldStatus": "AVAILABLE",
+          "link": "\/Hotel-Search#selected=15409084",
+          "airAttachEnabled": false
+        },
+        "hotelPricingInfo": {
+          "averagePriceValue": 255.04,
+          "totalPriceValue": 4080.64,
+          "crossOutPriceValue": 425.06,
+          "originalPricePerNight": 425.06,
+          "percentSavings": 40,
+          "drr": false
+        },
+        "hotelUrls": {
+          "hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F15409084%2F2017-11-13%2F2017-11-29",
+          "hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2017-11-13%2F2017-11-29%3FSearchType%3DDestination%26CityName%3DWest+Hollywood%26RegionId%3D178280%26Selected%3D15409084"
+        }
+      },
+      {
+        "offerDateRange": {
+          "travelStartDate": [
+            2018,
+            1,
+            25
+          ],
+          "travelEndDate": [
+            2018,
+            1,
+            28
+          ],
+          "lengthOfStay": 3
+        },
+        "destination": {
+          "regionID": "1488",
+          "associatedMultiCityRegionId": "1488",
+          "longName": "Honolulu, Hawaii, United States of America",
+          "shortName": "Honolulu",
+          "country": "United States of America",
+          "province": "Hawaii",
+          "city": "Honolulu",
+          "tla": "HNL",
+          "nonLocalizedCity": "Honolulu"
+        },
+        "hotelInfo": {
+          "hotelId": "2860193",
+          "hotelName": "Trump International Hotel Waikiki",
+          "localizedHotelName": "Trump International Hotel Waikiki",
+          "hotelDestination": "Honolulu",
+          "hotelDestinationRegionID": "1488",
+          "hotelLongDestination": "Honolulu,HI,USA",
+          "hotelStreetAddress": "223 Saratoga Road",
+          "hotelCity": "Honolulu",
+          "hotelProvince": "HI",
+          "hotelCountryCode": "USA",
+          "hotelLatitude": 21.27943,
+          "hotelLongitude": -157.83249,
+          "hotelStarRating": "5.0",
+          "hotelGuestReviewRating": 4.65,
+          "hotelReviewTotal": 2806,
+          "hotelImageUrl": "https:\/\/images.trvl-media.com\/hotels\/3000000\/2870000\/2860200\/2860193\/2860193_121_t.jpg",
+          "isOfficialRating": false
+        },
+        "hotelUrgencyInfo": {
+          "airAttachRemainingTime": 0,
+          "numberOfPeopleViewing": 25,
+          "numberOfPeopleBooked": 12,
+          "numberOfRoomsLeft": -1,
+          "lastBookedTime": 1509079014427,
+          "almostSoldStatus": "AVAILABLE",
+          "link": "\/Hotel-Search#selected=2860193",
+          "airAttachEnabled": false
+        },
+        "hotelPricingInfo": {
+          "averagePriceValue": 337.35,
+          "totalPriceValue": 1012.05,
+          "crossOutPriceValue": 519,
+          "originalPricePerNight": 519,
+          "percentSavings": 35,
+          "drr": false
+        },
+        "hotelUrls": {
+          "hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F2860193%2F2018-01-25%2F2018-01-28",
+          "hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2018-01-25%2F2018-01-28%3FSearchType%3DDestination%26CityName%3DHonolulu%26RegionId%3D1488%26Selected%3D2860193"
+        }
+      },
+      {
+        "offerDateRange": {
+          "travelStartDate": [
+            2018,
+            1,
+            4
+          ],
+          "travelEndDate": [
+            2018,
+            1,
+            7
+          ],
+          "lengthOfStay": 3
+        },
+        "destination": {
+          "regionID": "178279",
+          "associatedMultiCityRegionId": "178279",
+          "longName": "London (and vicinity), England, United Kingdom",
+          "shortName": "London",
+          "country": "United Kingdom",
+          "province": "England",
+          "city": "London",
+          "tla": "LON",
+          "nonLocalizedCity": "London"
+        },
+        "hotelInfo": {
+          "hotelId": "21352",
+          "hotelName": "Dukes Hotel",
+          "localizedHotelName": "Dukes Hotel",
+          "hotelDestination": "London",
+          "hotelDestinationRegionID": "2114",
+          "hotelLongDestination": "London,England,GBR",
+          "hotelStreetAddress": "35 St James's Place",
+          "hotelCity": "London",
+          "hotelProvince": "England",
+          "hotelCountryCode": "GBR",
+          "hotelLatitude": 51.505601,
+          "hotelLongitude": -0.13951,
+          "hotelStarRating": "5.0",
+          "hotelGuestReviewRating": 4.48,
+          "hotelReviewTotal": 402,
+          "hotelImageUrl": "https:\/\/images.trvl-media.com\/hotels\/1000000\/30000\/21400\/21352\/21352_109_t.jpg",
+          "isOfficialRating": false
+        },
+        "hotelUrgencyInfo": {
+          "airAttachRemainingTime": 0,
+          "numberOfPeopleViewing": 26,
+          "numberOfPeopleBooked": 1,
+          "numberOfRoomsLeft": -1,
+          "lastBookedTime": 1509044959992,
+          "almostSoldStatus": "AVAILABLE",
+          "link": "\/Hotel-Search#selected=21352",
+          "airAttachEnabled": false
+        },
+        "hotelPricingInfo": {
+          "averagePriceValue": 258.8,
+          "totalPriceValue": 776.4,
+          "crossOutPriceValue": 392.19,
+          "originalPricePerNight": 392.19,
+          "percentSavings": 34.01,
+          "drr": false
+        },
+        "hotelUrls": {
+          "hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F21352%2F2018-01-04%2F2018-01-07",
+          "hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2018-01-04%2F2018-01-07%3FSearchType%3DDestination%26CityName%3DLondon%26RegionId%3D178279%26Selected%3D21352"
+        }
+      },
+      {
+        "offerDateRange": {
+          "travelStartDate": [
+            2017,
+            12,
+            11
+          ],
+          "travelEndDate": [
+            2017,
+            12,
+            16
+          ],
+          "lengthOfStay": 5
+        },
+        "destination": {
+          "regionID": "178286",
+          "associatedMultiCityRegionId": "178286",
+          "longName": "Miami (and vicinity), Florida, United States of America",
+          "shortName": "Miami",
+          "country": "United States of America",
+          "province": "Florida",
+          "city": "Miami",
+          "tla": "FLL",
+          "nonLocalizedCity": "Miami"
+        },
+        "hotelInfo": {
+          "hotelId": "16256597",
+          "hotelName": "Nobu Hotel Miami Beach",
+          "localizedHotelName": "Nobu Hotel Miami Beach",
+          "hotelDestination": "Miami Beach",
+          "hotelDestinationRegionID": "8833",
+          "hotelLongDestination": "Miami Beach,FL,USA",
+          "hotelStreetAddress": "4525 Collins Ave",
+          "hotelCity": "Miami Beach",
+          "hotelProvince": "FL",
+          "hotelCountryCode": "USA",
+          "hotelLatitude": 25.81949,
+          "hotelLongitude": -80.12185,
+          "hotelStarRating": "5.0",
+          "hotelGuestReviewRating": 4.22,
+          "hotelReviewTotal": 51,
+          "hotelImageUrl": "https:\/\/images.trvl-media.com\/hotels\/17000000\/16260000\/16256600\/16256597\/72bdd7cc_t.jpg",
+          "isOfficialRating": false
+        },
+        "hotelUrgencyInfo": {
+          "airAttachRemainingTime": 0,
+          "numberOfPeopleViewing": 7,
+          "numberOfPeopleBooked": 6,
+          "numberOfRoomsLeft": -1,
+          "lastBookedTime": 1509116326626,
+          "almostSoldStatus": "AVAILABLE",
+          "link": "\/Hotel-Search#selected=16256597",
+          "airAttachEnabled": false
+        },
+        "hotelPricingInfo": {
+          "averagePriceValue": 308.61,
+          "totalPriceValue": 1543.05,
+          "crossOutPriceValue": 457.81,
+          "originalPricePerNight": 457.81,
+          "percentSavings": 32.59,
+          "drr": false
+        },
+        "hotelUrls": {
+          "hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F16256597%2F2017-12-11%2F2017-12-16",
+          "hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2017-12-11%2F2017-12-16%3FSearchType%3DDestination%26CityName%3DMiami+Beach%26RegionId%3D178286%26Selected%3D16256597"
+        }
+      },
+      {
+        "offerDateRange": {
+          "travelStartDate": [
+            2017,
+            11,
+            9
+          ],
+          "travelEndDate": [
+            2017,
+            11,
+            11
+          ],
+          "lengthOfStay": 2
+        },
+        "destination": {
+          "regionID": "178294",
+          "associatedMultiCityRegionId": "178294",
+          "longName": "Orlando (and vicinity), Florida, United States of America",
+          "shortName": "Orlando",
+          "country": "United States of America",
+          "province": "Florida",
+          "city": "Orlando",
+          "tla": "ORL",
+          "nonLocalizedCity": "Orlando"
+        },
+        "hotelInfo": {
+          "hotelId": "992499",
+          "hotelName": "Reunion Resort, A Salamander Golf & Spa Resort",
+          "localizedHotelName": "Reunion Resort, A Salamander Golf & Spa Resort",
+          "hotelDestination": "Kissimmee",
+          "hotelDestinationRegionID": "7927",
+          "hotelLongDestination": "Kissimmee,FL,USA",
+          "hotelStreetAddress": "7593 Gathering Drive",
+          "hotelCity": "Kissimmee",
+          "hotelProvince": "FL",
+          "hotelCountryCode": "USA",
+          "hotelLatitude": 28.269722,
+          "hotelLongitude": -81.588013,
+          "hotelStarRating": "5.0",
+          "hotelGuestReviewRating": 4.48,
+          "hotelReviewTotal": 1547,
+          "hotelImageUrl": "https:\/\/images.trvl-media.com\/hotels\/1000000\/1000000\/992500\/992499\/ff426683_t.jpg",
+          "isOfficialRating": false
+        },
+        "hotelUrgencyInfo": {
+          "airAttachRemainingTime": 0,
+          "numberOfPeopleViewing": 44,
+          "numberOfPeopleBooked": 8,
+          "numberOfRoomsLeft": -1,
+          "lastBookedTime": 1509062744081,
+          "almostSoldStatus": "AVAILABLE",
+          "link": "\/Hotel-Search#selected=992499",
+          "airAttachEnabled": false
+        },
+        "hotelPricingInfo": {
+          "averagePriceValue": 219.22,
+          "totalPriceValue": 438.44,
+          "crossOutPriceValue": 313.17,
+          "originalPricePerNight": 313.17,
+          "percentSavings": 30,
+          "drr": false
+        },
+        "hotelUrls": {
+          "hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F992499%2F2017-11-09%2F2017-11-11",
+          "hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2017-11-09%2F2017-11-11%3FSearchType%3DDestination%26CityName%3DKissimmee%26RegionId%3D178294%26Selected%3D992499"
+        }
+      },
+      {
+        "offerDateRange": {
+          "travelStartDate": [
+            2018,
+            2,
+            24
+          ],
+          "travelEndDate": [
+            2018,
+            2,
+            26
+          ],
+          "lengthOfStay": 2
+        },
+        "destination": {
+          "regionID": "178239",
+          "associatedMultiCityRegionId": "178239",
+          "longName": "Boston (and vicinity), Massachusetts, United States of America",
+          "shortName": "Boston",
+          "country": "United States of America",
+          "province": "Massachusetts",
+          "city": "Boston",
+          "tla": "BOS",
+          "nonLocalizedCity": "Boston"
+        },
+        "hotelInfo": {
+          "hotelId": "1680030",
+          "hotelName": "The Liberty, a Starwood Luxury Collection Hotel, Boston",
+          "localizedHotelName": "The Liberty, a Starwood Luxury Collection Hotel, Boston",
+          "hotelDestination": "Boston",
+          "hotelDestinationRegionID": "660",
+          "hotelLongDestination": "Boston,MA,USA",
+          "hotelStreetAddress": "215 Charles St",
+          "hotelCity": "Boston",
+          "hotelProvince": "MA",
+          "hotelCountryCode": "USA",
+          "hotelLatitude": 42.361819,
+          "hotelLongitude": -71.070825,
+          "hotelStarRating": "5.0",
+          "hotelGuestReviewRating": 4.55,
+          "hotelReviewTotal": 2924,
+          "hotelImageUrl": "https:\/\/images.trvl-media.com\/hotels\/2000000\/1690000\/1680100\/1680030\/868e6f62_t.jpg",
+          "isOfficialRating": false
+        },
+        "hotelUrgencyInfo": {
+          "airAttachRemainingTime": 0,
+          "numberOfPeopleViewing": 101,
+          "numberOfPeopleBooked": 30,
+          "numberOfRoomsLeft": -1,
+          "lastBookedTime": 1509124825257,
+          "almostSoldStatus": "AVAILABLE",
+          "link": "\/Hotel-Search#selected=1680030",
+          "airAttachEnabled": false
+        },
+        "hotelPricingInfo": {
+          "averagePriceValue": 135,
+          "totalPriceValue": 270,
+          "crossOutPriceValue": 180,
+          "originalPricePerNight": 180,
+          "percentSavings": 25,
+          "drr": false
+        },
+        "hotelUrls": {
+          "hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F1680030%2F2018-02-24%2F2018-02-26",
+          "hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2018-02-24%2F2018-02-26%3FSearchType%3DDestination%26CityName%3DBoston%26RegionId%3D178239%26Selected%3D1680030"
+        }
+      },
+      {
+        "offerDateRange": {
+          "travelStartDate": [
+            2017,
+            11,
+            27
+          ],
+          "travelEndDate": [
+            2017,
+            11,
+            29
+          ],
+          "lengthOfStay": 2
+        },
+        "destination": {
+          "regionID": "178298",
+          "associatedMultiCityRegionId": "178298",
+          "longName": "Phoenix (and vicinity), Arizona, United States of America",
+          "shortName": "Phoenix",
+          "country": "United States of America",
+          "province": "Arizona",
+          "city": "Phoenix",
+          "tla": "PHX",
+          "nonLocalizedCity": "Phoenix"
+        },
+        "hotelInfo": {
+          "hotelId": "2263",
+          "hotelName": "Omni Scottsdale Resort & Spa at Montelucia",
+          "localizedHotelName": "Omni Scottsdale Resort & Spa at Montelucia",
+          "hotelDestination": "Paradise Valley",
+          "hotelDestinationRegionID": "55175",
+          "hotelLongDestination": "Paradise Valley,AZ,USA",
+          "hotelStreetAddress": "4949 E Lincoln Drive",
+          "hotelCity": "Paradise Valley",
+          "hotelProvince": "AZ",
+          "hotelCountryCode": "USA",
+          "hotelLatitude": 33.531017,
+          "hotelLongitude": -111.97236,
+          "hotelStarRating": "5.0",
+          "hotelGuestReviewRating": 4.58,
+          "hotelReviewTotal": 1055,
+          "hotelImageUrl": "https:\/\/images.trvl-media.com\/hotels\/1000000\/10000\/2300\/2263\/2263_381_t.jpg",
+          "isOfficialRating": false
+        },
+        "hotelUrgencyInfo": {
+          "airAttachRemainingTime": 0,
+          "numberOfPeopleViewing": 15,
+          "numberOfPeopleBooked": 4,
+          "numberOfRoomsLeft": -1,
+          "lastBookedTime": 1509066233771,
+          "almostSoldStatus": "ALMOST_SOLD",
+          "link": "\/Hotel-Search#selected=2263",
+          "airAttachEnabled": false
+        },
+        "hotelPricingInfo": {
+          "averagePriceValue": 231.75,
+          "totalPriceValue": 463.5,
+          "crossOutPriceValue": 309,
+          "originalPricePerNight": 309,
+          "percentSavings": 25,
+          "drr": false
+        },
+        "hotelUrls": {
+          "hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F2263%2F2017-11-27%2F2017-11-29",
+          "hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2017-11-27%2F2017-11-29%3FSearchType%3DDestination%26CityName%3DParadise+Valley%26RegionId%3D178298%26Selected%3D2263"
+        }
+      },
+      {
+        "offerDateRange": {
+          "travelStartDate": [
+            2017,
+            12,
+            25
+          ],
+          "travelEndDate": [
+            2017,
+            12,
+            29
+          ],
+          "lengthOfStay": 4
+        },
+        "destination": {
+          "regionID": "178307",
+          "associatedMultiCityRegionId": "178307",
+          "longName": "Seattle (and vicinity), Washington, United States Of America",
+          "shortName": "Seattle",
+          "country": "United States of America",
+          "province": "Washington",
+          "city": "Seattle",
+          "tla": "SEA",
+          "nonLocalizedCity": "Seattle"
+        },
+        "hotelInfo": {
+          "hotelId": "2163007",
+          "hotelName": "Four Seasons Hotel Seattle",
+          "localizedHotelName": "Four Seasons Hotel Seattle",
+          "hotelDestination": "Seattle",
+          "hotelDestinationRegionID": "3121",
+          "hotelLongDestination": "Seattle,WA,USA",
+          "hotelStreetAddress": "99 Union St",
+          "hotelCity": "Seattle",
+          "hotelProvince": "WA",
+          "hotelCountryCode": "USA",
+          "hotelLatitude": 47.60772,
+          "hotelLongitude": -122.33936,
+          "hotelStarRating": "5.0",
+          "hotelGuestReviewRating": 4.77,
+          "hotelReviewTotal": 394,
+          "hotelImageUrl": "https:\/\/images.trvl-media.com\/hotels\/3000000\/2170000\/2163100\/2163007\/2163007_86_t.jpg",
+          "isOfficialRating": false
+        },
+        "hotelUrgencyInfo": {
+          "airAttachRemainingTime": 0,
+          "numberOfPeopleViewing": 32,
+          "numberOfPeopleBooked": 5,
+          "numberOfRoomsLeft": -1,
+          "lastBookedTime": 1509105440672,
+          "almostSoldStatus": "AVAILABLE",
+          "link": "\/Hotel-Search#selected=2163007",
+          "airAttachEnabled": false
+        },
+        "hotelPricingInfo": {
+          "averagePriceValue": 299.25,
+          "totalPriceValue": 1197,
+          "crossOutPriceValue": 399,
+          "originalPricePerNight": 399,
+          "percentSavings": 25,
+          "drr": false
+        },
+        "hotelUrls": {
+          "hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F2163007%2F2017-12-25%2F2017-12-29",
+          "hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2017-12-25%2F2017-12-29%3FSearchType%3DDestination%26CityName%3DSeattle%26RegionId%3D178307%26Selected%3D2163007"
+        }
+      },
+      {
+        "offerDateRange": {
+          "travelStartDate": [
+            2018,
+            1,
+            5
+          ],
+          "travelEndDate": [
+            2018,
+            1,
+            10
+          ],
+          "lengthOfStay": 5
+        },
+        "destination": {
+          "regionID": "178248",
+          "associatedMultiCityRegionId": "178248",
+          "longName": "Chicago (and vicinity), Illinois, United States of America",
+          "shortName": "Chicago",
+          "country": "United States of America",
+          "province": "Illinois",
+          "city": "Chicago",
+          "tla": "CHI",
+          "nonLocalizedCity": "Chicago"
+        },
+        "hotelInfo": {
+          "hotelId": "1723215",
+          "hotelName": "Trump International Hotel & Tower Chicago",
+          "localizedHotelName": "Trump International Hotel & Tower Chicago",
+          "hotelDestination": "Chicago",
+          "hotelDestinationRegionID": "829",
+          "hotelLongDestination": "Chicago,IL,USA",
+          "hotelStreetAddress": "401 N Wabash Ave",
+          "hotelCity": "Chicago",
+          "hotelProvince": "IL",
+          "hotelCountryCode": "USA",
+          "hotelLatitude": 41.88925,
+          "hotelLongitude": -87.62673,
+          "hotelStarRating": "5.0",
+          "hotelGuestReviewRating": 4.77,
+          "hotelReviewTotal": 1799,
+          "hotelImageUrl": "https:\/\/images.trvl-media.com\/hotels\/2000000\/1730000\/1723300\/1723215\/840df278_t.jpg",
+          "isOfficialRating": false
+        },
+        "hotelUrgencyInfo": {
+          "airAttachRemainingTime": 0,
+          "numberOfPeopleViewing": 86,
+          "numberOfPeopleBooked": 16,
+          "numberOfRoomsLeft": -1,
+          "lastBookedTime": 1509120918726,
+          "almostSoldStatus": "AVAILABLE",
+          "link": "\/Hotel-Search#selected=1723215",
+          "airAttachEnabled": false
+        },
+        "hotelPricingInfo": {
+          "averagePriceValue": 276,
+          "totalPriceValue": 1380,
+          "crossOutPriceValue": 345,
+          "originalPricePerNight": 345,
+          "percentSavings": 20,
+          "drr": false
+        },
+        "hotelUrls": {
+          "hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F1723215%2F2018-01-05%2F2018-01-10",
+          "hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2018-01-05%2F2018-01-10%3FSearchType%3DDestination%26CityName%3DChicago%26RegionId%3D178248%26Selected%3D1723215"
+        }
+      },
+      {
+        "offerDateRange": {
+          "travelStartDate": [
+            2018,
+            1,
+            15
+          ],
+          "travelEndDate": [
+            2018,
+            1,
+            20
+          ],
+          "lengthOfStay": 5
+        },
+        "destination": {
+          "regionID": "178254",
+          "associatedMultiCityRegionId": "178254",
+          "longName": "Denver (and vicinity), Colorado, United States Of America",
+          "shortName": "Denver",
+          "country": "United States of America",
+          "province": "Colorado",
+          "city": "Denver",
+          "tla": "DEN",
+          "nonLocalizedCity": "Denver"
+        },
+        "hotelInfo": {
+          "hotelId": "3849336",
+          "hotelName": "Four Seasons Hotel Denver",
+          "localizedHotelName": "Four Seasons Hotel Denver",
+          "hotelDestination": "Denver",
+          "hotelDestinationRegionID": "996",
+          "hotelLongDestination": "Denver,CO,USA",
+          "hotelStreetAddress": "1111 14th St",
+          "hotelCity": "Denver",
+          "hotelProvince": "CO",
+          "hotelCountryCode": "USA",
+          "hotelLatitude": 39.746317,
+          "hotelLongitude": -104.998458,
+          "hotelStarRating": "5.0",
+          "hotelGuestReviewRating": 4.83,
+          "hotelReviewTotal": 458,
+          "hotelImageUrl": "https:\/\/images.trvl-media.com\/hotels\/4000000\/3850000\/3849400\/3849336\/3849336_4_t.jpg",
+          "isOfficialRating": false
+        },
+        "hotelUrgencyInfo": {
+          "airAttachRemainingTime": 0,
+          "numberOfPeopleViewing": 63,
+          "numberOfPeopleBooked": 2,
+          "numberOfRoomsLeft": -1,
+          "lastBookedTime": 1509064643194,
+          "almostSoldStatus": "AVAILABLE",
+          "link": "\/Hotel-Search#selected=3849336",
+          "airAttachEnabled": false
+        },
+        "hotelPricingInfo": {
+          "averagePriceValue": 367.2,
+          "totalPriceValue": 1836,
+          "crossOutPriceValue": 459,
+          "originalPricePerNight": 459,
+          "percentSavings": 20,
+          "drr": false
+        },
+        "hotelUrls": {
+          "hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F3849336%2F2018-01-15%2F2018-01-20",
+          "hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2018-01-15%2F2018-01-20%3FSearchType%3DDestination%26CityName%3DDenver%26RegionId%3D178254%26Selected%3D3849336"
+        }
+      },
+      {
+        "offerDateRange": {
+          "travelStartDate": [
+            2017,
+            11,
+            9
+          ],
+          "travelEndDate": [
+            2017,
+            11,
+            11
+          ],
+          "lengthOfStay": 2
+        },
+        "destination": {
+          "regionID": "3073",
+          "associatedMultiCityRegionId": "3073",
+          "longName": "San Diego, California, United States of America",
+          "shortName": "San Diego",
+          "country": "United States of America",
+          "province": "California",
+          "city": "San Diego",
+          "tla": "SAN",
+          "nonLocalizedCity": "San Diego"
+        },
+        "hotelInfo": {
+          "hotelId": "16298963",
+          "hotelName": "Pendry San Diego",
+          "localizedHotelName": "Pendry San Diego",
+          "hotelDestination": "San Diego",
+          "hotelDestinationRegionID": "3073",
+          "hotelLongDestination": "San Diego,CA,USA",
+          "hotelStreetAddress": "550 J Street",
+          "hotelCity": "San Diego",
+          "hotelProvince": "CA",
+          "hotelCountryCode": "USA",
+          "hotelLatitude": 32.70946,
+          "hotelLongitude": -117.15957,
+          "hotelStarRating": "5.0",
+          "hotelGuestReviewRating": 4.65,
+          "hotelReviewTotal": 157,
+          "hotelImageUrl": "https:\/\/images.trvl-media.com\/hotels\/17000000\/16300000\/16299000\/16298963\/ef11b5a7_t.jpg",
+          "isOfficialRating": false
+        },
+        "hotelUrgencyInfo": {
+          "airAttachRemainingTime": 0,
+          "numberOfPeopleViewing": 13,
+          "numberOfPeopleBooked": 6,
+          "numberOfRoomsLeft": -1,
+          "lastBookedTime": 1509086657425,
+          "almostSoldStatus": "AVAILABLE",
+          "link": "\/Hotel-Search#selected=16298963",
+          "airAttachEnabled": false
+        },
+        "hotelPricingInfo": {
+          "averagePriceValue": 205.25,
+          "totalPriceValue": 410.5,
+          "crossOutPriceValue": 250.75,
+          "originalPricePerNight": 250.75,
+          "percentSavings": 18.15,
+          "drr": false
+        },
+        "hotelUrls": {
+          "hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F16298963%2F2017-11-09%2F2017-11-11",
+          "hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2017-11-09%2F2017-11-11%3FSearchType%3DDestination%26CityName%3DSan+Diego%26RegionId%3D3073%26Selected%3D16298963"
+        }
+      },
+      {
+        "offerDateRange": {
+          "travelStartDate": [
+            2017,
+            11,
+            18
+          ],
+          "travelEndDate": [
+            2017,
+            11,
+            21
+          ],
+          "lengthOfStay": 3
+        },
+        "destination": {
+          "regionID": "178318",
+          "associatedMultiCityRegionId": "178318",
+          "longName": "Washington (and vicinity), District of Columbia, United States of America",
+          "shortName": "Washington",
+          "country": "United States of America",
+          "province": "District of Columbia",
+          "city": "Washington",
+          "tla": "WAS",
+          "nonLocalizedCity": "Washington"
+        },
+        "hotelInfo": {
+          "hotelId": "26349",
+          "hotelName": "The Jefferson, Washington, DC",
+          "localizedHotelName": "The Jefferson, Washington, DC",
+          "hotelDestination": "Washington",
+          "hotelDestinationRegionID": "3763",
+          "hotelLongDestination": "Washington,DC,USA",
+          "hotelStreetAddress": "1200 16th St NW",
+          "hotelCity": "Washington",
+          "hotelProvince": "DC",
+          "hotelCountryCode": "USA",
+          "hotelLatitude": 38.905941,
+          "hotelLongitude": -77.036628,
+          "hotelStarRating": "5.0",
+          "hotelGuestReviewRating": 4.82,
+          "hotelReviewTotal": 419,
+          "hotelImageUrl": "https:\/\/images.trvl-media.com\/hotels\/1000000\/30000\/26400\/26349\/26349_115_t.jpg",
+          "isOfficialRating": false
+        },
+        "hotelUrgencyInfo": {
+          "airAttachRemainingTime": 0,
+          "numberOfPeopleViewing": 20,
+          "numberOfPeopleBooked": 3,
+          "numberOfRoomsLeft": -1,
+          "lastBookedTime": 1509046777547,
+          "almostSoldStatus": "AVAILABLE",
+          "link": "\/Hotel-Search#selected=26349",
+          "airAttachEnabled": false
+        },
+        "hotelPricingInfo": {
+          "averagePriceValue": 256.11,
+          "totalPriceValue": 768.33,
+          "crossOutPriceValue": 301.3,
+          "originalPricePerNight": 301.3,
+          "percentSavings": 15,
+          "drr": false
+        },
+        "hotelUrls": {
+          "hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F26349%2F2017-11-18%2F2017-11-21",
+          "hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2017-11-18%2F2017-11-21%3FSearchType%3DDestination%26CityName%3DWashington%26RegionId%3D178318%26Selected%3D26349"
+        }
+      },
+      {
+        "offerDateRange": {
+          "travelStartDate": [
+            2017,
+            11,
+            5
+          ],
+          "travelEndDate": [
+            2017,
+            11,
+            8
+          ],
+          "lengthOfStay": 3
+        },
+        "destination": {
+          "regionID": "178305",
+          "associatedMultiCityRegionId": "178305",
+          "longName": "San Francisco (and vicinity), California, United States Of America",
+          "shortName": "San Francisco",
+          "country": "United States of America",
+          "province": "California",
+          "city": "San Francisco",
+          "tla": "SJC",
+          "nonLocalizedCity": "San Francisco"
+        },
+        "hotelInfo": {
+          "hotelId": "1853240",
+          "hotelName": "Fairmont Heritage Place, Ghirardelli Square",
+          "localizedHotelName": "Fairmont Heritage Place, Ghirardelli Square",
+          "hotelDestination": "San Francisco",
+          "hotelDestinationRegionID": "3132",
+          "hotelLongDestination": "San Francisco,CA,USA",
+          "hotelStreetAddress": "900 N Point Street",
+          "hotelCity": "San Francisco",
+          "hotelProvince": "CA",
+          "hotelCountryCode": "USA",
+          "hotelLatitude": 37.80551,
+          "hotelLongitude": -122.42206,
+          "hotelStarRating": "5.0",
+          "hotelGuestReviewRating": 4.71,
+          "hotelReviewTotal": 191,
+          "hotelImageUrl": "https:\/\/images.trvl-media.com\/hotels\/2000000\/1860000\/1853300\/1853240\/1853240_116_t.jpg",
+          "isOfficialRating": false
+        },
+        "hotelUrgencyInfo": {
+          "airAttachRemainingTime": 0,
+          "numberOfPeopleViewing": 5,
+          "numberOfPeopleBooked": 0,
+          "numberOfRoomsLeft": -1,
+          "lastBookedTime": 1508868218543,
+          "almostSoldStatus": "AVAILABLE",
+          "link": "\/Hotel-Search#selected=1853240",
+          "airAttachEnabled": false
+        },
+        "hotelPricingInfo": {
+          "averagePriceValue": 1401.65,
+          "totalPriceValue": 4204.95,
+          "crossOutPriceValue": 1649,
+          "originalPricePerNight": 1649,
+          "percentSavings": 15,
+          "drr": false
+        },
+        "hotelUrls": {
+          "hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F1853240%2F2017-11-05%2F2017-11-08",
+          "hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2017-11-05%2F2017-11-08%3FSearchType%3DDestination%26CityName%3DSan+Francisco%26RegionId%3D178305%26Selected%3D1853240"
+        }
+      },
+      {
+        "offerDateRange": {
+          "travelStartDate": [
+            2017,
+            12,
+            17
+          ],
+          "travelEndDate": [
+            2017,
+            12,
+            22
+          ],
+          "lengthOfStay": 5
+        },
+        "destination": {
+          "regionID": "178292",
+          "associatedMultiCityRegionId": "178292",
+          "longName": "New Orleans (and vicinity), Louisiana, United States of America",
+          "shortName": "New Orleans",
+          "country": "United States of America",
+          "province": "Louisiana",
+          "city": "New Orleans",
+          "tla": "MSY",
+          "nonLocalizedCity": "New Orleans"
+        },
+        "hotelInfo": {
+          "hotelId": "25999",
+          "hotelName": "Windsor Court Hotel",
+          "localizedHotelName": "Windsor Court Hotel",
+          "hotelDestination": "New Orleans",
+          "hotelDestinationRegionID": "2434",
+          "hotelLongDestination": "New Orleans,LA,USA",
+          "hotelStreetAddress": "300 Gravier St",
+          "hotelCity": "New Orleans",
+          "hotelProvince": "LA",
+          "hotelCountryCode": "USA",
+          "hotelLatitude": 29.94979,
+          "hotelLongitude": -90.06602,
+          "hotelStarRating": "5.0",
+          "hotelGuestReviewRating": 4.63,
+          "hotelReviewTotal": 792,
+          "hotelImageUrl": "https:\/\/images.trvl-media.com\/hotels\/1000000\/30000\/26000\/25999\/25999_133_t.jpg",
+          "isOfficialRating": false
+        },
+        "hotelUrgencyInfo": {
+          "airAttachRemainingTime": 0,
+          "numberOfPeopleViewing": 33,
+          "numberOfPeopleBooked": 2,
+          "numberOfRoomsLeft": -1,
+          "lastBookedTime": 1509044372308,
+          "almostSoldStatus": "ALMOST_SOLD",
+          "link": "\/Hotel-Search#selected=25999",
+          "airAttachEnabled": false
+        },
+        "hotelPricingInfo": {
+          "averagePriceValue": 215.98,
+          "totalPriceValue": 1079.9,
+          "crossOutPriceValue": 241,
+          "originalPricePerNight": 241,
+          "percentSavings": 10.38,
+          "drr": false
+        },
+        "hotelUrls": {
+          "hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F25999%2F2017-12-17%2F2017-12-22",
+          "hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2017-12-17%2F2017-12-22%3FSearchType%3DDestination%26CityName%3DNew+Orleans%26RegionId%3D178292%26Selected%3D25999"
+        }
+      },
+      {
+        "offerDateRange": {
+          "travelStartDate": [
+            2018,
+            5,
+            8
+          ],
+          "travelEndDate": [
+            2018,
+            5,
+            10
+          ],
+          "lengthOfStay": 2
+        },
+        "destination": {
+          "regionID": "178276",
+          "associatedMultiCityRegionId": "178276",
+          "longName": "Las Vegas (and vicinity), Nevada, United States Of America",
+          "shortName": "Las Vegas",
+          "country": "United States of America",
+          "province": "Nevada",
+          "city": "Las Vegas",
+          "tla": "LAS",
+          "nonLocalizedCity": "Las Vegas"
+        },
+        "hotelInfo": {
+          "hotelId": "2565824",
+          "hotelName": "Vdara Hotel & Spa",
+          "localizedHotelName": "Vdara Hotel & Spa",
+          "hotelDestination": "Las Vegas",
+          "hotelDestinationRegionID": "2008",
+          "hotelLongDestination": "Las Vegas,NV,USA",
+          "hotelStreetAddress": "2600 West Harmon Avenue",
+          "hotelCity": "Las Vegas",
+          "hotelProvince": "NV",
+          "hotelCountryCode": "USA",
+          "hotelLatitude": 36.10905,
+          "hotelLongitude": -115.17788,
+          "hotelStarRating": "5.0",
+          "hotelGuestReviewRating": 4.5,
+          "hotelReviewTotal": 13780,
+          "hotelImageUrl": "https:\/\/images.trvl-media.com\/hotels\/3000000\/2570000\/2565900\/2565824\/a24ae3e2_t.jpg",
+          "isOfficialRating": false
+        },
+        "hotelUrgencyInfo": {
+          "airAttachRemainingTime": 0,
+          "numberOfPeopleViewing": 123,
+          "numberOfPeopleBooked": 76,
+          "numberOfRoomsLeft": -1,
+          "lastBookedTime": 1509127025817,
+          "almostSoldStatus": "AVAILABLE",
+          "link": "\/Hotel-Search#selected=2565824",
+          "airAttachEnabled": false
+        },
+        "hotelPricingInfo": {
+          "averagePriceValue": 148.95,
+          "totalPriceValue": 297.9,
+          "crossOutPriceValue": 165.5,
+          "originalPricePerNight": 165.5,
+          "percentSavings": 10,
+          "drr": false
+        },
+        "hotelUrls": {
+          "hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F2565824%2F2018-05-08%2F2018-05-10",
+          "hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2018-05-08%2F2018-05-10%3FSearchType%3DDestination%26CityName%3DLas+Vegas%26RegionId%3D178276%26Selected%3D2565824"
+        }
+      },
+      {
+        "offerDateRange": {
+          "travelStartDate": [
+            2017,
+            12,
+            28
+          ],
+          "travelEndDate": [
+            2017,
+            12,
+            30
+          ],
+          "lengthOfStay": 2
+        },
+        "destination": {
+          "regionID": "178297",
+          "associatedMultiCityRegionId": "178297",
+          "longName": "Philadelphia (and vicinity), Pennsylvania, United States of America",
+          "shortName": "Philadelphia",
+          "country": "United States of America",
+          "province": "Pennsylvania",
+          "city": "Philadelphia",
+          "tla": "PHL",
+          "nonLocalizedCity": "Philadelphia"
+        },
+        "hotelInfo": {
+          "hotelId": "11492",
+          "hotelName": "The Rittenhouse Philadelphia",
+          "localizedHotelName": "The Rittenhouse Philadelphia",
+          "hotelDestination": "Philadelphia",
+          "hotelDestinationRegionID": "2786",
+          "hotelLongDestination": "Philadelphia,PA,USA",
+          "hotelStreetAddress": "210 W Rittenhouse Sq",
+          "hotelCity": "Philadelphia",
+          "hotelProvince": "PA",
+          "hotelCountryCode": "USA",
+          "hotelLatitude": 39.94997,
+          "hotelLongitude": -75.17283,
+          "hotelStarRating": "5.0",
+          "hotelGuestReviewRating": 4.76,
+          "hotelReviewTotal": 253,
+          "hotelImageUrl": "https:\/\/images.trvl-media.com\/hotels\/1000000\/20000\/11500\/11492\/11492_257_t.jpg",
+          "isOfficialRating": false
+        },
+        "hotelUrgencyInfo": {
+          "airAttachRemainingTime": 0,
+          "numberOfPeopleViewing": 7,
+          "numberOfPeopleBooked": 4,
+          "numberOfRoomsLeft": -1,
+          "lastBookedTime": 1509072996827,
+          "almostSoldStatus": "AVAILABLE",
+          "link": "\/Hotel-Search#selected=11492",
+          "airAttachEnabled": false
+        },
+        "hotelPricingInfo": {
+          "averagePriceValue": 321.15,
+          "totalPriceValue": 642.3,
+          "crossOutPriceValue": 349.07,
+          "originalPricePerNight": 349.07,
+          "percentSavings": 8,
+          "drr": false
+        },
+        "hotelUrls": {
+          "hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F11492%2F2017-12-28%2F2017-12-30",
+          "hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2017-12-28%2F2017-12-30%3FSearchType%3DDestination%26CityName%3DPhiladelphia%26RegionId%3D178297%26Selected%3D11492"
+        }
+      },
+      {
+        "offerDateRange": {
+          "travelStartDate": [
+            2017,
+            11,
+            28
+          ],
+          "travelEndDate": [
+            2017,
+            11,
+            30
+          ],
+          "lengthOfStay": 2
+        },
+        "destination": {
+          "regionID": "178232",
+          "associatedMultiCityRegionId": "178232",
+          "longName": "Atlanta (and vicinity), Georgia, United States of America",
+          "shortName": "Atlanta",
+          "country": "United States of America",
+          "province": "Georgia",
+          "city": "Atlanta",
+          "tla": "ATL",
+          "nonLocalizedCity": "Atlanta"
+        },
+        "hotelInfo": {
+          "hotelId": "20993",
+          "hotelName": "Four Seasons Hotel Atlanta",
+          "localizedHotelName": "Four Seasons Hotel Atlanta",
+          "hotelDestination": "Atlanta",
+          "hotelDestinationRegionID": "441",
+          "hotelLongDestination": "Atlanta,GA,USA",
+          "hotelStreetAddress": "75 14th St NE",
+          "hotelCity": "Atlanta",
+          "hotelProvince": "GA",
+          "hotelCountryCode": "USA",
+          "hotelLatitude": 33.786439,
+          "hotelLongitude": -84.385297,
+          "hotelStarRating": "5.0",
+          "hotelGuestReviewRating": 4.66,
+          "hotelReviewTotal": 444,
+          "hotelImageUrl": "https:\/\/images.trvl-media.com\/hotels\/1000000\/30000\/21000\/20993\/1591f22d_t.jpg",
+          "isOfficialRating": false
+        },
+        "hotelUrgencyInfo": {
+          "airAttachRemainingTime": 0,
+          "numberOfPeopleViewing": 45,
+          "numberOfPeopleBooked": 4,
+          "numberOfRoomsLeft": -1,
+          "lastBookedTime": 1509050851964,
+          "almostSoldStatus": "AVAILABLE",
+          "link": "\/Hotel-Search#selected=20993",
+          "airAttachEnabled": false
+        },
+        "hotelPricingInfo": {
+          "averagePriceValue": 446.58,
+          "totalPriceValue": 893.16,
+          "crossOutPriceValue": 463.2,
+          "originalPricePerNight": 463.2,
+          "percentSavings": 3.59,
+          "drr": false
+        },
+        "hotelUrls": {
+          "hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F20993%2F2017-11-28%2F2017-11-30",
+          "hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2017-11-28%2F2017-11-30%3FSearchType%3DDestination%26CityName%3DAtlanta%26RegionId%3D178232%26Selected%3D20993"
+        }
+      },
+      {
+        "offerDateRange": {
+          "travelStartDate": [
+            2017,
+            10,
+            27
+          ],
+          "travelEndDate": [
+            2017,
+            10,
+            29
+          ],
+          "lengthOfStay": 2
+        },
+        "destination": {
+          "regionID": "178303",
+          "associatedMultiCityRegionId": "178303",
+          "longName": "San Antonio (and vicinity), Texas, United States of America",
+          "shortName": "San Antonio",
+          "country": "United States of America",
+          "province": "Texas",
+          "city": "San Antonio",
+          "tla": "SAT",
+          "nonLocalizedCity": "San Antonio"
+        },
+        "hotelInfo": {
+          "hotelId": "8789",
+          "hotelName": "The St. Anthony, A Luxury Collection Hotel, San Antonio",
+          "localizedHotelName": "The St. Anthony, A Luxury Collection Hotel, San Antonio",
+          "hotelDestination": "San Antonio",
+          "hotelDestinationRegionID": "3077",
+          "hotelLongDestination": "San Antonio,TX,USA",
+          "hotelStreetAddress": "300 E Travis St",
+          "hotelCity": "San Antonio",
+          "hotelProvince": "TX",
+          "hotelCountryCode": "USA",
+          "hotelLatitude": 29.427555,
+          "hotelLongitude": -98.489512,
+          "hotelStarRating": "5.0",
+          "hotelGuestReviewRating": 4.59,
+          "hotelReviewTotal": 267,
+          "hotelImageUrl": "https:\/\/images.trvl-media.com\/hotels\/1000000\/10000\/8800\/8789\/691878f6_t.jpg",
+          "isOfficialRating": false
+        },
+        "hotelUrgencyInfo": {
+          "airAttachRemainingTime": 0,
+          "numberOfPeopleViewing": 21,
+          "numberOfPeopleBooked": 4,
+          "numberOfRoomsLeft": -1,
+          "lastBookedTime": 1509125272227,
+          "almostSoldStatus": "AVAILABLE",
+          "link": "\/Hotel-Search#selected=8789",
+          "airAttachEnabled": false
+        },
+        "hotelPricingInfo": {
+          "averagePriceValue": 192.6,
+          "totalPriceValue": 385.2,
+          "crossOutPriceValue": 192.6,
+          "originalPricePerNight": 192.6,
+          "percentSavings": 0,
+          "drr": false
+        },
+        "hotelUrls": {
+          "hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F8789%2F2017-10-27%2F2017-10-29",
+          "hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2017-10-27%2F2017-10-29%3FSearchType%3DDestination%26CityName%3DSan+Antonio%26RegionId%3D178303%26Selected%3D8789"
+        }
+      },
+      {
+        "offerDateRange": {
+          "travelStartDate": [
+            2017,
+            11,
+            26
+          ],
+          "travelEndDate": [
+            2017,
+            11,
+            27
+          ],
+          "lengthOfStay": 1
+        },
+        "destination": {
+          "regionID": "601750",
+          "associatedMultiCityRegionId": "601750",
+          "longName": "Fort Lauderdale (and vicinity), Florida, United States of America",
+          "shortName": "Fort Lauderdale",
+          "country": "United States of America",
+          "province": "Florida",
+          "city": "Fort Lauderdale",
+          "tla": "FLL",
+          "nonLocalizedCity": "Fort Lauderdale"
+        },
+        "hotelInfo": {
+          "hotelId": "1584899",
+          "hotelName": "The Ritz-Carlton, Fort Lauderdale",
+          "localizedHotelName": "The Ritz-Carlton, Fort Lauderdale",
+          "hotelDestination": "Fort Lauderdale",
+          "hotelDestinationRegionID": "1219",
+          "hotelLongDestination": "Fort Lauderdale,FL,USA",
+          "hotelStreetAddress": "1 North Fort Lauderdale Beach Blvd.",
+          "hotelCity": "Fort Lauderdale",
+          "hotelProvince": "FL",
+          "hotelCountryCode": "USA",
+          "hotelLatitude": 26.123389,
+          "hotelLongitude": -80.104933,
+          "hotelStarRating": "5.0",
+          "hotelGuestReviewRating": 4.62,
+          "hotelReviewTotal": 467,
+          "hotelImageUrl": "https:\/\/images.trvl-media.com\/hotels\/2000000\/1590000\/1584900\/1584899\/840cf16a_t.jpg",
+          "isOfficialRating": false
+        },
+        "hotelUrgencyInfo": {
+          "airAttachRemainingTime": 0,
+          "numberOfPeopleViewing": 22,
+          "numberOfPeopleBooked": 1,
+          "numberOfRoomsLeft": -1,
+          "lastBookedTime": 1509047852268,
+          "almostSoldStatus": "AVAILABLE",
+          "link": "\/Hotel-Search#selected=1584899",
+          "airAttachEnabled": false
+        },
+        "hotelPricingInfo": {
+          "averagePriceValue": 289.01,
+          "totalPriceValue": 289.01,
+          "crossOutPriceValue": 289.01,
+          "originalPricePerNight": 289.01,
+          "percentSavings": 0,
+          "drr": false
+        },
+        "hotelUrls": {
+          "hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F1584899%2F2017-11-26%2F2017-11-27",
+          "hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2017-11-26%2F2017-11-27%3FSearchType%3DDestination%26CityName%3DFort+Lauderdale%26RegionId%3D601750%26Selected%3D1584899"
+        }
+      },
+      {
+        "offerDateRange": {
+          "travelStartDate": [
+            2018,
+            2,
+            23
+          ],
+          "travelEndDate": [
+            2018,
+            2,
+            25
+          ],
+          "lengthOfStay": 2
+        },
+        "destination": {
+          "regionID": "178253",
+          "associatedMultiCityRegionId": "178253",
+          "longName": "Dallas (and vicinity), Texas, United States of America",
+          "shortName": "Dallas",
+          "country": "United States of America",
+          "province": "Texas",
+          "city": "Dallas",
+          "tla": "DFW",
+          "nonLocalizedCity": "Dallas"
+        },
+        "hotelInfo": {
+          "hotelId": "9414",
+          "hotelName": "Rosewood Mansion on Turtle Creek",
+          "localizedHotelName": "Rosewood Mansion on Turtle Creek",
+          "hotelDestination": "Dallas",
+          "hotelDestinationRegionID": "1000",
+          "hotelLongDestination": "Dallas,TX,USA",
+          "hotelStreetAddress": "2821 Turtle Creek Blvd",
+          "hotelCity": "Dallas",
+          "hotelProvince": "TX",
+          "hotelCountryCode": "USA",
+          "hotelLatitude": 32.803477,
+          "hotelLongitude": -96.806545,
+          "hotelStarRating": "5.0",
+          "hotelGuestReviewRating": 4.69,
+          "hotelReviewTotal": 418,
+          "hotelImageUrl": "https:\/\/images.trvl-media.com\/hotels\/1000000\/10000\/9500\/9414\/9414_122_t.jpg",
+          "isOfficialRating": false
+        },
+        "hotelUrgencyInfo": {
+          "airAttachRemainingTime": 0,
+          "numberOfPeopleViewing": 27,
+          "numberOfPeopleBooked": 2,
+          "numberOfRoomsLeft": -1,
+          "lastBookedTime": 1508992551983,
+          "almostSoldStatus": "AVAILABLE",
+          "link": "\/Hotel-Search#selected=9414",
+          "airAttachEnabled": false
+        },
+        "hotelPricingInfo": {
+          "averagePriceValue": 370.67,
+          "totalPriceValue": 741.34,
+          "crossOutPriceValue": 370.67,
+          "originalPricePerNight": 370.67,
+          "percentSavings": 0,
+          "drr": false
+        },
+        "hotelUrls": {
+          "hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F9414%2F2018-02-23%2F2018-02-25",
+          "hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2018-02-23%2F2018-02-25%3FSearchType%3DDestination%26CityName%3DDallas%26RegionId%3D178253%26Selected%3D9414"
+        }
+      }
+    ]
+  }
+}

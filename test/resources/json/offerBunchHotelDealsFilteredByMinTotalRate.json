@@ -1,0 +1,352 @@
+{
+  "offerInfo": {
+    "siteID": "1",
+    "language": "en_US",
+    "currency": "USD"
+  },
+  "userInfo": {
+    "persona": {
+      "personaType": "OTHERS"
+    },
+    "userId": "foo"
+  },
+  "offers": {
+    "Hotel": [
+      {
+        "offerDateRange": {
+          "travelStartDate": [
+            2017,
+            12,
+            26
+          ],
+          "travelEndDate": [
+            2017,
+            12,
+            29
+          ],
+          "lengthOfStay": 3
+        },
+        "destination": {
+          "regionID": "178286",
+          "associatedMultiCityRegionId": "178286",
+          "longName": "Miami (and vicinity), Florida, United States of America",
+          "shortName": "Miami",
+          "country": "United States of America",
+          "province": "Florida",
+          "city": "Miami",
+          "tla": "FLL",
+          "nonLocalizedCity": "Miami"
+        },
+        "hotelInfo": {
+          "hotelId": "10980182",
+          "hotelName": "OceanView Sunny Isles Luxury Condos",
+          "localizedHotelName": "OceanView Sunny Isles Luxury Condos",
+          "hotelDestination": "Sunny Isles Beach",
+          "hotelDestinationRegionID": "10405",
+          "hotelLongDestination": "Sunny Isles Beach,FL,USA",
+          "hotelStreetAddress": "19370-19390 Collins Avenue",
+          "hotelCity": "Sunny Isles Beach",
+          "hotelProvince": "FL",
+          "hotelCountryCode": "USA",
+          "hotelLatitude": 25.954881,
+          "hotelLongitude": -80.120417,
+          "hotelStarRating": "4.0",
+          "hotelGuestReviewRating": 2.75,
+          "hotelReviewTotal": 24,
+          "hotelImageUrl": "https:\/\/images.trvl-media.com\/hotels\/11000000\/10990000\/10980200\/10980182\/10980182_143_t.jpg",
+          "isOfficialRating": false
+        },
+        "hotelUrgencyInfo": {
+          "airAttachRemainingTime": 0,
+          "numberOfPeopleViewing": 57,
+          "numberOfPeopleBooked": 1,
+          "numberOfRoomsLeft": 11,
+          "lastBookedTime": 1509114539921,
+          "almostSoldStatus": "ALMOST_SOLD",
+          "link": "\/Hotel-Search#selected=10980182",
+          "airAttachEnabled": false
+        },
+        "hotelPricingInfo": {
+          "averagePriceValue": 261.3,
+          "totalPriceValue": 783.9,
+          "crossOutPriceValue": 1045.05,
+          "originalPricePerNight": 1045.05,
+          "percentSavings": 75,
+          "drr": false
+        },
+        "hotelUrls": {
+          "hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F10980182%2F2017-12-26%2F2017-12-29",
+          "hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2017-12-26%2F2017-12-29%3FSearchType%3DDestination%26CityName%3DSunny+Isles+Beach%26RegionId%3D178286%26Selected%3D10980182"
+        }
+      },
+      {
+        "offerDateRange": {
+          "travelStartDate": [
+            2017,
+            10,
+            28
+          ],
+          "travelEndDate": [
+            2017,
+            11,
+            1
+          ],
+          "lengthOfStay": 4
+        },
+        "destination": {
+          "regionID": "178294",
+          "associatedMultiCityRegionId": "178294",
+          "longName": "Orlando (and vicinity), Florida, United States of America",
+          "shortName": "Orlando",
+          "country": "United States of America",
+          "province": "Florida",
+          "city": "Orlando",
+          "tla": "ORL",
+          "nonLocalizedCity": "Orlando"
+        },
+        "hotelInfo": {
+          "hotelId": "692650",
+          "hotelName": "Liki Tiki Village by Diamond Resorts",
+          "localizedHotelName": "Liki Tiki Village by Diamond Resorts",
+          "hotelDestination": "Winter Garden",
+          "hotelDestinationRegionID": "7898",
+          "hotelLongDestination": "Winter Garden,FL,USA",
+          "hotelStreetAddress": "17777 Bali Blvd",
+          "hotelCity": "Winter Garden",
+          "hotelProvince": "FL",
+          "hotelCountryCode": "USA",
+          "hotelLatitude": 28.348943,
+          "hotelLongitude": -81.654155,
+          "hotelStarRating": "3.5",
+          "hotelGuestReviewRating": 4.2,
+          "hotelReviewTotal": 5423,
+          "hotelImageUrl": "https:\/\/images.trvl-media.com\/hotels\/1000000\/700000\/692700\/692650\/692650_128_t.jpg",
+          "isOfficialRating": false
+        },
+        "hotelUrgencyInfo": {
+          "airAttachRemainingTime": 0,
+          "numberOfPeopleViewing": 57,
+          "numberOfPeopleBooked": 9,
+          "numberOfRoomsLeft": 79,
+          "lastBookedTime": 1509074256742,
+          "almostSoldStatus": "AVAILABLE",
+          "link": "\/Hotel-Search#selected=692650",
+          "airAttachEnabled": false
+        },
+        "hotelPricingInfo": {
+          "averagePriceValue": 75.94,
+          "totalPriceValue": 303.76,
+          "crossOutPriceValue": 189.85,
+          "originalPricePerNight": 189.85,
+          "percentSavings": 60,
+          "drr": false
+        },
+        "hotelUrls": {
+          "hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F692650%2F2017-10-28%2F2017-11-01",
+          "hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2017-10-28%2F2017-11-01%3FSearchType%3DDestination%26CityName%3DWinter+Garden%26RegionId%3D178294%26Selected%3D692650"
+        }
+      },
+      {
+        "offerDateRange": {
+          "travelStartDate": [
+            2017,
+            12,
+            16
+          ],
+          "travelEndDate": [
+            2017,
+            12,
+            17
+          ],
+          "lengthOfStay": 1
+        },
+        "destination": {
+          "regionID": "178280",
+          "associatedMultiCityRegionId": "178280",
+          "longName": "Los Angeles (and vicinity), California, United States Of America",
+          "shortName": "Los Angeles",
+          "country": "United States of America",
+          "province": "California",
+          "city": "Los Angeles",
+          "tla": "QLA",
+          "nonLocalizedCity": "Los Angeles"
+        },
+        "hotelInfo": {
+          "hotelId": "13100360",
+          "hotelName": "El Royale Gardens Near Universal Studios",
+          "localizedHotelName": "El Royale Gardens Near Universal Studios",
+          "hotelDestination": "Studio City",
+          "hotelDestinationRegionID": "9758",
+          "hotelLongDestination": "Studio City,CA,USA",
+          "hotelStreetAddress": "11117 Ventura Blvd",
+          "hotelCity": "Studio City",
+          "hotelProvince": "CA",
+          "hotelCountryCode": "USA",
+          "hotelLatitude": 34.141384,
+          "hotelLongitude": -118.372485,
+          "hotelStarRating": "2.5",
+          "hotelGuestReviewRating": 4.74,
+          "hotelReviewTotal": 94,
+          "hotelImageUrl": "https:\/\/images.trvl-media.com\/hotels\/14000000\/13110000\/13100400\/13100360\/b066f4fe_t.jpg",
+          "isOfficialRating": false
+        },
+        "hotelUrgencyInfo": {
+          "airAttachRemainingTime": 0,
+          "numberOfPeopleViewing": 15,
+          "numberOfPeopleBooked": 3,
+          "numberOfRoomsLeft": 0,
+          "lastBookedTime": 1509036059898,
+          "almostSoldStatus": "ALMOST_SOLD",
+          "link": "\/Hotel-Search#selected=13100360",
+          "airAttachEnabled": false
+        },
+        "hotelPricingInfo": {
+          "averagePriceValue": 150,
+          "totalPriceValue": 150,
+          "crossOutPriceValue": 375,
+          "originalPricePerNight": 375,
+          "percentSavings": 60,
+          "drr": false
+        },
+        "hotelUrls": {
+          "hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F13100360%2F2017-12-16%2F2017-12-17",
+          "hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2017-12-16%2F2017-12-17%3FSearchType%3DDestination%26CityName%3DStudio+City%26RegionId%3D178280%26Selected%3D13100360"
+        }
+      },
+      {
+        "offerDateRange": {
+          "travelStartDate": [
+            2017,
+            10,
+            29
+          ],
+          "travelEndDate": [
+            2017,
+            10,
+            31
+          ],
+          "lengthOfStay": 2
+        },
+        "destination": {
+          "regionID": "178293",
+          "associatedMultiCityRegionId": "178293",
+          "longName": "New York (and vicinity), New York, United States of America",
+          "shortName": "New York",
+          "country": "United States of America",
+          "province": "New York",
+          "city": "New York",
+          "tla": "NYC",
+          "nonLocalizedCity": "New York"
+        },
+        "hotelInfo": {
+          "hotelId": "8303678",
+          "hotelName": "Jet Luxury at the Trump SoHo",
+          "localizedHotelName": "Jet Luxury at the Trump SoHo",
+          "hotelDestination": "New York",
+          "hotelDestinationRegionID": "2621",
+          "hotelLongDestination": "New York,NY,USA",
+          "hotelStreetAddress": "246 Spring Street",
+          "hotelCity": "New York",
+          "hotelProvince": "NY",
+          "hotelCountryCode": "USA",
+          "hotelLatitude": 40.725619,
+          "hotelLongitude": -74.005458,
+          "hotelStarRating": "5.0",
+          "hotelGuestReviewRating": 4.31,
+          "hotelReviewTotal": 157,
+          "hotelImageUrl": "https:\/\/images.trvl-media.com\/hotels\/9000000\/8310000\/8303700\/8303678\/137b9b9a_t.jpg",
+          "isOfficialRating": false
+        },
+        "hotelUrgencyInfo": {
+          "airAttachRemainingTime": 0,
+          "numberOfPeopleViewing": 9,
+          "numberOfPeopleBooked": 2,
+          "numberOfRoomsLeft": 5,
+          "lastBookedTime": 1509002462717,
+          "almostSoldStatus": "ALMOST_SOLD",
+          "link": "\/Hotel-Search#selected=8303678",
+          "airAttachEnabled": false
+        },
+        "hotelPricingInfo": {
+          "averagePriceValue": 493.02,
+          "totalPriceValue": 986.04,
+          "crossOutPriceValue": 896.4,
+          "originalPricePerNight": 896.4,
+          "percentSavings": 45,
+          "drr": false
+        },
+        "hotelUrls": {
+          "hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F8303678%2F2017-10-29%2F2017-10-31",
+          "hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2017-10-29%2F2017-10-31%3FSearchType%3DDestination%26CityName%3DNew+York%26RegionId%3D178293%26Selected%3D8303678"
+        }
+      },
+      {
+        "offerDateRange": {
+          "travelStartDate": [
+            2017,
+            11,
+            27
+          ],
+          "travelEndDate": [
+            2017,
+            12,
+            2
+          ],
+          "lengthOfStay": 5
+        },
+        "destination": {
+          "regionID": "178276",
+          "associatedMultiCityRegionId": "178276",
+          "longName": "Las Vegas (and vicinity), Nevada, United States Of America",
+          "shortName": "Las Vegas",
+          "country": "United States of America",
+          "province": "Nevada",
+          "city": "Las Vegas",
+          "tla": "LAS",
+          "nonLocalizedCity": "Las Vegas"
+        },
+        "hotelInfo": {
+          "hotelId": "15237",
+          "hotelName": "Luxor Hotel and Casino",
+          "localizedHotelName": "Luxor Hotel and Casino",
+          "hotelDestination": "Las Vegas",
+          "hotelDestinationRegionID": "2008",
+          "hotelLongDestination": "Las Vegas,NV,USA",
+          "hotelStreetAddress": "3900 S. Las Vegas Blvd",
+          "hotelCity": "Las Vegas",
+          "hotelProvince": "NV",
+          "hotelCountryCode": "USA",
+          "hotelLatitude": 36.09659,
+          "hotelLongitude": -115.173085,
+          "hotelStarRating": "3.5",
+          "hotelGuestReviewRating": 3.64,
+          "hotelReviewTotal": 51373,
+          "hotelImageUrl": "https:\/\/images.trvl-media.com\/hotels\/1000000\/20000\/15300\/15237\/e2b95d01_t.jpg",
+          "isOfficialRating": false
+        },
+        "hotelUrgencyInfo": {
+          "airAttachRemainingTime": 0,
+          "numberOfPeopleViewing": 225,
+          "numberOfPeopleBooked": 314,
+          "numberOfRoomsLeft": 494,
+          "lastBookedTime": 1509126633733,
+          "almostSoldStatus": "AVAILABLE",
+          "link": "\/Hotel-Search#selected=15237",
+          "airAttachEnabled": false
+        },
+        "hotelPricingInfo": {
+          "averagePriceValue": 44.58,
+          "totalPriceValue": 222.9,
+          "crossOutPriceValue": 68.58,
+          "originalPricePerNight": 68.58,
+          "percentSavings": 35,
+          "drr": false
+        },
+        "hotelUrls": {
+          "hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F15237%2F2017-11-27%2F2017-12-02",
+          "hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2017-11-27%2F2017-12-02%3FSearchType%3DDestination%26CityName%3DLas+Vegas%26RegionId%3D178276%26Selected%3D15237"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "offerInfo": {
+    "siteID": "1",
+    "language": "en_US",
+    "currency": "USD"
+  },
+  "userInfo": {
+    "persona": {
+      "personaType": "OTHERS"
+    },
+    "userId": "foo"
+  },
+  "offers": {
+    "Hotel": [
+      {
+        "offerDateRange": {
+          "travelStartDate": [
+            2017,
+            10,
+            27
+          ],
+          "travelEndDate": [
+            2017,
+            10,
+            28
+          ],
+          "lengthOfStay": 1
+        },
+        "destination": {
+          "regionID": "6126616",
+          "associatedMultiCityRegionId": "6126616",
+          "longName": "Wadi Rum, Jordan",
+          "shortName": "Wadi Rum",
+          "country": "Jordan",
+          "province": "Aqaba Governorate",
+          "city": "Wadi Rum",
+          "tla": "AQJ",
+          "nonLocalizedCity": "Wadi Rum"
+        },
+        "hotelInfo": {
+          "hotelId": "15014138",
+          "hotelName": "Mohammed Mutlak Camp",
+          "localizedHotelName": "Mohammed Mutlak Camp",
+          "hotelDestination": "Wadi Rum",
+          "hotelDestinationRegionID": "6126616",
+          "hotelLongDestination": "Wadi Rum,JOR",
+          "hotelStreetAddress": "Wadi Rum Protected Area",
+          "hotelCity": "Wadi Rum",
+          "hotelProvince": "",
+          "hotelCountryCode": "JOR",
+          "hotelLatitude": 29.487289,
+          "hotelLongitude": 35.387374,
+          "hotelStarRating": "2.5",
+          "hotelGuestReviewRating": 4.5,
+          "hotelReviewTotal": 6,
+          "hotelImageUrl": "https:\/\/images.trvl-media.com\/hotels\/16000000\/15020000\/15014200\/15014138\/81ebfb04_t.jpg",
+          "isOfficialRating": false
+        },
+        "hotelUrgencyInfo": {
+          "airAttachRemainingTime": 0,
+          "numberOfPeopleViewing": 0,
+          "numberOfPeopleBooked": 0,
+          "numberOfRoomsLeft": 18,
+          "lastBookedTime": 1508911273985,
+          "almostSoldStatus": "AVAILABLE",
+          "link": "\/Hotel-Search#selected=15014138",
+          "airAttachEnabled": false
+        },
+        "hotelPricingInfo": {
+          "averagePriceValue": 62.01,
+          "totalPriceValue": 62.01,
+          "crossOutPriceValue": 72.95,
+          "originalPricePerNight": 72.95,
+          "percentSavings": 15,
+          "drr": false
+        },
+        "hotelUrls": {
+          "hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F15014138%2F2017-10-27%2F2017-10-28",
+          "hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2017-10-27%2F2017-10-28%3FSearchType%3DDestination%26CityName%3DWadi+Rum%26RegionId%3D6126616%26Selected%3D15014138"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,1690 @@
+{
+  "offerInfo": {
+    "siteID": "1",
+    "language": "en_US",
+    "currency": "USD"
+  },
+  "userInfo": {
+    "persona": {
+      "personaType": "OTHERS"
+    },
+    "userId": "foo"
+  },
+  "offers": {
+    "Hotel": [
+      {
+        "offerDateRange": {
+          "travelStartDate": [
+            2017,
+            12,
+            22
+          ],
+          "travelEndDate": [
+            2017,
+            12,
+            25
+          ],
+          "lengthOfStay": 3
+        },
+        "destination": {
+          "regionID": "178286",
+          "associatedMultiCityRegionId": "178286",
+          "longName": "Miami (and vicinity), Florida, United States of America",
+          "shortName": "Miami",
+          "country": "United States of America",
+          "province": "Florida",
+          "city": "Miami",
+          "tla": "FLL",
+          "nonLocalizedCity": "Miami"
+        },
+        "hotelInfo": {
+          "hotelId": "17539620",
+          "hotelName": "Nuovo Miami Apartments at Coconut Grove",
+          "localizedHotelName": "Nuovo Miami Apartments at Coconut Grove",
+          "hotelDestination": "Miami",
+          "hotelDestinationRegionID": "2297",
+          "hotelLongDestination": "Miami,FL,USA",
+          "hotelStreetAddress": "2655 South Bayshore Drive",
+          "hotelCity": "Miami",
+          "hotelProvince": "FL",
+          "hotelCountryCode": "USA",
+          "hotelLatitude": 25.730691,
+          "hotelLongitude": -80.235737,
+          "hotelStarRating": "3.5",
+          "hotelGuestReviewRating": 5,
+          "hotelReviewTotal": 1,
+          "hotelImageUrl": "https:\/\/images.trvl-media.com\/hotels\/18000000\/17540000\/17539700\/17539620\/35818a18_t.jpg",
+          "isOfficialRating": false
+        },
+        "hotelUrgencyInfo": {
+          "airAttachRemainingTime": 0,
+          "numberOfPeopleViewing": 6,
+          "numberOfPeopleBooked": 0,
+          "numberOfRoomsLeft": -1,
+          "lastBookedTime": 1508699224332,
+          "almostSoldStatus": "ALMOST_SOLD",
+          "link": "\/Hotel-Search#selected=17539620",
+          "airAttachEnabled": false
+        },
+        "hotelPricingInfo": {
+          "averagePriceValue": 378.14,
+          "totalPriceValue": 1134.42,
+          "crossOutPriceValue": 687.52,
+          "originalPricePerNight": 687.52,
+          "percentSavings": 45,
+          "drr": false
+        },
+        "hotelUrls": {
+          "hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F17539620%2F2017-12-22%2F2017-12-25",
+          "hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2017-12-22%2F2017-12-25%3FSearchType%3DDestination%26CityName%3DMiami%26RegionId%3D178286%26Selected%3D17539620"
+        }
+      },
+      {
+        "offerDateRange": {
+          "travelStartDate": [
+            2018,
+            7,
+            15
+          ],
+          "travelEndDate": [
+            2018,
+            7,
+            16
+          ],
+          "lengthOfStay": 1
+        },
+        "destination": {
+          "regionID": "178236",
+          "associatedMultiCityRegionId": "178236",
+          "longName": "Bangkok (and vicinity), Thailand",
+          "shortName": "Bangkok",
+          "country": "Thailand",
+          "province": "Bangkok (province)",
+          "city": "Bangkok",
+          "tla": "BKK",
+          "nonLocalizedCity": "Bangkok"
+        },
+        "hotelInfo": {
+          "hotelId": "18672474",
+          "hotelName": "Siam Plug In the gallery hostel",
+          "localizedHotelName": "Siam Plug In the gallery hostel",
+          "hotelDestination": "Bangkok",
+          "hotelDestinationRegionID": "604",
+          "hotelLongDestination": "Bangkok,THA",
+          "hotelStreetAddress": "262 Krungthonburi Road",
+          "hotelCity": "Bangkok",
+          "hotelProvince": "",
+          "hotelCountryCode": "THA",
+          "hotelLatitude": 13.71935,
+          "hotelLongitude": 100.506472,
+          "hotelStarRating": "2.0",
+          "hotelGuestReviewRating": 5,
+          "hotelReviewTotal": 1,
+          "hotelImageUrl": "https:\/\/images.trvl-media.com\/hotels\/19000000\/18680000\/18672500\/18672474\/0f6f273a_t.jpg",
+          "isOfficialRating": false
+        },
+        "hotelUrgencyInfo": {
+          "airAttachRemainingTime": 0,
+          "numberOfPeopleViewing": 0,
+          "numberOfPeopleBooked": 0,
+          "numberOfRoomsLeft": -1,
+          "lastBookedTime": 1508933772149,
+          "almostSoldStatus": "AVAILABLE",
+          "link": "\/Hotel-Search#selected=18672474",
+          "airAttachEnabled": false
+        },
+        "hotelPricingInfo": {
+          "averagePriceValue": 25.54,
+          "totalPriceValue": 25.54,
+          "crossOutPriceValue": 42.56,
+          "originalPricePerNight": 42.56,
+          "percentSavings": 39.99,
+          "drr": false
+        },
+        "hotelUrls": {
+          "hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F18672474%2F2018-07-15%2F2018-07-16",
+          "hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2018-07-15%2F2018-07-16%3FSearchType%3DDestination%26CityName%3DBangkok%26RegionId%3D178236%26Selected%3D18672474"
+        }
+      },
+      {
+        "offerDateRange": {
+          "travelStartDate": [
+            2017,
+            12,
+            12
+          ],
+          "travelEndDate": [
+            2017,
+            12,
+            16
+          ],
+          "lengthOfStay": 4
+        },
+        "destination": {
+          "regionID": "178307",
+          "associatedMultiCityRegionId": "178307",
+          "longName": "Seattle (and vicinity), Washington, United States Of America",
+          "shortName": "Seattle",
+          "country": "United States of America",
+          "province": "Washington",
+          "city": "Seattle",
+          "tla": "SEA",
+          "nonLocalizedCity": "Seattle"
+        },
+        "hotelInfo": {
+          "hotelId": "17702057",
+          "hotelName": "Ultra Modern Cap Hill Condos",
+          "localizedHotelName": "Ultra Modern Cap Hill Condos",
+          "hotelDestination": "Seattle",
+          "hotelDestinationRegionID": "3121",
+          "hotelLongDestination": "Seattle,WA,USA",
+          "hotelStreetAddress": "1414 10th Ave",
+          "hotelCity": "Seattle",
+          "hotelProvince": "WA",
+          "hotelCountryCode": "USA",
+          "hotelLatitude": 47.61321,
+          "hotelLongitude": -122.31921,
+          "hotelStarRating": "4.0",
+          "hotelGuestReviewRating": 5,
+          "hotelReviewTotal": 3,
+          "hotelImageUrl": "https:\/\/images.trvl-media.com\/hotels\/18000000\/17710000\/17702100\/17702057\/31b3ef43_t.jpg",
+          "isOfficialRating": false
+        },
+        "hotelUrgencyInfo": {
+          "airAttachRemainingTime": 0,
+          "numberOfPeopleViewing": 0,
+          "numberOfPeopleBooked": 0,
+          "numberOfRoomsLeft": -1,
+          "lastBookedTime": 1506584789456,
+          "almostSoldStatus": "ALMOST_SOLD",
+          "link": "\/Hotel-Search#selected=17702057",
+          "airAttachEnabled": false
+        },
+        "hotelPricingInfo": {
+          "averagePriceValue": 167.24,
+          "totalPriceValue": 668.96,
+          "crossOutPriceValue": 226,
+          "originalPricePerNight": 226,
+          "percentSavings": 26,
+          "drr": false
+        },
+        "hotelUrls": {
+          "hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F17702057%2F2017-12-12%2F2017-12-16",
+          "hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2017-12-12%2F2017-12-16%3FSearchType%3DDestination%26CityName%3DSeattle%26RegionId%3D178307%26Selected%3D17702057"
+        }
+      },
+      {
+        "offerDateRange": {
+          "travelStartDate": [
+            2018,
+            1,
+            1
+          ],
+          "travelEndDate": [
+            2018,
+            1,
+            4
+          ],
+          "lengthOfStay": 3
+        },
+        "destination": {
+          "regionID": "178279",
+          "associatedMultiCityRegionId": "178279",
+          "longName": "London (and vicinity), England, United Kingdom",
+          "shortName": "London",
+          "country": "United Kingdom",
+          "province": "England",
+          "city": "London",
+          "tla": "LON",
+          "nonLocalizedCity": "London"
+        },
+        "hotelInfo": {
+          "hotelId": "19342563",
+          "hotelName": "South Point Suites",
+          "localizedHotelName": "South Point Suites",
+          "hotelDestination": "London",
+          "hotelDestinationRegionID": "2114",
+          "hotelLongDestination": "London,England,GBR",
+          "hotelStreetAddress": "190 Bermondsey Street",
+          "hotelCity": "London",
+          "hotelProvince": "England",
+          "hotelCountryCode": "GBR",
+          "hotelLatitude": 51.49864,
+          "hotelLongitude": -0.08136,
+          "hotelStarRating": "4.0",
+          "hotelGuestReviewRating": 5,
+          "hotelReviewTotal": 1,
+          "hotelImageUrl": "https:\/\/images.trvl-media.com\/hotels\/20000000\/19350000\/19342600\/19342563\/ed839d6f_t.jpg",
+          "isOfficialRating": false
+        },
+        "hotelUrgencyInfo": {
+          "airAttachRemainingTime": 0,
+          "numberOfPeopleViewing": 18,
+          "numberOfPeopleBooked": 3,
+          "numberOfRoomsLeft": -1,
+          "lastBookedTime": 1509113103186,
+          "almostSoldStatus": "AVAILABLE",
+          "link": "\/Hotel-Search#selected=19342563",
+          "airAttachEnabled": false
+        },
+        "hotelPricingInfo": {
+          "averagePriceValue": 152.47,
+          "totalPriceValue": 457.41,
+          "crossOutPriceValue": 193.01,
+          "originalPricePerNight": 193.01,
+          "percentSavings": 21,
+          "drr": false
+        },
+        "hotelUrls": {
+          "hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F19342563%2F2018-01-01%2F2018-01-04",
+          "hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2018-01-01%2F2018-01-04%3FSearchType%3DDestination%26CityName%3DLondon%26RegionId%3D178279%26Selected%3D19342563"
+        }
+      },
+      {
+        "offerDateRange": {
+          "travelStartDate": [
+            2017,
+            12,
+            14
+          ],
+          "travelEndDate": [
+            2017,
+            12,
+            21
+          ],
+          "lengthOfStay": 7
+        },
+        "destination": {
+          "regionID": "3073",
+          "associatedMultiCityRegionId": "3073",
+          "longName": "San Diego, California, United States of America",
+          "shortName": "San Diego",
+          "country": "United States of America",
+          "province": "California",
+          "city": "San Diego",
+          "tla": "SAN",
+          "nonLocalizedCity": "San Diego"
+        },
+        "hotelInfo": {
+          "hotelId": "17140517",
+          "hotelName": "7th Avenue Apartment by Stay Alfred",
+          "localizedHotelName": "7th Avenue Apartment by Stay Alfred",
+          "hotelDestination": "San Diego",
+          "hotelDestinationRegionID": "3073",
+          "hotelLongDestination": "San Diego,CA,USA",
+          "hotelStreetAddress": "677 Seventh Ave",
+          "hotelCity": "San Diego",
+          "hotelProvince": "CA",
+          "hotelCountryCode": "USA",
+          "hotelLatitude": 32.71228,
+          "hotelLongitude": -117.15796,
+          "hotelStarRating": "3.5",
+          "hotelGuestReviewRating": 5,
+          "hotelReviewTotal": 3,
+          "hotelImageUrl": "https:\/\/images.trvl-media.com\/hotels\/18000000\/17150000\/17140600\/17140517\/9c630a96_t.jpg",
+          "isOfficialRating": false
+        },
+        "hotelUrgencyInfo": {
+          "airAttachRemainingTime": 0,
+          "numberOfPeopleViewing": 0,
+          "numberOfPeopleBooked": 0,
+          "numberOfRoomsLeft": -1,
+          "lastBookedTime": 1508731672630,
+          "almostSoldStatus": "ALMOST_SOLD",
+          "link": "\/Hotel-Search#selected=17140517",
+          "airAttachEnabled": false
+        },
+        "hotelPricingInfo": {
+          "averagePriceValue": 163.66,
+          "totalPriceValue": 1145.62,
+          "crossOutPriceValue": 204.57,
+          "originalPricePerNight": 204.57,
+          "percentSavings": 20,
+          "drr": false
+        },
+        "hotelUrls": {
+          "hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F17140517%2F2017-12-14%2F2017-12-21",
+          "hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2017-12-14%2F2017-12-21%3FSearchType%3DDestination%26CityName%3DSan+Diego%26RegionId%3D3073%26Selected%3D17140517"
+        }
+      },
+      {
+        "offerDateRange": {
+          "travelStartDate": [
+            2017,
+            11,
+            28
+          ],
+          "travelEndDate": [
+            2017,
+            12,
+            5
+          ],
+          "lengthOfStay": 7
+        },
+        "destination": {
+          "regionID": "178318",
+          "associatedMultiCityRegionId": "178318",
+          "longName": "Washington (and vicinity), District of Columbia, United States of America",
+          "shortName": "Washington",
+          "country": "United States of America",
+          "province": "District of Columbia",
+          "city": "Washington",
+          "tla": "WAS",
+          "nonLocalizedCity": "Washington"
+        },
+        "hotelInfo": {
+          "hotelId": "19061210",
+          "hotelName": "Stay Alfred Apartments on Massachusetts Ave",
+          "localizedHotelName": "Stay Alfred Apartments on Massachusetts Ave",
+          "hotelDestination": "Washington",
+          "hotelDestinationRegionID": "3763",
+          "hotelLongDestination": "Washington,DC,USA",
+          "hotelStreetAddress": "300 Massachusetts Avenue NW",
+          "hotelCity": "Washington",
+          "hotelProvince": "DC",
+          "hotelCountryCode": "USA",
+          "hotelLatitude": 38.89923,
+          "hotelLongitude": -77.01592,
+          "hotelStarRating": "4.0",
+          "hotelGuestReviewRating": 5,
+          "hotelReviewTotal": 1,
+          "hotelImageUrl": "https:\/\/images.trvl-media.com\/hotels\/20000000\/19070000\/19061300\/19061210\/d643a39b_t.jpg",
+          "isOfficialRating": false
+        },
+        "hotelUrgencyInfo": {
+          "airAttachRemainingTime": 0,
+          "numberOfPeopleViewing": 0,
+          "numberOfPeopleBooked": 0,
+          "numberOfRoomsLeft": -1,
+          "lastBookedTime": 1508452700184,
+          "almostSoldStatus": "ALMOST_SOLD",
+          "link": "\/Hotel-Search#selected=19061210",
+          "airAttachEnabled": false
+        },
+        "hotelPricingInfo": {
+          "averagePriceValue": 164.11,
+          "totalPriceValue": 1148.77,
+          "crossOutPriceValue": 205.14,
+          "originalPricePerNight": 205.14,
+          "percentSavings": 20,
+          "drr": false
+        },
+        "hotelUrls": {
+          "hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F19061210%2F2017-11-28%2F2017-12-05",
+          "hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2017-11-28%2F2017-12-05%3FSearchType%3DDestination%26CityName%3DWashington%26RegionId%3D178318%26Selected%3D19061210"
+        }
+      },
+      {
+        "offerDateRange": {
+          "travelStartDate": [
+            2017,
+            11,
+            23
+          ],
+          "travelEndDate": [
+            2017,
+            11,
+            26
+          ],
+          "lengthOfStay": 3
+        },
+        "destination": {
+          "regionID": "178276",
+          "associatedMultiCityRegionId": "178276",
+          "longName": "Las Vegas (and vicinity), Nevada, United States Of America",
+          "shortName": "Las Vegas",
+          "country": "United States of America",
+          "province": "Nevada",
+          "city": "Las Vegas",
+          "tla": "LAS",
+          "nonLocalizedCity": "Las Vegas"
+        },
+        "hotelInfo": {
+          "hotelId": "15040288",
+          "hotelName": "AAA 2 Bed Rooms 3 Bath Suite at The Signature Condo Hotel",
+          "localizedHotelName": "AAA 2 Bed Rooms 3 Bath Suite at The Signature Condo Hotel",
+          "hotelDestination": "Las Vegas",
+          "hotelDestinationRegionID": "2008",
+          "hotelLongDestination": "Las Vegas,NV,USA",
+          "hotelStreetAddress": "125 East Harmon Avenue",
+          "hotelCity": "Las Vegas",
+          "hotelProvince": "NV",
+          "hotelCountryCode": "USA",
+          "hotelLatitude": 36.107921,
+          "hotelLongitude": -115.165736,
+          "hotelStarRating": "4.5",
+          "hotelGuestReviewRating": 5,
+          "hotelReviewTotal": 1,
+          "hotelImageUrl": "https:\/\/images.trvl-media.com\/hotels\/16000000\/15050000\/15040300\/15040288\/48f6b6a2_t.jpg",
+          "isOfficialRating": false
+        },
+        "hotelUrgencyInfo": {
+          "airAttachRemainingTime": 0,
+          "numberOfPeopleViewing": 36,
+          "numberOfPeopleBooked": 0,
+          "numberOfRoomsLeft": -1,
+          "lastBookedTime": 1500759780969,
+          "almostSoldStatus": "ALMOST_SOLD",
+          "link": "\/Hotel-Search#selected=15040288",
+          "airAttachEnabled": false
+        },
+        "hotelPricingInfo": {
+          "averagePriceValue": 991.36,
+          "totalPriceValue": 2974.08,
+          "crossOutPriceValue": 1239.2,
+          "originalPricePerNight": 1239.2,
+          "percentSavings": 20,
+          "drr": false
+        },
+        "hotelUrls": {
+          "hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F15040288%2F2017-11-23%2F2017-11-26",
+          "hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2017-11-23%2F2017-11-26%3FSearchType%3DDestination%26CityName%3DLas+Vegas%26RegionId%3D178276%26Selected%3D15040288"
+        }
+      },
+      {
+        "offerDateRange": {
+          "travelStartDate": [
+            2018,
+            1,
+            3
+          ],
+          "travelEndDate": [
+            2018,
+            1,
+            6
+          ],
+          "lengthOfStay": 3
+        },
+        "destination": {
+          "regionID": "179899",
+          "associatedMultiCityRegionId": "179899",
+          "longName": "Rome (and vicinity), Italy",
+          "shortName": "Rome",
+          "country": "Italy",
+          "city": "Rome",
+          "tla": "ROM",
+          "nonLocalizedCity": "Rome"
+        },
+        "hotelInfo": {
+          "hotelId": "16311",
+          "hotelName": "Hotel Eden",
+          "localizedHotelName": "Hotel Eden",
+          "hotelDestination": "Rome",
+          "hotelDestinationRegionID": "3023",
+          "hotelLongDestination": "Rome,RM,ITA",
+          "hotelStreetAddress": "Via Ludovisi 49",
+          "hotelCity": "Rome",
+          "hotelProvince": "RM",
+          "hotelCountryCode": "ITA",
+          "hotelLatitude": 41.906426,
+          "hotelLongitude": 12.486422,
+          "hotelStarRating": "5.0",
+          "hotelGuestReviewRating": 5,
+          "hotelReviewTotal": 4,
+          "hotelImageUrl": "https:\/\/images.trvl-media.com\/hotels\/1000000\/20000\/16400\/16311\/26a2a1b1_t.jpg",
+          "isOfficialRating": false
+        },
+        "hotelUrgencyInfo": {
+          "airAttachRemainingTime": 0,
+          "numberOfPeopleViewing": 9,
+          "numberOfPeopleBooked": 0,
+          "numberOfRoomsLeft": -1,
+          "lastBookedTime": 1507792516788,
+          "almostSoldStatus": "AVAILABLE",
+          "link": "\/Hotel-Search#selected=16311",
+          "airAttachEnabled": false
+        },
+        "hotelPricingInfo": {
+          "averagePriceValue": 494,
+          "totalPriceValue": 1482,
+          "crossOutPriceValue": 607.67,
+          "originalPricePerNight": 607.67,
+          "percentSavings": 18.71,
+          "drr": false
+        },
+        "hotelUrls": {
+          "hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F16311%2F2018-01-03%2F2018-01-06",
+          "hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2018-01-03%2F2018-01-06%3FSearchType%3DDestination%26CityName%3DRome%26RegionId%3D179899%26Selected%3D16311"
+        }
+      },
+      {
+        "offerDateRange": {
+          "travelStartDate": [
+            2018,
+            2,
+            15
+          ],
+          "travelEndDate": [
+            2018,
+            2,
+            20
+          ],
+          "lengthOfStay": 5
+        },
+        "destination": {
+          "regionID": "178294",
+          "associatedMultiCityRegionId": "178294",
+          "longName": "Orlando (and vicinity), Florida, United States of America",
+          "shortName": "Orlando",
+          "country": "United States of America",
+          "province": "Florida",
+          "city": "Orlando",
+          "tla": "ORL",
+          "nonLocalizedCity": "Orlando"
+        },
+        "hotelInfo": {
+          "hotelId": "12524112",
+          "hotelName": "Favorite Vacation Homes at Reunion",
+          "localizedHotelName": "Favorite Vacation Homes at Reunion",
+          "hotelDestination": "Kissimmee",
+          "hotelDestinationRegionID": "7927",
+          "hotelLongDestination": "Kissimmee,FL,USA",
+          "hotelStreetAddress": "Various Addresses",
+          "hotelCity": "Kissimmee",
+          "hotelProvince": "FL",
+          "hotelCountryCode": "USA",
+          "hotelLatitude": 28.291956,
+          "hotelLongitude": -81.407571,
+          "hotelStarRating": "4.0",
+          "hotelGuestReviewRating": 5,
+          "hotelReviewTotal": 1,
+          "hotelImageUrl": "https:\/\/images.trvl-media.com\/hotels\/13000000\/12530000\/12524200\/12524112\/4786feb4_t.jpg",
+          "isOfficialRating": false
+        },
+        "hotelUrgencyInfo": {
+          "airAttachRemainingTime": 0,
+          "numberOfPeopleViewing": 0,
+          "numberOfPeopleBooked": 0,
+          "numberOfRoomsLeft": -1,
+          "lastBookedTime": 1506275297386,
+          "almostSoldStatus": "ALMOST_SOLD",
+          "link": "\/Hotel-Search#selected=12524112",
+          "airAttachEnabled": false
+        },
+        "hotelPricingInfo": {
+          "averagePriceValue": 275.39,
+          "totalPriceValue": 1376.95,
+          "crossOutPriceValue": 326.46,
+          "originalPricePerNight": 326.46,
+          "percentSavings": 15.64,
+          "drr": false
+        },
+        "hotelUrls": {
+          "hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F12524112%2F2018-02-15%2F2018-02-20",
+          "hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2018-02-15%2F2018-02-20%3FSearchType%3DDestination%26CityName%3DKissimmee%26RegionId%3D178294%26Selected%3D12524112"
+        }
+      },
+      {
+        "offerDateRange": {
+          "travelStartDate": [
+            2017,
+            12,
+            24
+          ],
+          "travelEndDate": [
+            2017,
+            12,
+            31
+          ],
+          "lengthOfStay": 7
+        },
+        "destination": {
+          "regionID": "178292",
+          "associatedMultiCityRegionId": "178292",
+          "longName": "New Orleans (and vicinity), Louisiana, United States of America",
+          "shortName": "New Orleans",
+          "country": "United States of America",
+          "province": "Louisiana",
+          "city": "New Orleans",
+          "tla": "MSY",
+          "nonLocalizedCity": "New Orleans"
+        },
+        "hotelInfo": {
+          "hotelId": "18451874",
+          "hotelName": "Airy 1BR in C.B.D. by Sonder",
+          "localizedHotelName": "Airy 1BR in C.B.D. by Sonder",
+          "hotelDestination": "New Orleans",
+          "hotelDestinationRegionID": "2434",
+          "hotelLongDestination": "New Orleans,LA,USA",
+          "hotelStreetAddress": "Carondelet Street",
+          "hotelCity": "New Orleans",
+          "hotelProvince": "LA",
+          "hotelCountryCode": "USA",
+          "hotelLatitude": 29.951531,
+          "hotelLongitude": -90.071346,
+          "hotelStarRating": "4.0",
+          "hotelGuestReviewRating": 5,
+          "hotelReviewTotal": 2,
+          "hotelImageUrl": "https:\/\/images.trvl-media.com\/hotels\/19000000\/18460000\/18451900\/18451874\/a27fce5f_t.jpg",
+          "isOfficialRating": false
+        },
+        "hotelUrgencyInfo": {
+          "airAttachRemainingTime": 0,
+          "numberOfPeopleViewing": 0,
+          "numberOfPeopleBooked": 0,
+          "numberOfRoomsLeft": -1,
+          "lastBookedTime": 1507679135539,
+          "almostSoldStatus": "ALMOST_SOLD",
+          "link": "\/Hotel-Search#selected=18451874",
+          "airAttachEnabled": false
+        },
+        "hotelPricingInfo": {
+          "averagePriceValue": 183.78,
+          "totalPriceValue": 1286.46,
+          "crossOutPriceValue": 216.2,
+          "originalPricePerNight": 216.2,
+          "percentSavings": 15,
+          "drr": false
+        },
+        "hotelUrls": {
+          "hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F18451874%2F2017-12-24%2F2017-12-31",
+          "hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2017-12-24%2F2017-12-31%3FSearchType%3DDestination%26CityName%3DNew+Orleans%26RegionId%3D178292%26Selected%3D18451874"
+        }
+      },
+      {
+        "offerDateRange": {
+          "travelStartDate": [
+            2017,
+            10,
+            28
+          ],
+          "travelEndDate": [
+            2017,
+            11,
+            1
+          ],
+          "lengthOfStay": 4
+        },
+        "destination": {
+          "regionID": "601685",
+          "associatedMultiCityRegionId": "601685",
+          "longName": "Myrtle Beach (and vicinity), South Carolina, United States of America",
+          "shortName": "Myrtle Beach",
+          "country": "United States of America",
+          "province": "South Carolina",
+          "city": "Myrtle Beach",
+          "tla": "MYR",
+          "nonLocalizedCity": "Myrtle Beach"
+        },
+        "hotelInfo": {
+          "hotelId": "13341997",
+          "hotelName": "Units at Ocean Forest Plaza by Elliott Beach Rentals",
+          "localizedHotelName": "Units at Ocean Forest Plaza by Elliott Beach Rentals",
+          "hotelDestination": "Myrtle Beach",
+          "hotelDestinationRegionID": "2491",
+          "hotelLongDestination": "Myrtle Beach,SC,USA",
+          "hotelStreetAddress": "5523 North Ocean Boulevard",
+          "hotelCity": "Myrtle Beach",
+          "hotelProvince": "SC",
+          "hotelCountryCode": "USA",
+          "hotelLatitude": 33.728155,
+          "hotelLongitude": -78.837158,
+          "hotelStarRating": "3.5",
+          "hotelGuestReviewRating": 5,
+          "hotelReviewTotal": 1,
+          "hotelImageUrl": "https:\/\/images.trvl-media.com\/hotels\/14000000\/13350000\/13342000\/13341997\/13341997_18_t.jpg",
+          "isOfficialRating": false
+        },
+        "hotelUrgencyInfo": {
+          "airAttachRemainingTime": 0,
+          "numberOfPeopleViewing": 0,
+          "numberOfPeopleBooked": 0,
+          "numberOfRoomsLeft": -1,
+          "lastBookedTime": 1471322696553,
+          "almostSoldStatus": "AVAILABLE",
+          "link": "\/Hotel-Search#selected=13341997",
+          "airAttachEnabled": false
+        },
+        "hotelPricingInfo": {
+          "averagePriceValue": 106.5,
+          "totalPriceValue": 426,
+          "crossOutPriceValue": 121.95,
+          "originalPricePerNight": 121.95,
+          "percentSavings": 12.67,
+          "drr": false
+        },
+        "hotelUrls": {
+          "hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F13341997%2F2017-10-28%2F2017-11-01",
+          "hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2017-10-28%2F2017-11-01%3FSearchType%3DDestination%26CityName%3DMyrtle+Beach%26RegionId%3D601685%26Selected%3D13341997"
+        }
+      },
+      {
+        "offerDateRange": {
+          "travelStartDate": [
+            2017,
+            11,
+            5
+          ],
+          "travelEndDate": [
+            2017,
+            11,
+            8
+          ],
+          "lengthOfStay": 3
+        },
+        "destination": {
+          "regionID": "178248",
+          "associatedMultiCityRegionId": "178248",
+          "longName": "Chicago (and vicinity), Illinois, United States of America",
+          "shortName": "Chicago",
+          "country": "United States of America",
+          "province": "Illinois",
+          "city": "Chicago",
+          "tla": "CHI",
+          "nonLocalizedCity": "Chicago"
+        },
+        "hotelInfo": {
+          "hotelId": "18439329",
+          "hotelName": "Lang House Bed & Breakfast",
+          "localizedHotelName": "Lang House Bed & Breakfast",
+          "hotelDestination": "Chicago",
+          "hotelDestinationRegionID": "829",
+          "hotelLongDestination": "Chicago,IL,USA",
+          "hotelStreetAddress": "7421 N. SHERIDAN RD.",
+          "hotelCity": "Chicago",
+          "hotelProvince": "IL",
+          "hotelCountryCode": "USA",
+          "hotelLatitude": 42.01673,
+          "hotelLongitude": -87.66483,
+          "hotelStarRating": "4.0",
+          "hotelGuestReviewRating": 5,
+          "hotelReviewTotal": 11,
+          "hotelImageUrl": "https:\/\/images.trvl-media.com\/hotels\/19000000\/18440000\/18439400\/18439329\/721ec285_t.jpg",
+          "isOfficialRating": false
+        },
+        "hotelUrgencyInfo": {
+          "airAttachRemainingTime": 0,
+          "numberOfPeopleViewing": 14,
+          "numberOfPeopleBooked": 1,
+          "numberOfRoomsLeft": -1,
+          "lastBookedTime": 1508961588960,
+          "almostSoldStatus": "ALMOST_SOLD",
+          "link": "\/Hotel-Search#selected=18439329",
+          "airAttachEnabled": false
+        },
+        "hotelPricingInfo": {
+          "averagePriceValue": 170.1,
+          "totalPriceValue": 510.3,
+          "crossOutPriceValue": 189,
+          "originalPricePerNight": 189,
+          "percentSavings": 10,
+          "drr": false
+        },
+        "hotelUrls": {
+          "hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F18439329%2F2017-11-05%2F2017-11-08",
+          "hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2017-11-05%2F2017-11-08%3FSearchType%3DDestination%26CityName%3DChicago%26RegionId%3D178248%26Selected%3D18439329"
+        }
+      },
+      {
+        "offerDateRange": {
+          "travelStartDate": [
+            2017,
+            10,
+            28
+          ],
+          "travelEndDate": [
+            2017,
+            11,
+            3
+          ],
+          "lengthOfStay": 6
+        },
+        "destination": {
+          "regionID": "178239",
+          "associatedMultiCityRegionId": "178239",
+          "longName": "Boston (and vicinity), Massachusetts, United States of America",
+          "shortName": "Boston",
+          "country": "United States of America",
+          "province": "Massachusetts",
+          "city": "Boston",
+          "tla": "BOS",
+          "nonLocalizedCity": "Boston"
+        },
+        "hotelInfo": {
+          "hotelId": "13310024",
+          "hotelName": "Global Luxury Suites at the Charles River",
+          "localizedHotelName": "Global Luxury Suites at the Charles River",
+          "hotelDestination": "Waltham",
+          "hotelDestinationRegionID": "10415",
+          "hotelLongDestination": "Waltham,MA,USA",
+          "hotelStreetAddress": "36 River Street",
+          "hotelCity": "Waltham",
+          "hotelProvince": "MA",
+          "hotelCountryCode": "USA",
+          "hotelLatitude": 42.3683,
+          "hotelLongitude": -71.217181,
+          "hotelStarRating": "3.5",
+          "hotelGuestReviewRating": 5,
+          "hotelReviewTotal": 3,
+          "hotelImageUrl": "https:\/\/images.trvl-media.com\/hotels\/14000000\/13320000\/13310100\/13310024\/76e593dd_t.jpg",
+          "isOfficialRating": false
+        },
+        "hotelUrgencyInfo": {
+          "airAttachRemainingTime": 0,
+          "numberOfPeopleViewing": 0,
+          "numberOfPeopleBooked": 0,
+          "numberOfRoomsLeft": -1,
+          "lastBookedTime": 1505400125955,
+          "almostSoldStatus": "AVAILABLE",
+          "link": "\/Hotel-Search#selected=13310024",
+          "airAttachEnabled": false
+        },
+        "hotelPricingInfo": {
+          "averagePriceValue": 175.33,
+          "totalPriceValue": 1051.98,
+          "crossOutPriceValue": 194.82,
+          "originalPricePerNight": 194.82,
+          "percentSavings": 10,
+          "drr": false
+        },
+        "hotelUrls": {
+          "hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F13310024%2F2017-10-28%2F2017-11-03",
+          "hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2017-10-28%2F2017-11-03%3FSearchType%3DDestination%26CityName%3DWaltham%26RegionId%3D178239%26Selected%3D13310024"
+        }
+      },
+      {
+        "offerDateRange": {
+          "travelStartDate": [
+            2017,
+            11,
+            22
+          ],
+          "travelEndDate": [
+            2017,
+            11,
+            27
+          ],
+          "lengthOfStay": 5
+        },
+        "destination": {
+          "regionID": "601691",
+          "associatedMultiCityRegionId": "601691",
+          "longName": "Gatlinburg - Pigeon Forge (and vicinity), Tennessee, United States of America",
+          "shortName": "Gatlinburg - Pigeon Forge",
+          "country": "United States of America",
+          "province": "Tennessee",
+          "city": "Gatlinburg - Pigeon Forge",
+          "tla": "TYS",
+          "nonLocalizedCity": "Gatlinburg - Pigeon Forge"
+        },
+        "hotelInfo": {
+          "hotelId": "1171707",
+          "hotelName": "Berry Springs Lodge",
+          "localizedHotelName": "Berry Springs Lodge",
+          "hotelDestination": "Sevierville",
+          "hotelDestinationRegionID": "6814",
+          "hotelLongDestination": "Sevierville,TN,USA",
+          "hotelStreetAddress": "2149 Seaton Springs Road",
+          "hotelCity": "Sevierville",
+          "hotelProvince": "TN",
+          "hotelCountryCode": "USA",
+          "hotelLatitude": 35.81623,
+          "hotelLongitude": -83.50233,
+          "hotelStarRating": "4.0",
+          "hotelGuestReviewRating": 5,
+          "hotelReviewTotal": 20,
+          "hotelImageUrl": "https:\/\/images.trvl-media.com\/hotels\/2000000\/1180000\/1171800\/1171707\/711687af_t.jpg",
+          "isOfficialRating": false
+        },
+        "hotelUrgencyInfo": {
+          "airAttachRemainingTime": 0,
+          "numberOfPeopleViewing": 3,
+          "numberOfPeopleBooked": 1,
+          "numberOfRoomsLeft": -1,
+          "lastBookedTime": 1509031971203,
+          "almostSoldStatus": "ALMOST_SOLD",
+          "link": "\/Hotel-Search#selected=1171707",
+          "airAttachEnabled": false
+        },
+        "hotelPricingInfo": {
+          "averagePriceValue": 220.5,
+          "totalPriceValue": 1102.5,
+          "crossOutPriceValue": 245,
+          "originalPricePerNight": 245,
+          "percentSavings": 10,
+          "drr": false
+        },
+        "hotelUrls": {
+          "hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F1171707%2F2017-11-22%2F2017-11-27",
+          "hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2017-11-22%2F2017-11-27%3FSearchType%3DDestination%26CityName%3DSevierville%26RegionId%3D601691%26Selected%3D1171707"
+        }
+      },
+      {
+        "offerDateRange": {
+          "travelStartDate": [
+            2017,
+            10,
+            29
+          ],
+          "travelEndDate": [
+            2017,
+            11,
+            4
+          ],
+          "lengthOfStay": 6
+        },
+        "destination": {
+          "regionID": "179898",
+          "associatedMultiCityRegionId": "179898",
+          "longName": "Paris (and vicinity), France",
+          "shortName": "Paris",
+          "country": "France",
+          "city": "Paris",
+          "tla": "PAR",
+          "nonLocalizedCity": "Paris"
+        },
+        "hotelInfo": {
+          "hotelId": "561980",
+          "hotelName": "Vend\u00f4me Op\u00e9ra Hotel",
+          "localizedHotelName": "Vend\u00f4me Op\u00e9ra Hotel",
+          "hotelDestination": "Paris",
+          "hotelDestinationRegionID": "2734",
+          "hotelLongDestination": "Paris,FRA",
+          "hotelStreetAddress": "11 Bis rue de l'Arcade",
+          "hotelCity": "Paris",
+          "hotelProvince": "",
+          "hotelCountryCode": "FRA",
+          "hotelLatitude": 48.87172,
+          "hotelLongitude": 2.32354,
+          "hotelStarRating": "4.0",
+          "hotelGuestReviewRating": 5,
+          "hotelReviewTotal": 3,
+          "hotelImageUrl": "https:\/\/images.trvl-media.com\/hotels\/1000000\/570000\/562000\/561980\/df5dd9bd_t.jpg",
+          "isOfficialRating": false
+        },
+        "hotelUrgencyInfo": {
+          "airAttachRemainingTime": 0,
+          "numberOfPeopleViewing": 6,
+          "numberOfPeopleBooked": 2,
+          "numberOfRoomsLeft": -1,
+          "lastBookedTime": 1509018897939,
+          "almostSoldStatus": "AVAILABLE",
+          "link": "\/Hotel-Search#selected=561980",
+          "airAttachEnabled": false
+        },
+        "hotelPricingInfo": {
+          "averagePriceValue": 141.32,
+          "totalPriceValue": 847.92,
+          "crossOutPriceValue": 143.86,
+          "originalPricePerNight": 143.86,
+          "percentSavings": 1.77,
+          "drr": false
+        },
+        "hotelUrls": {
+          "hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F561980%2F2017-10-29%2F2017-11-04",
+          "hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2017-10-29%2F2017-11-04%3FSearchType%3DDestination%26CityName%3DParis%26RegionId%3D179898%26Selected%3D561980"
+        }
+      },
+      {
+        "offerDateRange": {
+          "travelStartDate": [
+            2017,
+            11,
+            17
+          ],
+          "travelEndDate": [
+            2017,
+            11,
+            24
+          ],
+          "lengthOfStay": 7
+        },
+        "destination": {
+          "regionID": "179995",
+          "associatedMultiCityRegionId": "179995",
+          "longName": "Cancun (and vicinity), Quintana Roo, Mexico",
+          "shortName": "Cancun",
+          "country": "Mexico",
+          "province": "Quintana Roo",
+          "city": "Cancun",
+          "tla": "CUN",
+          "nonLocalizedCity": "Cancun"
+        },
+        "hotelInfo": {
+          "hotelId": "15544784",
+          "hotelName": "Residencia Los Encantos",
+          "localizedHotelName": "Residencia Los Encantos",
+          "hotelDestination": "Cancun",
+          "hotelDestinationRegionID": "935",
+          "hotelLongDestination": "Cancun,QROO,MEX",
+          "hotelStreetAddress": "Calle Cipres 10, Esquina con Ciricote",
+          "hotelCity": "Cancun",
+          "hotelProvince": "QROO",
+          "hotelCountryCode": "MEX",
+          "hotelLatitude": 21.117359,
+          "hotelLongitude": -86.841109,
+          "hotelStarRating": "2.5",
+          "hotelGuestReviewRating": 5,
+          "hotelReviewTotal": 2,
+          "hotelImageUrl": "https:\/\/images.trvl-media.com\/hotels\/16000000\/15550000\/15544800\/15544784\/15544784_31_t.jpg",
+          "isOfficialRating": false
+        },
+        "hotelUrgencyInfo": {
+          "airAttachRemainingTime": 0,
+          "numberOfPeopleViewing": 1,
+          "numberOfPeopleBooked": 0,
+          "numberOfRoomsLeft": -1,
+          "lastBookedTime": 1497672416021,
+          "almostSoldStatus": "AVAILABLE",
+          "link": "\/Hotel-Search#selected=15544784",
+          "airAttachEnabled": false
+        },
+        "hotelPricingInfo": {
+          "averagePriceValue": 40.05,
+          "totalPriceValue": 280.35,
+          "crossOutPriceValue": 40.05,
+          "originalPricePerNight": 40.05,
+          "percentSavings": 0,
+          "drr": false
+        },
+        "hotelUrls": {
+          "hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F15544784%2F2017-11-17%2F2017-11-24",
+          "hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2017-11-17%2F2017-11-24%3FSearchType%3DDestination%26CityName%3DCancun%26RegionId%3D179995%26Selected%3D15544784"
+        }
+      },
+      {
+        "offerDateRange": {
+          "travelStartDate": [
+            2017,
+            10,
+            27
+          ],
+          "travelEndDate": [
+            2017,
+            10,
+            29
+          ],
+          "lengthOfStay": 2
+        },
+        "destination": {
+          "regionID": "178253",
+          "associatedMultiCityRegionId": "178253",
+          "longName": "Dallas (and vicinity), Texas, United States of America",
+          "shortName": "Dallas",
+          "country": "United States of America",
+          "province": "Texas",
+          "city": "Dallas",
+          "tla": "DFW",
+          "nonLocalizedCity": "Dallas"
+        },
+        "hotelInfo": {
+          "hotelId": "16499966",
+          "hotelName": "Staybridge Suites The Colony - Frisco",
+          "localizedHotelName": "Staybridge Suites The Colony - Frisco",
+          "hotelDestination": "The Colony",
+          "hotelDestinationRegionID": "601904",
+          "hotelLongDestination": "The Colony,TX,USA",
+          "hotelStreetAddress": "5280 Memorial Drive",
+          "hotelCity": "The Colony",
+          "hotelProvince": "TX",
+          "hotelCountryCode": "USA",
+          "hotelLatitude": 33.074635,
+          "hotelLongitude": -96.879037,
+          "hotelStarRating": "3.0",
+          "hotelGuestReviewRating": 5,
+          "hotelReviewTotal": 1,
+          "hotelImageUrl": "https:\/\/images.trvl-media.com\/hotels\/17000000\/16500000\/16500000\/16499966\/9cc8731b_t.jpg",
+          "isOfficialRating": false
+        },
+        "hotelUrgencyInfo": {
+          "airAttachRemainingTime": 0,
+          "numberOfPeopleViewing": 3,
+          "numberOfPeopleBooked": 0,
+          "numberOfRoomsLeft": -1,
+          "lastBookedTime": 1508946326680,
+          "almostSoldStatus": "ALMOST_SOLD",
+          "link": "\/Hotel-Search#selected=16499966",
+          "airAttachEnabled": false
+        },
+        "hotelPricingInfo": {
+          "averagePriceValue": 98.11,
+          "totalPriceValue": 196.22,
+          "crossOutPriceValue": 98.11,
+          "originalPricePerNight": 98.11,
+          "percentSavings": 0,
+          "drr": false
+        },
+        "hotelUrls": {
+          "hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F16499966%2F2017-10-27%2F2017-10-29",
+          "hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2017-10-27%2F2017-10-29%3FSearchType%3DDestination%26CityName%3DThe+Colony%26RegionId%3D178253%26Selected%3D16499966"
+        }
+      },
+      {
+        "offerDateRange": {
+          "travelStartDate": [
+            2017,
+            11,
+            9
+          ],
+          "travelEndDate": [
+            2017,
+            11,
+            12
+          ],
+          "lengthOfStay": 3
+        },
+        "destination": {
+          "regionID": "178234",
+          "associatedMultiCityRegionId": "178234",
+          "longName": "Austin (and vicinity), Texas, United States Of America",
+          "shortName": "Austin",
+          "country": "United States of America",
+          "province": "Texas",
+          "city": "Austin",
+          "tla": "AUS",
+          "nonLocalizedCity": "Austin"
+        },
+        "hotelInfo": {
+          "hotelId": "19161146",
+          "hotelName": "TownePlace Suites by Marriott Austin Round Rock",
+          "localizedHotelName": "TownePlace Suites by Marriott Austin Round Rock",
+          "hotelDestination": "Austin",
+          "hotelDestinationRegionID": "460",
+          "hotelLongDestination": "Austin,TX,USA",
+          "hotelStreetAddress": "541 Parker Drive",
+          "hotelCity": "Austin",
+          "hotelProvince": "TX",
+          "hotelCountryCode": "USA",
+          "hotelLatitude": 30.47846,
+          "hotelLongitude": -97.68024,
+          "hotelStarRating": "2.5",
+          "hotelGuestReviewRating": 5,
+          "hotelReviewTotal": 2,
+          "hotelImageUrl": "https:\/\/images.trvl-media.com\/hotels\/20000000\/19170000\/19161200\/19161146\/b7a93b05_t.jpg",
+          "isOfficialRating": false
+        },
+        "hotelUrgencyInfo": {
+          "airAttachRemainingTime": 0,
+          "numberOfPeopleViewing": 0,
+          "numberOfPeopleBooked": 0,
+          "numberOfRoomsLeft": -1,
+          "lastBookedTime": 1508768271646,
+          "almostSoldStatus": "ALMOST_SOLD",
+          "link": "\/Hotel-Search#selected=19161146",
+          "airAttachEnabled": false
+        },
+        "hotelPricingInfo": {
+          "averagePriceValue": 101.01,
+          "totalPriceValue": 303.03,
+          "crossOutPriceValue": 101.01,
+          "originalPricePerNight": 101.01,
+          "percentSavings": 0,
+          "drr": false
+        },
+        "hotelUrls": {
+          "hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F19161146%2F2017-11-09%2F2017-11-12",
+          "hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2017-11-09%2F2017-11-12%3FSearchType%3DDestination%26CityName%3DAustin%26RegionId%3D178234%26Selected%3D19161146"
+        }
+      },
+      {
+        "offerDateRange": {
+          "travelStartDate": [
+            2018,
+            1,
+            14
+          ],
+          "travelEndDate": [
+            2018,
+            1,
+            15
+          ],
+          "lengthOfStay": 1
+        },
+        "destination": {
+          "regionID": "178293",
+          "associatedMultiCityRegionId": "178293",
+          "longName": "New York (and vicinity), New York, United States of America",
+          "shortName": "New York",
+          "country": "United States of America",
+          "province": "New York",
+          "city": "New York",
+          "tla": "NYC",
+          "nonLocalizedCity": "New York"
+        },
+        "hotelInfo": {
+          "hotelId": "19176542",
+          "hotelName": "Hyatt Place Long Island City\/New York City",
+          "localizedHotelName": "Hyatt Place Long Island City\/New York City",
+          "hotelDestination": "Long Island City",
+          "hotelDestinationRegionID": "127357",
+          "hotelLongDestination": "Long Island City,NY,USA",
+          "hotelStreetAddress": "2707 43rd Ave",
+          "hotelCity": "Long Island City",
+          "hotelProvince": "NY",
+          "hotelCountryCode": "USA",
+          "hotelLatitude": 40.74817,
+          "hotelLongitude": -73.94127,
+          "hotelStarRating": "3.0",
+          "hotelGuestReviewRating": 5,
+          "hotelReviewTotal": 1,
+          "hotelImageUrl": "https:\/\/images.trvl-media.com\/hotels\/20000000\/19180000\/19176600\/19176542\/73dd6aaf_t.jpg",
+          "isOfficialRating": false
+        },
+        "hotelUrgencyInfo": {
+          "airAttachRemainingTime": 0,
+          "numberOfPeopleViewing": 28,
+          "numberOfPeopleBooked": 8,
+          "numberOfRoomsLeft": -1,
+          "lastBookedTime": 1509058930747,
+          "almostSoldStatus": "AVAILABLE",
+          "link": "\/Hotel-Search#selected=19176542",
+          "airAttachEnabled": false
+        },
+        "hotelPricingInfo": {
+          "averagePriceValue": 111.86,
+          "totalPriceValue": 111.86,
+          "crossOutPriceValue": 111.86,
+          "originalPricePerNight": 111.86,
+          "percentSavings": 0,
+          "drr": false
+        },
+        "hotelUrls": {
+          "hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F19176542%2F2018-01-14%2F2018-01-15",
+          "hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2018-01-14%2F2018-01-15%3FSearchType%3DDestination%26CityName%3DLong+Island+City%26RegionId%3D178293%26Selected%3D19176542"
+        }
+      },
+      {
+        "offerDateRange": {
+          "travelStartDate": [
+            2017,
+            11,
+            19
+          ],
+          "travelEndDate": [
+            2017,
+            11,
+            25
+          ],
+          "lengthOfStay": 6
+        },
+        "destination": {
+          "regionID": "601750",
+          "associatedMultiCityRegionId": "601750",
+          "longName": "Fort Lauderdale (and vicinity), Florida, United States of America",
+          "shortName": "Fort Lauderdale",
+          "country": "United States of America",
+          "province": "Florida",
+          "city": "Fort Lauderdale",
+          "tla": "FLL",
+          "nonLocalizedCity": "Fort Lauderdale"
+        },
+        "hotelInfo": {
+          "hotelId": "19176155",
+          "hotelName": "Le Cabanon Motel",
+          "localizedHotelName": "Le Cabanon Motel",
+          "hotelDestination": "Pompano Beach",
+          "hotelDestinationRegionID": "9459",
+          "hotelLongDestination": "Pompano Beach,FL,USA",
+          "hotelStreetAddress": "504 N. Ocean Blvd",
+          "hotelCity": "Pompano Beach",
+          "hotelProvince": "FL",
+          "hotelCountryCode": "USA",
+          "hotelLatitude": 26.2398,
+          "hotelLongitude": -80.08812,
+          "hotelStarRating": "2.0",
+          "hotelGuestReviewRating": 5,
+          "hotelReviewTotal": 1,
+          "hotelImageUrl": "https:\/\/images.trvl-media.com\/hotels\/20000000\/19180000\/19176200\/19176155\/38b7ed71_t.jpg",
+          "isOfficialRating": false
+        },
+        "hotelUrgencyInfo": {
+          "airAttachRemainingTime": 0,
+          "numberOfPeopleViewing": 6,
+          "numberOfPeopleBooked": 0,
+          "numberOfRoomsLeft": -1,
+          "lastBookedTime": 1508522300241,
+          "almostSoldStatus": "ALMOST_SOLD",
+          "link": "\/Hotel-Search#selected=19176155",
+          "airAttachEnabled": false
+        },
+        "hotelPricingInfo": {
+          "averagePriceValue": 130,
+          "totalPriceValue": 780,
+          "crossOutPriceValue": 130,
+          "originalPricePerNight": 130,
+          "percentSavings": 0,
+          "drr": false
+        },
+        "hotelUrls": {
+          "hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F19176155%2F2017-11-19%2F2017-11-25",
+          "hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2017-11-19%2F2017-11-25%3FSearchType%3DDestination%26CityName%3DPompano+Beach%26RegionId%3D601750%26Selected%3D19176155"
+        }
+      },
+      {
+        "offerDateRange": {
+          "travelStartDate": [
+            2017,
+            11,
+            17
+          ],
+          "travelEndDate": [
+            2017,
+            11,
+            19
+          ],
+          "lengthOfStay": 2
+        },
+        "destination": {
+          "regionID": "178303",
+          "associatedMultiCityRegionId": "178303",
+          "longName": "San Antonio (and vicinity), Texas, United States of America",
+          "shortName": "San Antonio",
+          "country": "United States of America",
+          "province": "Texas",
+          "city": "San Antonio",
+          "tla": "SAT",
+          "nonLocalizedCity": "San Antonio"
+        },
+        "hotelInfo": {
+          "hotelId": "18247155",
+          "hotelName": "Casita Corazon",
+          "localizedHotelName": "Casita Corazon",
+          "hotelDestination": "San Antonio",
+          "hotelDestinationRegionID": "3077",
+          "hotelLongDestination": "San Antonio,TX,USA",
+          "hotelStreetAddress": "321 Kampmann Ave",
+          "hotelCity": "San Antonio",
+          "hotelProvince": "TX",
+          "hotelCountryCode": "USA",
+          "hotelLatitude": 29.48039,
+          "hotelLongitude": -98.46019,
+          "hotelStarRating": "2.5",
+          "hotelGuestReviewRating": 5,
+          "hotelReviewTotal": 2,
+          "hotelImageUrl": "https:\/\/images.trvl-media.com\/hotels\/19000000\/18250000\/18247200\/18247155\/2628d657_t.jpg",
+          "isOfficialRating": false
+        },
+        "hotelUrgencyInfo": {
+          "airAttachRemainingTime": 0,
+          "numberOfPeopleViewing": 0,
+          "numberOfPeopleBooked": 0,
+          "numberOfRoomsLeft": -1,
+          "lastBookedTime": 1502683912720,
+          "almostSoldStatus": "ALMOST_SOLD",
+          "link": "\/Hotel-Search#selected=18247155",
+          "airAttachEnabled": false
+        },
+        "hotelPricingInfo": {
+          "averagePriceValue": 145.01,
+          "totalPriceValue": 290.02,
+          "crossOutPriceValue": 145.01,
+          "originalPricePerNight": 145.01,
+          "percentSavings": 0,
+          "drr": false
+        },
+        "hotelUrls": {
+          "hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F18247155%2F2017-11-17%2F2017-11-19",
+          "hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2017-11-17%2F2017-11-19%3FSearchType%3DDestination%26CityName%3DSan+Antonio%26RegionId%3D178303%26Selected%3D18247155"
+        }
+      },
+      {
+        "offerDateRange": {
+          "travelStartDate": [
+            2017,
+            11,
+            14
+          ],
+          "travelEndDate": [
+            2017,
+            11,
+            19
+          ],
+          "lengthOfStay": 5
+        },
+        "destination": {
+          "regionID": "178280",
+          "associatedMultiCityRegionId": "178280",
+          "longName": "Los Angeles (and vicinity), California, United States Of America",
+          "shortName": "Los Angeles",
+          "country": "United States of America",
+          "province": "California",
+          "city": "Los Angeles",
+          "tla": "QLA",
+          "nonLocalizedCity": "Los Angeles"
+        },
+        "hotelInfo": {
+          "hotelId": "18952857",
+          "hotelName": "Homewood Suites by Hilton Los Angeles International Airport",
+          "localizedHotelName": "Homewood Suites by Hilton Los Angeles International Airport",
+          "hotelDestination": "Los Angeles",
+          "hotelDestinationRegionID": "2011",
+          "hotelLongDestination": "Los Angeles,CA,USA",
+          "hotelStreetAddress": "6151 W Century Blvd",
+          "hotelCity": "Los Angeles",
+          "hotelProvince": "CA",
+          "hotelCountryCode": "USA",
+          "hotelLatitude": 33.94608,
+          "hotelLongitude": -118.3927,
+          "hotelStarRating": "3.0",
+          "hotelGuestReviewRating": 5,
+          "hotelReviewTotal": 1,
+          "hotelImageUrl": "https:\/\/images.trvl-media.com\/hotels\/19000000\/18960000\/18952900\/18952857\/935cff60_t.jpg",
+          "isOfficialRating": false
+        },
+        "hotelUrgencyInfo": {
+          "airAttachRemainingTime": 0,
+          "numberOfPeopleViewing": 24,
+          "numberOfPeopleBooked": 8,
+          "numberOfRoomsLeft": -1,
+          "lastBookedTime": 1509053728875,
+          "almostSoldStatus": "AVAILABLE",
+          "link": "\/Hotel-Search#selected=18952857",
+          "airAttachEnabled": false
+        },
+        "hotelPricingInfo": {
+          "averagePriceValue": 161,
+          "totalPriceValue": 805,
+          "crossOutPriceValue": 161,
+          "originalPricePerNight": 161,
+          "percentSavings": 0,
+          "drr": false
+        },
+        "hotelUrls": {
+          "hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F18952857%2F2017-11-14%2F2017-11-19",
+          "hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2017-11-14%2F2017-11-19%3FSearchType%3DDestination%26CityName%3DLos+Angeles%26RegionId%3D178280%26Selected%3D18952857"
+        }
+      },
+      {
+        "offerDateRange": {
+          "travelStartDate": [
+            2017,
+            11,
+            4
+          ],
+          "travelEndDate": [
+            2017,
+            11,
+            8
+          ],
+          "lengthOfStay": 4
+        },
+        "destination": {
+          "regionID": "178232",
+          "associatedMultiCityRegionId": "178232",
+          "longName": "Atlanta (and vicinity), Georgia, United States of America",
+          "shortName": "Atlanta",
+          "country": "United States of America",
+          "province": "Georgia",
+          "city": "Atlanta",
+          "tla": "ATL",
+          "nonLocalizedCity": "Atlanta"
+        },
+        "hotelInfo": {
+          "hotelId": "14908294",
+          "hotelName": "The Cottage Bed & Breakfast",
+          "localizedHotelName": "The Cottage Bed & Breakfast",
+          "hotelDestination": "Decatur",
+          "hotelDestinationRegionID": "7608",
+          "hotelLongDestination": "Decatur,GA,USA",
+          "hotelStreetAddress": "1103 Walker Dr",
+          "hotelCity": "Decatur",
+          "hotelProvince": "GA",
+          "hotelCountryCode": "USA",
+          "hotelLatitude": 33.762687,
+          "hotelLongitude": -84.272924,
+          "hotelStarRating": "3.5",
+          "hotelGuestReviewRating": 5,
+          "hotelReviewTotal": 3,
+          "hotelImageUrl": "https:\/\/images.trvl-media.com\/hotels\/15000000\/14910000\/14908300\/14908294\/14908294_6_t.jpg",
+          "isOfficialRating": false
+        },
+        "hotelUrgencyInfo": {
+          "airAttachRemainingTime": 0,
+          "numberOfPeopleViewing": 7,
+          "numberOfPeopleBooked": 0,
+          "numberOfRoomsLeft": -1,
+          "lastBookedTime": 1508354709254,
+          "almostSoldStatus": "ALMOST_SOLD",
+          "link": "\/Hotel-Search#selected=14908294",
+          "airAttachEnabled": false
+        },
+        "hotelPricingInfo": {
+          "averagePriceValue": 165.12,
+          "totalPriceValue": 660.48,
+          "crossOutPriceValue": 165.12,
+          "originalPricePerNight": 165.12,
+          "percentSavings": 0,
+          "drr": false
+        },
+        "hotelUrls": {
+          "hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F14908294%2F2017-11-04%2F2017-11-08",
+          "hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2017-11-04%2F2017-11-08%3FSearchType%3DDestination%26CityName%3DDecatur%26RegionId%3D178232%26Selected%3D14908294"
+        }
+      },
+      {
+        "offerDateRange": {
+          "travelStartDate": [
+            2017,
+            10,
+            28
+          ],
+          "travelEndDate": [
+            2017,
+            10,
+            29
+          ],
+          "lengthOfStay": 1
+        },
+        "destination": {
+          "regionID": "178297",
+          "associatedMultiCityRegionId": "178297",
+          "longName": "Philadelphia (and vicinity), Pennsylvania, United States of America",
+          "shortName": "Philadelphia",
+          "country": "United States of America",
+          "province": "Pennsylvania",
+          "city": "Philadelphia",
+          "tla": "PHL",
+          "nonLocalizedCity": "Philadelphia"
+        },
+        "hotelInfo": {
+          "hotelId": "13278601",
+          "hotelName": "The Inn at Grace Winery",
+          "localizedHotelName": "The Inn at Grace Winery",
+          "hotelDestination": "Glen Mills",
+          "hotelDestinationRegionID": "7410",
+          "hotelLongDestination": "Glen Mills,PA,USA",
+          "hotelStreetAddress": "50 Sweetwater Road",
+          "hotelCity": "Glen Mills",
+          "hotelProvince": "PA",
+          "hotelCountryCode": "USA",
+          "hotelLatitude": 39.92619,
+          "hotelLongitude": -75.47886,
+          "hotelStarRating": "3.5",
+          "hotelGuestReviewRating": 5,
+          "hotelReviewTotal": 1,
+          "hotelImageUrl": "https:\/\/images.trvl-media.com\/hotels\/14000000\/13280000\/13278700\/13278601\/e5bd69ec_t.jpg",
+          "isOfficialRating": false
+        },
+        "hotelUrgencyInfo": {
+          "airAttachRemainingTime": 0,
+          "numberOfPeopleViewing": 0,
+          "numberOfPeopleBooked": 0,
+          "numberOfRoomsLeft": -1,
+          "lastBookedTime": 1508684564395,
+          "almostSoldStatus": "ALMOST_SOLD",
+          "link": "\/Hotel-Search#selected=13278601",
+          "airAttachEnabled": false
+        },
+        "hotelPricingInfo": {
+          "averagePriceValue": 215,
+          "totalPriceValue": 215,
+          "crossOutPriceValue": 215,
+          "originalPricePerNight": 215,
+          "percentSavings": 0,
+          "drr": false
+        },
+        "hotelUrls": {
+          "hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F13278601%2F2017-10-28%2F2017-10-29",
+          "hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2017-10-28%2F2017-10-29%3FSearchType%3DDestination%26CityName%3DGlen+Mills%26RegionId%3D178297%26Selected%3D13278601"
+        }
+      },
+      {
+        "offerDateRange": {
+          "travelStartDate": [
+            2017,
+            11,
+            16
+          ],
+          "travelEndDate": [
+            2017,
+            11,
+            19
+          ],
+          "lengthOfStay": 3
+        },
+        "destination": {
+          "regionID": "178291",
+          "associatedMultiCityRegionId": "178291",
+          "longName": "Nashville (and vicinity), Tennessee, United States of America",
+          "shortName": "Nashville",
+          "country": "United States of America",
+          "province": "Tennessee",
+          "city": "Nashville",
+          "tla": "BNA",
+          "nonLocalizedCity": "Nashville"
+        },
+        "hotelInfo": {
+          "hotelId": "19549258",
+          "hotelName": "Caroline House Nashville Historic Inn",
+          "localizedHotelName": "Caroline House Nashville Historic Inn",
+          "hotelDestination": "Nashville",
+          "hotelDestinationRegionID": "637",
+          "hotelLongDestination": "Nashville,TN,USA",
+          "hotelStreetAddress": "906 Bradford Ave",
+          "hotelCity": "Nashville",
+          "hotelProvince": "TN",
+          "hotelCountryCode": "USA",
+          "hotelLatitude": 36.1279,
+          "hotelLongitude": -86.78385,
+          "hotelStarRating": "3.5",
+          "hotelGuestReviewRating": 5,
+          "hotelReviewTotal": 1,
+          "hotelImageUrl": "https:\/\/images.trvl-media.com\/hotels\/20000000\/19550000\/19549300\/19549258\/4e1a2f9b_t.jpg",
+          "isOfficialRating": false
+        },
+        "hotelUrgencyInfo": {
+          "airAttachRemainingTime": 0,
+          "numberOfPeopleViewing": 0,
+          "numberOfPeopleBooked": 0,
+          "numberOfRoomsLeft": -1,
+          "lastBookedTime": 1508464875039,
+          "almostSoldStatus": "ALMOST_SOLD",
+          "link": "\/Hotel-Search#selected=19549258",
+          "airAttachEnabled": false
+        },
+        "hotelPricingInfo": {
+          "averagePriceValue": 269,
+          "totalPriceValue": 807,
+          "crossOutPriceValue": 269,
+          "originalPricePerNight": 269,
+          "percentSavings": 0,
+          "drr": false
+        },
+        "hotelUrls": {
+          "hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F19549258%2F2017-11-16%2F2017-11-19",
+          "hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2017-11-16%2F2017-11-19%3FSearchType%3DDestination%26CityName%3DNashville%26RegionId%3D178291%26Selected%3D19549258"
+        }
+      }
+    ]
+  }
+}

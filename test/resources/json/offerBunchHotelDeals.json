@@ -1,0 +1,285 @@
+{
+  "offerInfo": {
+    "siteID": "1",
+    "language": "en_US",
+    "currency": "USD"
+  },
+  "userInfo": {
+    "persona": {
+      "personaType": "OTHERS"
+    },
+    "userId": "foo"
+  },
+  "offers": {
+    "Hotel": [
+      {
+        "offerDateRange": {
+          "travelStartDate": [
+            2017,
+            12,
+            7
+          ],
+          "travelEndDate": [
+            2017,
+            12,
+            18
+          ],
+          "lengthOfStay": 11
+        },
+        "destination": {
+          "regionID": "178293",
+          "associatedMultiCityRegionId": "178293",
+          "longName": "New York (and vicinity), New York, United States of America",
+          "shortName": "New York",
+          "country": "United States of America",
+          "province": "New York",
+          "city": "New York",
+          "tla": "NYC",
+          "nonLocalizedCity": "New York"
+        },
+        "hotelInfo": {
+          "hotelId": "4818574",
+          "hotelName": "the OUT NYC",
+          "localizedHotelName": "the OUT NYC",
+          "hotelDestination": "New York",
+          "hotelDestinationRegionID": "2621",
+          "hotelLongDestination": "New York,NY,USA",
+          "hotelStreetAddress": "510 W 42nd St",
+          "hotelCity": "New York",
+          "hotelProvince": "NY",
+          "hotelCountryCode": "USA",
+          "hotelLatitude": 40.760007,
+          "hotelLongitude": -73.996383,
+          "hotelStarRating": "4.0",
+          "hotelGuestReviewRating": 3.94,
+          "hotelReviewTotal": 983,
+          "hotelImageUrl": "https:\/\/images.trvl-media.com\/hotels\/5000000\/4820000\/4818600\/4818574\/0138f487_t.jpg",
+          "isOfficialRating": false
+        },
+        "hotelUrgencyInfo": {
+          "airAttachRemainingTime": 0,
+          "numberOfPeopleViewing": 32,
+          "numberOfPeopleBooked": 0,
+          "numberOfRoomsLeft": 49,
+          "lastBookedTime": 1508873763309,
+          "almostSoldStatus": "AVAILABLE",
+          "link": "\/Hotel-Search#selected=4818574",
+          "airAttachEnabled": false
+        },
+        "hotelPricingInfo": {
+          "averagePriceValue": 267.87,
+          "totalPriceValue": 2946.57,
+          "crossOutPriceValue": 796.04,
+          "originalPricePerNight": 796.04,
+          "percentSavings": 66.35,
+          "drr": false
+        },
+        "hotelUrls": {
+          "hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F4818574%2F2017-12-07%2F2017-12-18",
+          "hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2017-12-07%2F2017-12-18%3FSearchType%3DDestination%26CityName%3DNew+York%26RegionId%3D178293%26Selected%3D4818574"
+        }
+      },
+      {
+        "offerDateRange": {
+          "travelStartDate": [
+            2017,
+            11,
+            22
+          ],
+          "travelEndDate": [
+            2017,
+            11,
+            25
+          ],
+          "lengthOfStay": 3
+        },
+        "destination": {
+          "regionID": "178294",
+          "associatedMultiCityRegionId": "178294",
+          "longName": "Orlando (and vicinity), Florida, United States of America",
+          "shortName": "Orlando",
+          "country": "United States of America",
+          "province": "Florida",
+          "city": "Orlando",
+          "tla": "ORL",
+          "nonLocalizedCity": "Orlando"
+        },
+        "hotelInfo": {
+          "hotelId": "19384",
+          "hotelName": "Wyndham Lake Buena Vista Disney Springs\u2122 Resort Area",
+          "localizedHotelName": "Wyndham Lake Buena Vista Disney Springs\u2122 Resort Area",
+          "hotelDestination": "Lake Buena Vista",
+          "hotelDestinationRegionID": "10870",
+          "hotelLongDestination": "Lake Buena Vista,FL,USA",
+          "hotelStreetAddress": "1850 Hotel Plaza Blvd",
+          "hotelCity": "Lake Buena Vista",
+          "hotelProvince": "FL",
+          "hotelCountryCode": "USA",
+          "hotelLatitude": 28.374776,
+          "hotelLongitude": -81.510462,
+          "hotelStarRating": "4.0",
+          "hotelGuestReviewRating": 4.19,
+          "hotelReviewTotal": 1065,
+          "hotelImageUrl": "https:\/\/images.trvl-media.com\/hotels\/1000000\/20000\/19400\/19384\/6cf82778_t.jpg",
+          "isOfficialRating": false
+        },
+        "hotelUrgencyInfo": {
+          "airAttachRemainingTime": 0,
+          "numberOfPeopleViewing": 135,
+          "numberOfPeopleBooked": 36,
+          "numberOfRoomsLeft": 50,
+          "lastBookedTime": 1509082053273,
+          "almostSoldStatus": "ALMOST_SOLD",
+          "link": "\/Hotel-Search#selected=19384",
+          "airAttachEnabled": false
+        },
+        "hotelPricingInfo": {
+          "averagePriceValue": 153.43,
+          "totalPriceValue": 460.29,
+          "crossOutPriceValue": 414.67,
+          "originalPricePerNight": 414.67,
+          "percentSavings": 63,
+          "drr": false
+        },
+        "hotelUrls": {
+          "hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F19384%2F2017-11-22%2F2017-11-25",
+          "hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2017-11-22%2F2017-11-25%3FSearchType%3DDestination%26CityName%3DLake+Buena+Vista%26RegionId%3D178294%26Selected%3D19384"
+        }
+      },
+      {
+        "offerDateRange": {
+          "travelStartDate": [
+            2018,
+            1,
+            8
+          ],
+          "travelEndDate": [
+            2018,
+            1,
+            9
+          ],
+          "lengthOfStay": 1
+        },
+        "destination": {
+          "regionID": "178280",
+          "associatedMultiCityRegionId": "178280",
+          "longName": "Los Angeles (and vicinity), California, United States Of America",
+          "shortName": "Los Angeles",
+          "country": "United States of America",
+          "province": "California",
+          "city": "Los Angeles",
+          "tla": "QLA",
+          "nonLocalizedCity": "Los Angeles"
+        },
+        "hotelInfo": {
+          "hotelId": "13100360",
+          "hotelName": "El Royale Gardens Near Universal Studios",
+          "localizedHotelName": "El Royale Gardens Near Universal Studios",
+          "hotelDestination": "Studio City",
+          "hotelDestinationRegionID": "9758",
+          "hotelLongDestination": "Studio City,CA,USA",
+          "hotelStreetAddress": "11117 Ventura Blvd",
+          "hotelCity": "Studio City",
+          "hotelProvince": "CA",
+          "hotelCountryCode": "USA",
+          "hotelLatitude": 34.141384,
+          "hotelLongitude": -118.372485,
+          "hotelStarRating": "2.5",
+          "hotelGuestReviewRating": 4.74,
+          "hotelReviewTotal": 94,
+          "hotelImageUrl": "https:\/\/images.trvl-media.com\/hotels\/14000000\/13110000\/13100400\/13100360\/b066f4fe_t.jpg",
+          "isOfficialRating": false
+        },
+        "hotelUrgencyInfo": {
+          "airAttachRemainingTime": 0,
+          "numberOfPeopleViewing": 14,
+          "numberOfPeopleBooked": 3,
+          "numberOfRoomsLeft": 0,
+          "lastBookedTime": 1509036059898,
+          "almostSoldStatus": "ALMOST_SOLD",
+          "link": "\/Hotel-Search#selected=13100360",
+          "airAttachEnabled": false
+        },
+        "hotelPricingInfo": {
+          "averagePriceValue": 144,
+          "totalPriceValue": 144,
+          "crossOutPriceValue": 360,
+          "originalPricePerNight": 360,
+          "percentSavings": 60,
+          "drr": false
+        },
+        "hotelUrls": {
+          "hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F13100360%2F2018-01-08%2F2018-01-09",
+          "hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2018-01-08%2F2018-01-09%3FSearchType%3DDestination%26CityName%3DStudio+City%26RegionId%3D178280%26Selected%3D13100360"
+        }
+      },
+      {
+        "offerDateRange": {
+          "travelStartDate": [
+            2017,
+            11,
+            27
+          ],
+          "travelEndDate": [
+            2017,
+            12,
+            2
+          ],
+          "lengthOfStay": 5
+        },
+        "destination": {
+          "regionID": "178276",
+          "associatedMultiCityRegionId": "178276",
+          "longName": "Las Vegas (and vicinity), Nevada, United States Of America",
+          "shortName": "Las Vegas",
+          "country": "United States of America",
+          "province": "Nevada",
+          "city": "Las Vegas",
+          "tla": "LAS",
+          "nonLocalizedCity": "Las Vegas"
+        },
+        "hotelInfo": {
+          "hotelId": "15237",
+          "hotelName": "Luxor Hotel and Casino",
+          "localizedHotelName": "Luxor Hotel and Casino",
+          "hotelDestination": "Las Vegas",
+          "hotelDestinationRegionID": "2008",
+          "hotelLongDestination": "Las Vegas,NV,USA",
+          "hotelStreetAddress": "3900 S. Las Vegas Blvd",
+          "hotelCity": "Las Vegas",
+          "hotelProvince": "NV",
+          "hotelCountryCode": "USA",
+          "hotelLatitude": 36.09659,
+          "hotelLongitude": -115.173085,
+          "hotelStarRating": "3.5",
+          "hotelGuestReviewRating": 3.64,
+          "hotelReviewTotal": 51373,
+          "hotelImageUrl": "https:\/\/images.trvl-media.com\/hotels\/1000000\/20000\/15300\/15237\/e2b95d01_t.jpg",
+          "isOfficialRating": false
+        },
+        "hotelUrgencyInfo": {
+          "airAttachRemainingTime": 0,
+          "numberOfPeopleViewing": 121,
+          "numberOfPeopleBooked": 327,
+          "numberOfRoomsLeft": 502,
+          "lastBookedTime": 1509087416365,
+          "almostSoldStatus": "AVAILABLE",
+          "link": "\/Hotel-Search#selected=15237",
+          "airAttachEnabled": false
+        },
+        "hotelPricingInfo": {
+          "averagePriceValue": 44.58,
+          "totalPriceValue": 222.9,
+          "crossOutPriceValue": 68.58,
+          "originalPricePerNight": 68.58,
+          "percentSavings": 35,
+          "drr": false
+        },
+        "hotelUrls": {
+          "hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F15237%2F2017-11-27%2F2017-12-02",
+          "hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2017-11-27%2F2017-12-02%3FSearchType%3DDestination%26CityName%3DLas+Vegas%26RegionId%3D178276%26Selected%3D15237"
+        }
+      }
+    ]
+  }
+}

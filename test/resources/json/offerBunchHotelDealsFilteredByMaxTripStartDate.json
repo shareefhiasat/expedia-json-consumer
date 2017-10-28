@@ -1,0 +1,84 @@
+{
+  "offerInfo": {
+    "siteID": "1",
+    "language": "en_US",
+    "currency": "USD"
+  },
+  "userInfo": {
+    "persona": {
+      "personaType": "OTHERS"
+    },
+    "userId": "foo"
+  },
+  "offers": {
+    "Hotel": [
+      {
+        "offerDateRange": {
+          "travelStartDate": [
+            2017,
+            11,
+            10
+          ],
+          "travelEndDate": [
+            2017,
+            11,
+            13
+          ],
+          "lengthOfStay": 3
+        },
+        "destination": {
+          "regionID": "178292",
+          "associatedMultiCityRegionId": "178292",
+          "longName": "New Orleans (and vicinity), Louisiana, United States of America",
+          "shortName": "New Orleans",
+          "country": "United States of America",
+          "province": "Louisiana",
+          "city": "New Orleans",
+          "tla": "MSY",
+          "nonLocalizedCity": "New Orleans"
+        },
+        "hotelInfo": {
+          "hotelId": "98881",
+          "hotelName": "Best Western La Place Inn",
+          "localizedHotelName": "Best Western La Place Inn",
+          "hotelDestination": "LaPlace",
+          "hotelDestinationRegionID": "7190",
+          "hotelLongDestination": "LaPlace,LA,USA",
+          "hotelStreetAddress": "4289 Main Street",
+          "hotelCity": "LaPlace",
+          "hotelProvince": "LA",
+          "hotelCountryCode": "USA",
+          "hotelLatitude": 30.08533,
+          "hotelLongitude": -90.447295,
+          "hotelStarRating": "2.5",
+          "hotelGuestReviewRating": 4.02,
+          "hotelReviewTotal": 270,
+          "hotelImageUrl": "https:\/\/images.trvl-media.com\/hotels\/1000000\/100000\/98900\/98881\/f57ba08b_t.jpg",
+          "isOfficialRating": false
+        },
+        "hotelUrgencyInfo": {
+          "airAttachRemainingTime": 0,
+          "numberOfPeopleViewing": 1,
+          "numberOfPeopleBooked": 2,
+          "numberOfRoomsLeft": 49,
+          "lastBookedTime": 1509059222575,
+          "almostSoldStatus": "AVAILABLE",
+          "link": "\/Hotel-Search#selected=98881",
+          "airAttachEnabled": false
+        },
+        "hotelPricingInfo": {
+          "averagePriceValue": 73.44,
+          "totalPriceValue": 220.32,
+          "crossOutPriceValue": 112.99,
+          "originalPricePerNight": 112.99,
+          "percentSavings": 35,
+          "drr": false
+        },
+        "hotelUrls": {
+          "hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F98881%2F2017-11-10%2F2017-11-13",
+          "hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2017-11-10%2F2017-11-13%3FSearchType%3DDestination%26CityName%3DLaPlace%26RegionId%3D178292%26Selected%3D98881"
+        }
+      }
+    ]
+  }
+}
