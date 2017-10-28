@@ -1,6 +1,6 @@
 Sorry if i forgot anything , but i doubt it.
 
-# Check On Heroku
+#Check On Heroku
 https://expedia-json-consumer.herokuapp.com/ i hope its still up. :)
 
 #How to Run On Your Local SandBox
