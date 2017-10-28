@@ -13,6 +13,10 @@ import java.net.URL;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+import com.sun.jersey.api.client.Client;
+import com.sun.jersey.api.client.ClientResponse;
+import com.sun.jersey.api.client.WebResource;
+
 /**
  * @author shareef on 27/10/2017
  *
@@ -29,22 +33,22 @@ public class JsonUtils {
     public static String getJSONFromUrl(String sURL) {
         String attribute = null;
         try {
-            // Connect to the URL using java's native library
-            URL url = null;
-            try {
-                url = new URL(sURL);
-            } catch (MalformedURLException ex) {
-                Logger.getLogger(JsonUtils.class.getName()).log(Level.SEVERE, null, ex);
-            }
-            HttpURLConnection request = (HttpURLConnection) url.openConnection();
-            request.connect();
 
-            // Convert to a JSON object to print data
-            JsonParser jp = new JsonParser(); //from gson
-            JsonElement root = jp.parse(new InputStreamReader((InputStream) request.getContent())); //Convert the input stream to a json element
-            JsonObject rootobj = root.getAsJsonObject(); //May be an array, may be an object.
-            attribute = rootobj.toString(); //just grab the zipcode
-        } catch (IOException ex) {
+            Client client = Client.create();
+
+            WebResource webResource = client
+                    .resource(sURL);
+
+            ClientResponse response = webResource.accept("application/json")
+                    .get(ClientResponse.class);
+
+            if (response.getStatus() != 200) {
+                throw new RuntimeException("Failed : HTTP error code : "
+                        + response.getStatus());
+            }
+
+            attribute = response.getEntity(String.class);
+        } catch (Exception ex) {
             Logger.getLogger(JsonUtils.class.getName()).log(Level.SEVERE, null, ex);
         }
         return attribute;
@@ -74,7 +78,7 @@ public class JsonUtils {
             JsonParser jp = new JsonParser(); //from gson
             JsonElement root = jp.parse(new InputStreamReader((InputStream) request.getContent())); //Convert the input stream to a json element
             JsonObject rootobj = root.getAsJsonObject(); //May be an array, may be an object.
-            attribute = rootobj.get(attributeToGet).toString(); //just grab the zipcode
+            attribute = rootobj.get(attributeToGet).toString();
         } catch (IOException ex) {
             Logger.getLogger(JsonUtils.class.getName()).log(Level.SEVERE, null, ex);
         }

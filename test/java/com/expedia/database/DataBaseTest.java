@@ -1,5 +1,6 @@
 package com.expedia.database;
 
+import com.expedia.main.run.MainEmulation;
 import com.expedia.test.config.SpringContextTest;
 import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;
@@ -59,8 +60,8 @@ public class DataBaseTest extends SpringContextTest {
 
             Assert.assertTrue(!output.isEmpty());
         } catch (Exception e) {
-            Logger.getLogger(SpringContextTest.class.getName())
-                    .log(Level.INFO, "Exception In " + DataBaseTest.class.getName());
+            Logger.getLogger(MainEmulation.class.getName())
+                    .log(Level.WARNING, "Exception In " + MainEmulation.class.getName());
         } finally {
             try {
                 if (stmt != null)

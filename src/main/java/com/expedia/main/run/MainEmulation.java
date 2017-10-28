@@ -35,6 +35,8 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.Map;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 import static com.expedia.Constants.*;
 
@@ -111,7 +113,8 @@ public class MainEmulation {
                 if (rs != null)
                     rs.close();
             } catch (SQLException e) {
-                e.printStackTrace();
+                Logger.getLogger(MainEmulation.class.getName())
+                        .log(Level.WARNING, "Exception In " + MainEmulation.class.getName());
             }
         }
     }
