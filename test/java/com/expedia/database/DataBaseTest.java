@@ -20,6 +20,7 @@ import java.util.logging.Logger;
 
 /**
  * test database on test properties configuration
+ *
  * @author shareef on 27/10/2017
  */
 public class DataBaseTest extends SpringContextTest {
@@ -41,12 +42,15 @@ public class DataBaseTest extends SpringContextTest {
 
     @Test
     public void pingDatabaseConnection() {
+        ResultSet rs = null;
+        Statement stmt = null;
+
         try (Connection connection = dataSource.getConnection()) {
-            Statement stmt = connection.createStatement();
+            stmt = connection.createStatement();
             stmt.executeUpdate("DROP TABLE IF EXISTS ticks");
             stmt.executeUpdate("CREATE TABLE IF NOT EXISTS ticks (tick TIMESTAMP)");
             stmt.executeUpdate("INSERT INTO ticks VALUES (now())");
-            ResultSet rs = stmt.executeQuery("SELECT tick FROM ticks");
+            rs = stmt.executeQuery("SELECT tick FROM ticks");
 
             ArrayList<String> output = new ArrayList<>();
             while (rs.next()) {
@@ -57,6 +61,16 @@ public class DataBaseTest extends SpringContextTest {
         } catch (Exception e) {
             Logger.getLogger(SpringContextTest.class.getName())
                     .log(Level.INFO, "Exception In " + DataBaseTest.class.getName());
+        } finally {
+            try {
+                if (stmt != null)
+                    stmt.close();
+
+                if (rs != null)
+                    rs.close();
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
         }
     }
 
