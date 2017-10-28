@@ -56,6 +56,7 @@ public class MainEmulation {
     @Value("${spring.datasource.url}")
     private String dbUrl;
 
+    /*enable below in local sandbox if you want db test
     @Value("${spring.datasource.username}")
     private String userName;
 
@@ -63,7 +64,7 @@ public class MainEmulation {
     private String password;
 
     @Value("${spring.datasource.driver}")
-    private String driver;
+    private String driver;*/
 
     @Autowired
     private DataSource dataSource;
@@ -126,9 +127,11 @@ public class MainEmulation {
         } else {
             HikariConfig config = new HikariConfig();
             config.setJdbcUrl(dbUrl);
+            /*enable below in local sandbox if you want db test
             config.setUsername(userName);
             config.setPassword(password);
             config.setDriverClassName(driver);
+            */
             return new HikariDataSource(config);
         }
     }
