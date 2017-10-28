@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" th:replace="~{fragments/layout :: layout (~{::body},'index')}">
+
+<body>
+
+<div class="jumbotron text-center">
+    <div class="container">
+        <a href="/" class="lang-logo">
+            <img src="/lang-logo-personal-image.jpg">
+        </a>
+        <h1>Getting Started with<span style="color: yellow"><b>Expedia</b></span>Sandbox By <b>@Shareef.Hiasat.</b></h1>
+        <p>This is a sample consuming for<span style="color: yellow"><b>Expedia</b></span>offers API deployed on Heroku.
+            Its easy to read , build on <b>Spring Theme Leaf</b> as <span style="color: green">UI</span>, and memics the real<span style="color: yellow"><b>Expedia</b></span><span style="color: green">CSS</span> </p>
+        <a type="button" class="btn btn-lg btn-default"
+           href="https://devcenter.heroku.com/articles/getting-started-with-java"><span
+                class="glyphicon glyphicon-flash"></span> Getting Started with<span style="color: yellow"><b>Expedia</b></span>API SandBox</a>
+        <a type="button" class="btn btn-lg btn-primary" href="https://github.com/heroku/java-getting-started"
+        style="color: yellow;"><span
+                class="glyphicon glyphicon-download"></span> Source on GitHub</a>
+    </div>
+</div>
+<div class="container">
+    <div class="alert alert-info text-center" role="alert">
+        To deploy your own copy, locally for<span style="color: yellow"><b>Expedia</b></span>API Service Consumer , head over to the <a
+            href="https://devcenter.heroku.com/articles/getting-started-with-java" class="alert-link">Getting Started
+        with<span style="color: yellow"><b>Expedia</b></span>SandBox</a> tutorial By <b>@Shareef.Hiasat.</b>
+    </div>
+    <hr>
+    <!--<div class="row">-->
+    <!--<div class="col-md-6">-->
+        <!--<h3><span class="glyphicon glyphicon-info-sign"></span> How this sand box app works</h3>-->
+        <!--<ul>-->
+            <!--<li>This app was deployed to Heroku, either using Git or by using <a-->
+                    <!--href="https://github.com/heroku/java-getting-started">Heroku Button</a> on the repository.-->
+            <!--</li>-->
+
+            <!--&lt;!&ndash;<li>When Heroku received the source code, it fetched all the dependencies in the <a&ndash;&gt;-->
+            <!--&lt;!&ndash;href="https://github.com/heroku/java-getting-started/blob/master/pom.xml">pom.xml</a>, creating&ndash;&gt;-->
+            <!--&lt;!&ndash;a slug.&ndash;&gt;-->
+            <!--&lt;!&ndash;</li>&ndash;&gt;-->
+            <!--&lt;!&ndash;<li>The platform then spins up a dyno, a lightweight container that provides an isolated environment in&ndash;&gt;-->
+            <!--&lt;!&ndash;which the slug can be mounted and executed.&ndash;&gt;-->
+            <!--&lt;!&ndash;</li>&ndash;&gt;-->
+            <!--&lt;!&ndash;<li>You can scale your app, manage it, and deploy over <a href="https://addons.heroku.com/">150 add-on&ndash;&gt;-->
+            <!--&lt;!&ndash;services</a>, from the Dashboard or CLI.&ndash;&gt;-->
+            <!--&lt;!&ndash;</li>&ndash;&gt;-->
+        <!--</ul>-->
+    <!--</div>-->
+    <!--<div class="col-md-6">-->
+        <!--<h3><span class="glyphicon glyphicon-link"></span> Next Steps</h3>-->
+        <!--<ul>-->
+            <!--<li>If you are following the <a href="https://devcenter.heroku.com/articles/getting-started-with-java">Getting-->
+                <!--Started</a> guide, then please head back to the tutorial and follow the next steps!-->
+            <!--</li>-->
+            <!--<li>If you deployed this app by deploying the Heroku Button, then in a command line shell, run:</li>-->
+            <!--<ul>-->
+                <!--<li><code style="font-weight: 400;color: green">git clone https://github.com/heroku/java-getting-started.git</code> - this will create a-->
+                    <!--local copy of the source code for the app-->
+                <!--</li>-->
+                <!--<li><code>cd java-getting-started</code> - change directory into the local source code repository-->
+                <!--</li>-->
+                <!--<li><code>heroku git:remote -a &lt;your-app-name></code> - associate the Heroku app with the-->
+                    <!--repository-->
+                <!--</li>-->
+                <!--<li>You'll now be set up to run the app locally, or <a-->
+                        <!--href="https://devcenter.heroku.com/articles/getting-started-with-java#push-local-changes">deploy-->
+                    <!--changes</a> to Heroku-->
+                <!--</li>-->
+            <!--</ul>-->
+        <!--</ul>-->
+        <!--<h3><span class="glyphicon glyphicon-link"></span> Helpful Links</h3>-->
+        <!--<ul>-->
+            <!--<li><a href="https://www.heroku.com/home">Heroku</a></li>-->
+            <!--<li><a href="https://devcenter.heroku.com/">Heroku Dev Center</a></li>-->
+            <!--<li><a href="https://devcenter.heroku.com/articles/getting-started-with-java">Getting Started with Java-->
+                <!--on Heroku</a></li>-->
+            <!--<li><a href="https://devcenter.heroku.com/articles/deploying-java">Deploying Java Apps on Heroku</a>-->
+            <!--</li>-->
+        <!--</ul>-->
+    <!--</div>-->
+<!--</div> -->
+    <!-- row -->
+    <!--<div class="alert alert-info text-center" role="alert">-->
+        <!--Please do work through the Getting Started guide, even if you do know how to build such an application. The-->
+        <!--guide covers the basics of working with Heroku, and will familiarize you with all the concepts you need in order-->
+        <!--to build and deploy your own apps.-->
+    <!--</div>-->
+</div>
+
+
+<script type="text/javascript" charset="utf8"
+        src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+<script type="text/javascript" charset="utf8"
+        src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script type="text/javascript" charset="utf8"
+        src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+<link rel="stylesheet"
+      href="//c.travel-assets.com/globalcontrols-service/content/529b8a6c18ea2d7e1cb73acc45aabd5470d7513d/styles/1/en_US/globalcontrols-min.css"
+      media="all">
+<link rel="stylesheet"
+      href="//a.travel-assets.com/uitoolkit/2-161/f6270c9aaf9d9fff3033e6e92564e5c4ec6cd0df/core/minifiedCss/brands/expedia-responsive.css"
+      media="all">
+<link rel="stylesheet"
+      href="//b.travel-assets.com/bundles/expweb/hotelsearch/hotel-search-common-c429d5d89c2bbd09b69f761ce5dec80a-min.css"
+      media="all">
+<link rel="stylesheet"
+      href="//b.travel-assets.com/bundles/expweb/multi-item/multi-step-indicator-styles-expedia-b9f8139ed3f5f8c633e95744d8c8099d-min.css"
+      media="all">
+<link rel="stylesheet"
+      href="//b.travel-assets.com/bundles/expweb/hotelsearch-generated/secondary-styles-f195063eea109f6ef5af7112e15fb755-min.css"
+      media="all">
+<link rel="stylesheet"
+      href="//b.travel-assets.com/bundles/expweb/hotelsearch/hotel-search-expedia-7aa7f311289104c90a8750426b2e23f2-min.css"
+      media="all">
+<div class="uitk-grid uitk-drawer-wrapper all-grid-fallback-alt desktop-drawer-disabled" data-drawer-disable-at="desktop">
+<aside id="acol" class="hsrFilters uitk-col desktop-col-1-4 tablet-col-1-3 smalltablet-col-1-3 all-x-gutter-12 uitk-drawer drawer-pos-left" data-control="drawer"><span class="uitk-focus-trap visuallyhidden" aria-hidden="true" tabindex="0"></span><!-- A-Column Content Here... --><div id="stickyAcolFilterHeaderContainer_internal"><div><div class="sticky-acol-filter-header">
+    <button type="button" data-track="HOT.HSR.CloseFilterDrawer" data-control="drawer-close" class="filter-close sticky-acol-filter-header button" title="Done"> </button>
+    <span class="sort-filter-title type-400">Filter</span>
+    <a href="#" class="clear-filters" onclick="return false;">
+        Clear
+    </a>
+    <!--Begin 15738: HSR_Mobile_EnhancedActionsOnFilterInteraction-->
+    <!--If cleaning up, do not revert these changes. These are part of bug fix.-->
+    <button type="button" data-track="HOT.HSR.DoneFilterDrawer" class="btn-secondary btn-sub-action uitk-drawer-only applyFilters" data-control="drawer-close">
+        <span class="btn-label">
+           Apply
+        </span>
+    </button>
+</div></div></div><div id="filterCloseButtonContainer"><button type="button" class="btn-close btn-primary" id="acol-filter-close" data-track="HOT:SR:FilterFootprintClose"><span class="icon icon-close"></span></button></div><div id="sortDrawerContainer"></div><div id="googleMapContainer"><a href="javascript:void(0)" data-track="HOT.SR.Module.MapOpen.Icon" role="button" class="mapLink"><div class="box box-secondary mapBox">
+
+    <img class="mapIcon" alt="Map view for Dubai" src="//maps.google.com/maps/api/staticmap?client=gme-expedia&amp;channel=expedia-HotelSearch&amp;size=400x140&amp;sensor=false&amp;format=png8&amp;visible=24.916165,55.003542%7C25.272061,55.323698&amp;signature=X78KhN6bRxx7RkCEuW7et1T9CaI=">
+    <div class="placeholder"></div>
+    <span class="mapIconOverlay">
+            View map<span class="icon icon-location" aria-hidden="true"></span>
+
+
+        </span>
+
+</div></a></div><div id="couponNameContainer"><div></div></div><div id="hotelNameContainer"><div><h3 class="filterHeader" id="hotelNameHeader">Search by property name</h3>
+    <fieldset role="search">
+
+        <div class="cssTable">
+            <div class="cssRow">
+                <div class="cssCell autocomplete theme-standard" data-control="autocomplete">
+                    <label class="autocomplete-arrow text icon-before  hotelNameFilter" for="inpHotelNameMirror">
+                        <input type="text" id="inpHotelNameMirror" name="hotelName" class="text filter" aria-describedby="hotelNameHeader" maxlength="50" aria-owns="taHotelsResultsContainer" aria-autocomplete="list" spellcheck="false" autocomplete="off" data-mask="128" data-provide="autocomplete" data-regionid="" data-lob="HOTELS" data-version="v4" data-client-id="Hotels.Search" data-locale="en_US" data-template="#uitk-autocomplete-default" data-tooltip-id="typeaheadHotelsResults" data-js-theme="autocomplete" data-minchar="1" value="">
+                        <span class="icon icon-hotels" aria-hidden="true" data-control="tooltip" data-trigger="click" data-pos="bl" data-content-id="hotelNameSearchHelper" data-width="20%" data-arrow="false" data-pos-offset="0"></span>
+                        <div id="hotelNameSearchHelper" class="uitk-validation-error visuallyhidden">
+                            <p>Please enter hotel name here.</p>
+                        </div>
+                    </label>
+                    <div id="taHotelsResultsContainer" class="autocomplete-dropdown" style="display: none;"></div>
+                </div>
+
+                <div class="cssCell">
+                <span class="hotelNameFilterBtn submitHotelName" data-track="HOT:SR:HotelName" data-control="drawer-close">
+<button type="button" class="btn-secondary btn-sub-action" disabled="" aria-labelledby="hotelNameHeader"><span class="btn-label">                            Go
+</span></button>
+                </span>
+                </div>
+            </div>
+        </div>
+    </fieldset>
+</div></div><div id="filterHeaderContainer"><div><h3 class="filterHeader">
+    Filter properties by
+</h3>
+</div></div><div id="taapTierContainer"></div><div id="taapPaymentOptionContainer"></div><div id="aarpContainer"></div><div id="modFilterContainerV2" class="filterContainer"></div><div id="ratingContainer" class="rangeFilter"><fieldset class="filterContainer">    <details class="filterDetails" open="">
+    <summary class="filterSummary" data-section="star">
+            <span class="filterTitle " id="star-legend">
+                Property Class
+            </span>
+        <span class="resetButtonContainer">
+                <a class="resetFilterButton" data-section="star">
+                    Reset
+                </a>
+            </span>
+        <div class="numberOfSelectedOptions">
+            Any
+        </div>
+        <span class="icon icon-toggle90 filterSummaryIcon" aria-hidden="true"></span>
+
+
+    </summary>
+    <div class="filterList " id="star">
+        <label class="filter-label-wrapper check filter-label filterOptionItem" id="star5-label"><input class="filter" type="checkbox" id="star5" name="star" aria-labelledby="star-legend star5-label" value="50" data-track="HOT:SR:StarRating:5Star:true">
+            <strong class="star-rating rating-tertiary star rating" id="star5-label-text">
+                <span class="visuallyhidden">5.0 out of 5.0</span>
+                <span class="icon icon-stars5-0 stars-black value-title" title="5.0" aria-hidden="true"></span>
+            </strong>
+
+            <span class="starTextLabel">
+    5 Stars
+</span>
+
+        </label><label class="filter-label-wrapper check filter-label filterOptionItem" id="star4-label"><input class="filter" type="checkbox" id="star4" name="star" aria-labelledby="star-legend star4-label" value="40" data-track="HOT:SR:StarRating:4Star:true">
+        <strong class="star-rating rating-tertiary star rating" id="star4-label-text">
+            <span class="visuallyhidden">4.0 out of 5.0</span>
+            <span class="icon icon-stars4-0 stars-black value-title" title="4.0" aria-hidden="true"></span>
+        </strong>
+
+        <span class="starTextLabel">
+    4 Stars
+</span>
+
+    </label><label class="filter-label-wrapper check filter-label filterOptionItem" id="star3-label"><input class="filter" type="checkbox" id="star3" name="star" aria-labelledby="star-legend star3-label" value="30" data-track="HOT:SR:StarRating:3Star:true">
+        <strong class="star-rating rating-tertiary star rating" id="star3-label-text">
+            <span class="visuallyhidden">3.0 out of 5.0</span>
+            <span class="icon icon-stars3-0 stars-black value-title" title="3.0" aria-hidden="true"></span>
+        </strong>
+
+        <span class="starTextLabel">
+    3 Stars
+</span>
+
+    </label></div>
+</details>
+</fieldset></div><div id="priceFilterContainer" class="rangeFilter"><fieldset class="filterContainer">    <details class="filterDetails" open="">
+    <summary class="filterSummary" data-section="price">
+            <span class="filterTitle " id="price-legend">
+                Price Per Night
+            </span>
+        <span class="resetButtonContainer">
+                <a class="resetFilterButton" data-section="price">
+                    Reset
+                </a>
+            </span>
+        <div class="numberOfSelectedOptions">
+            Any
+        </div>
+        <span class="icon icon-toggle90 filterSummaryIcon" aria-hidden="true"></span>
+
+
+    </summary>
+    <div class="filterList " id="price">
+        <label class="filter-label-wrapper check filter-label filterOptionItem" id="price1-label"><input class="filter" type="checkbox" id="price1" name="price" aria-labelledby="price-legend price1-label" value="0" data-track="HOT:SR:PriceFilter:Bucket1:true">
+            <span class="priceTextLabel">
+
+        Less than $75
+
+</span>
+
+        </label><label class="filter-label-wrapper check filter-label filterOptionItem" id="price2-label"><input class="filter" type="checkbox" id="price2" name="price" aria-labelledby="price-legend price2-label" value="1" data-track="HOT:SR:PriceFilter:Bucket2:true">
+        <span class="priceTextLabel">
+
+            $75 to $124
+
+</span>
+
+    </label><label class="filter-label-wrapper check filter-label filterOptionItem" id="price3-label"><input class="filter" type="checkbox" id="price3" name="price" aria-labelledby="price-legend price3-label" value="2" data-track="HOT:SR:PriceFilter:Bucket3:true">
+        <span class="priceTextLabel">
+
+            $125 to $199
+
+</span>
+
+    </label><label class="filter-label-wrapper check filter-label filterOptionItem" id="price4-label"><input class="filter" type="checkbox" id="price4" name="price" aria-labelledby="price-legend price4-label" value="3" data-track="HOT:SR:PriceFilter:Bucket4:true">
+        <span class="priceTextLabel">
+
+            $200 to $299
+
+</span>
+
+    </label></div>
+</details>
+</fieldset></div><div id="modFilterContainerV1" class="filterContainer"></div><div id="publicTransportContainer" class="filterContainer"></div><div id="neighborhoodContainer"><fieldset class="filterContainer">    <details class="filterDetails">
+    <summary class="filterSummary" data-section="neighborhood">
+            <span class="filterTitle selectedFilterTitle" id="neighborhood-legend">
+                Neighborhood
+            </span>
+        <span class="resetButtonContainer">
+                <a class="resetFilterButton" data-section="neighborhood">
+                    Reset
+                </a>
+            </span>
+        <div class="numberOfSelectedOptions">
+            1 selected
+        </div>
+        <span class="icon icon-toggle90 filterSummaryIcon" aria-hidden="true"></span>
+
+
+    </summary>
+    <div class="filterList collapsed" id="neighborhood">
+        <label class="filter-label-wrapper check filter-label filterOptionItem checked" id="neighborhood0-label"><input class="filter" type="radio" id="neighborhood0" name="hideRegionId" aria-labelledby="neighborhood-legend neighborhood0-label" value="1079" checked="checked" data-track="HOT:SR:Area:1079">
+            <span class="neighborhoodTextLabel">
+    Dubai
+</span>
+
+        </label><label class="filter-label-wrapper check filter-label filterOptionItem" id="neighborhood1-label"><input class="filter" type="radio" id="neighborhood1" name="hideRegionId" aria-labelledby="neighborhood-legend neighborhood1-label" value="180861" data-track="HOT:SR:Area:180861">
+        <span class="neighborhoodTextLabel">
+    Jumeirah Beach
+</span>
+
+    </label><label class="filter-label-wrapper check filter-label filterOptionItem" id="neighborhood2-label"><input class="filter" type="radio" id="neighborhood2" name="hideRegionId" aria-labelledby="neighborhood-legend neighborhood2-label" value="6147415" data-track="HOT:SR:Area:6147415">
+        <span class="neighborhoodTextLabel">
+    Dubai Marina
+</span>
+
+    </label><label class="filter-label-wrapper check filter-label filterOptionItem" id="neighborhood3-label"><input class="filter" type="radio" id="neighborhood3" name="hideRegionId" aria-labelledby="neighborhood-legend neighborhood3-label" value="6085142" data-track="HOT:SR:Area:6085142">
+        <span class="neighborhoodTextLabel">
+    Palm Jumeirah
+</span>
+
+    </label><label class="filter-label-wrapper check filter-label filterOptionItem" id="neighborhood4-label"><input class="filter" type="radio" id="neighborhood4" name="hideRegionId" aria-labelledby="neighborhood-legend neighborhood4-label" value="6142656" data-track="HOT:SR:Area:6142656">
+        <span class="neighborhoodTextLabel">
+    Downtown Dubai
+</span>
+
+    </label><label class="filter-label-wrapper check filter-label filterOptionItem" id="neighborhood5-label"><input class="filter" type="radio" id="neighborhood5" name="hideRegionId" aria-labelledby="neighborhood-legend neighborhood5-label" value="6054337" data-track="HOT:SR:Area:6054337">
+        <span class="neighborhoodTextLabel">
+    Bur Dubai
+</span>
+
+    </label><label class="filter-label-wrapper check filter-label filterOptionItem" id="neighborhood6-label"><input class="filter" type="radio" id="neighborhood6" name="hideRegionId" aria-labelledby="neighborhood-legend neighborhood6-label" value="177902" data-track="HOT:SR:Area:177902">
+        <span class="neighborhoodTextLabel">
+    Deira
+</span>
+
+    </label><label class="filter-label-wrapper check filter-label filterOptionItem" id="neighborhood7-label"><input class="filter" type="radio" id="neighborhood7" name="hideRegionId" aria-labelledby="neighborhood-legend neighborhood7-label" value="6258785" data-track="HOT:SR:Area:6258785">
+        <span class="neighborhoodTextLabel">
+    Jumeirah Beach Residence
+</span>
+
+    </label><label class="filter-label-wrapper check filter-label filterOptionItem" id="neighborhood8-label"><input class="filter" type="radio" id="neighborhood8" name="hideRegionId" aria-labelledby="neighborhood-legend neighborhood8-label" value="6147429" data-track="HOT:SR:Area:6147429">
+        <span class="neighborhoodTextLabel">
+    Al Barsha
+</span>
+
+    </label><label class="filter-label-wrapper check filter-label filterOptionItem" id="neighborhood9-label"><input class="filter" type="radio" id="neighborhood9" name="hideRegionId" aria-labelledby="neighborhood-legend neighborhood9-label" value="6139574" data-track="HOT:SR:Area:6139574">
+        <span class="neighborhoodTextLabel">
+    Dubai Media City
+</span>
+
+    </label><label class="filter-label-wrapper check filter-label filterOptionItem" id="neighborhood10-label"><input class="filter" type="radio" id="neighborhood10" name="hideRegionId" aria-labelledby="neighborhood-legend neighborhood10-label" value="6053932" data-track="HOT:SR:Area:6053932">
+        <span class="neighborhoodTextLabel">
+    Jebel Ali
+</span>
+
+    </label><label class="filter-label-wrapper check filter-label filterOptionItem" id="neighborhood11-label"><input class="filter" type="radio" id="neighborhood11" name="hideRegionId" aria-labelledby="neighborhood-legend neighborhood11-label" value="6160460" data-track="HOT:SR:Area:6160460">
+        <span class="neighborhoodTextLabel">
+    Sharjah
+</span>
+
+    </label><label class="filter-label-wrapper check filter-label filterOptionItem" id="neighborhood12-label"><input class="filter" type="radio" id="neighborhood12" name="hideRegionId" aria-labelledby="neighborhood-legend neighborhood12-label" value="3000665082" data-track="HOT:SR:Area:3000665082">
+        <span class="neighborhoodTextLabel">
+    Arabian Ranches
+</span>
+
+    </label><label class="filter-label-wrapper check filter-label filterOptionItem" id="neighborhood13-label"><input class="filter" type="radio" id="neighborhood13" name="hideRegionId" aria-labelledby="neighborhood-legend neighborhood13-label" value="553248633981691183" data-track="HOT:SR:Area:553248633981691183">
+        <span class="neighborhoodTextLabel">
+    Old Dubai
+</span>
+
+    </label><label class="filter-label-wrapper check filter-label filterOptionItem" id="neighborhood14-label"><input class="filter" type="radio" id="neighborhood14" name="hideRegionId" aria-labelledby="neighborhood-legend neighborhood14-label" value="553248633981691177" data-track="HOT:SR:Area:553248633981691177">
+        <span class="neighborhoodTextLabel">
+    Emirates Hills
+</span>
+
+    </label><label class="filter-label-wrapper check filter-label filterOptionItem" id="neighborhood15-label"><input class="filter" type="radio" id="neighborhood15" name="hideRegionId" aria-labelledby="neighborhood-legend neighborhood15-label" value="553248633981692479" data-track="HOT:SR:Area:553248633981692479">
+        <span class="neighborhoodTextLabel">
+    Dubai Internet City
+</span>
+
+    </label><label class="filter-label-wrapper check filter-label filterOptionItem" id="neighborhood16-label"><input class="filter" type="radio" id="neighborhood16" name="hideRegionId" aria-labelledby="neighborhood-legend neighborhood16-label" value="553248633981695664" data-track="HOT:SR:Area:553248633981695664">
+        <span class="neighborhoodTextLabel">
+    Beach &amp; Coast
+</span>
+
+    </label><label class="filter-label-wrapper check filter-label filterOptionItem" id="neighborhood17-label"><input class="filter" type="radio" id="neighborhood17" name="hideRegionId" aria-labelledby="neighborhood-legend neighborhood17-label" value="553248633981720699" data-track="HOT:SR:Area:553248633981720699">
+        <span class="neighborhoodTextLabel">
+    Core area of Dubai
+</span>
+
+    </label></div>
+    <a href="javascript:void(0);" class="toggleFilters" data-expand-text="Read more" data-collapse-text="Read less" data-transition="fade" role="button" aria-expanded="false">
+                <span class="less" aria-hidden="true">
+                    Show less
+                </span>
+        <span class="visuallyhidden less">
+                    Show fewer Neighborhood filters
+                </span>
+        <span class="more" aria-hidden="true">
+                    Show more
+                </span>
+        <span class="visuallyhidden more">
+                    Show more Neighborhood filters
+                </span>
+    </a>
+</details>
+</fieldset></div><fieldset id="amenitiesContainer" class="filterContainer"><fieldset class="filterContainer">    <details class="filterDetails">
+    <summary class="filterSummary" data-section="amenities">
+            <span class="filterTitle " id="amenities-legend">
+                Amenities
+            </span>
+        <span class="resetButtonContainer">
+                <a class="resetFilterButton" data-section="amenities">
+                    Reset
+                </a>
+            </span>
+        <div class="numberOfSelectedOptions">
+            Any
+        </div>
+        <span class="icon icon-toggle90 filterSummaryIcon" aria-hidden="true"></span>
+
+
+    </summary>
+    <div class="filterList collapsed" id="amenities">
+        <label class="filter-label-wrapper check filter-label filterOptionItem" id="amenity19-label"><input class="filter" type="checkbox" id="amenity19" name="amenities" aria-labelledby="amenities-legend amenity19-label" value="19" data-track="HOT:SR:HotelPreference:19:true">
+            High-speed Internet
+        </label><label class="filter-label-wrapper check filter-label filterOptionItem" id="amenity27-label"><input class="filter" type="checkbox" id="amenity27" name="amenities" aria-labelledby="amenities-legend amenity27-label" value="27" data-track="HOT:SR:HotelPreference:27:true">
+        Air conditioning
+    </label><label class="filter-label-wrapper check filter-label filterOptionItem" id="amenity7-label"><input class="filter" type="checkbox" id="amenity7" name="amenities" aria-labelledby="amenities-legend amenity7-label" value="7" data-track="HOT:SR:HotelPreference:7:true">
+        Swimming pool
+    </label><label class="filter-label-wrapper check filter-label filterOptionItem" id="amenity16-label"><input class="filter" type="checkbox" id="amenity16" name="amenities" aria-labelledby="amenities-legend amenity16-label" value="16" data-track="HOT:SR:HotelPreference:16:true">
+        Free breakfast
+    </label><label class="filter-label-wrapper check filter-label filterOptionItem" id="amenity30-label"><input class="filter" type="checkbox" id="amenity30" name="amenities" aria-labelledby="amenities-legend amenity30-label" value="30" data-track="HOT:SR:HotelPreference:30:true">
+        All-Inclusive options available
+    </label><label class="filter-label-wrapper check filter-label filterOptionItem" id="amenity66-label"><input class="filter" type="checkbox" id="amenity66" name="amenities" aria-labelledby="amenities-legend amenity66-label" value="66" data-track="HOT:SR:HotelPreference:66:true">
+        Free airport transportation
+    </label><label class="filter-label-wrapper check filter-label filterOptionItem" id="amenity14-label"><input class="filter" type="checkbox" id="amenity14" name="amenities" aria-labelledby="amenities-legend amenity14-label" value="14" data-track="HOT:SR:HotelPreference:14:true">
+        Free parking
+    </label><label class="filter-label-wrapper check filter-label filterOptionItem" id="amenity2158-label"><input class="filter" type="checkbox" id="amenity2158" name="amenities" aria-labelledby="amenities-legend amenity2158-label" value="2158" data-track="HOT:SR:HotelPreference:2158:true">
+        Kitchen
+    </label><label class="filter-label-wrapper check filter-label filterOptionItem" id="amenity17-label"><input class="filter" type="checkbox" id="amenity17" name="amenities" aria-labelledby="amenities-legend amenity17-label" value="17" data-track="HOT:SR:HotelPreference:17:true">
+        Pets allowed (conditions apply)
+    </label></div>
+    <a href="javascript:void(0);" class="toggleFilters" data-expand-text="Read more" data-collapse-text="Read less" data-transition="fade" role="button" aria-expanded="false">
+                <span class="less" aria-hidden="true">
+                    Show less
+                </span>
+        <span class="visuallyhidden less">
+                    Show fewer Amenities
+                </span>
+        <span class="more" aria-hidden="true">
+                    Show more
+                </span>
+        <span class="visuallyhidden more">
+                    Show more Amenities
+                </span>
+    </a>
+</details>
+</fieldset></fieldset><div id="mealplansContainer"><fieldset class="filterContainer"></fieldset></div><fieldset id="lodgingTypecontainer" class="filterContainer"><fieldset class="filterContainer">    <details class="filterDetails">
+    <summary class="filterSummary" data-section="lodgingType">
+            <span class="filterTitle " id="lodgingType-legend">
+                Property Type
+            </span>
+        <span class="resetButtonContainer">
+                <a class="resetFilterButton" data-section="lodgingType">
+                    Reset
+                </a>
+            </span>
+        <div class="numberOfSelectedOptions">
+            Any
+        </div>
+        <span class="icon icon-toggle90 filterSummaryIcon" aria-hidden="true"></span>
+
+
+    </summary>
+    <div class="filterList collapsed" id="lodgingType">
+        <label class="filter-label-wrapper check filter-label filterOptionItem" id="lodging0-label"><input class="filter" type="checkbox" id="lodging0" name="lodging" aria-labelledby="lodgingType-legend lodging0-label" value="hotel" data-track="HOT.SR.LodgingType.Hotel:true">
+            Hotel
+        </label><label class="filter-label-wrapper check filter-label filterOptionItem" id="lodging1-label"><input class="filter" type="checkbox" id="lodging1" name="lodging" aria-labelledby="lodgingType-legend lodging1-label" value="apartment" data-track="HOT.SR.LodgingType.Apartment:true">
+        Apartment
+    </label><label class="filter-label-wrapper check filter-label filterOptionItem" id="lodging2-label"><input class="filter" type="checkbox" id="lodging2" name="lodging" aria-labelledby="lodgingType-legend lodging2-label" value="apartHotel" data-track="HOT.SR.LodgingType.Apart_Hotel:true">
+        Apart-hotel
+    </label><label class="filter-label-wrapper check filter-label filterOptionItem" id="lodging3-label"><input class="filter" type="checkbox" id="lodging3" name="lodging" aria-labelledby="lodgingType-legend lodging3-label" value="villa" data-track="HOT.SR.LodgingType.Villa:true">
+        Villa
+    </label><label class="filter-label-wrapper check filter-label filterOptionItem" id="lodging4-label"><input class="filter" type="checkbox" id="lodging4" name="lodging" aria-labelledby="lodgingType-legend lodging4-label" value="hotelResort" data-track="HOT.SR.LodgingType.Hotel_Resort:true">
+        Hotel resort
+    </label><label class="filter-label-wrapper check filter-label filterOptionItem" id="lodging5-label"><input class="filter" type="checkbox" id="lodging5" name="lodging" aria-labelledby="lodgingType-legend lodging5-label" value="vacationHome" data-track="HOT.SR.LodgingType.Vacation_Home:true">
+        Private vacation home
+    </label><label class="filter-label-wrapper check filter-label filterOptionItem" id="lodging6-label"><input class="filter" type="checkbox" id="lodging6" name="lodging" aria-labelledby="lodgingType-legend lodging6-label" value="hostel" data-track="HOT.SR.LodgingType.Hostel:true">
+        Hostel/Backpacker accommodation
+    </label></div>
+    <a href="javascript:void(0);" class="toggleFilters" data-expand-text="Read more" data-collapse-text="Read less" data-transition="fade" role="button" aria-expanded="false">
+                <span class="less" aria-hidden="true">
+                    Show less
+                </span>
+        <span class="visuallyhidden less">
+                    Show fewer Property Type filters
+                </span>
+        <span class="more" aria-hidden="true">
+                    Show more
+                </span>
+        <span class="visuallyhidden more">
+                    Show more Property Type filters
+                </span>
+    </a>
+</details>
+</fieldset></fieldset><fieldset id="vacationRentalTypeContainer" class="filterContainer"></fieldset><fieldset id="poiFilterContainer" class="rangeFilter filterContainer"><fieldset class="filterContainer">    <details class="filterDetails">
+    <summary class="filterSummary" data-section="poiFilter">
+            <span class="filterTitle " id="poiFilter-legend">
+                Popular Locations
+            </span>
+        <span class="resetButtonContainer">
+                <a class="resetFilterButton" data-section="poiFilter">
+                    Reset
+                </a>
+            </span>
+        <div class="numberOfSelectedOptions">
+            Any
+        </div>
+        <span class="icon icon-toggle90 filterSummaryIcon" aria-hidden="true"></span>
+
+
+    </summary>
+    <div class="filterList collapsed" id="poiFilter">
+        <label class="filter-label-wrapper check filter-label filterOptionItem" id="poi6083275-label"><input class="filter" type="radio" id="poi0" name="poi" aria-labelledby="poiFilter-legend poi0-label" value="25.19767,55.274317" data-track="HOT:SR:POI:6083275">
+            Burj Khalifa
+        </label><label class="filter-label-wrapper check filter-label filterOptionItem" id="poi6123356-label"><input class="filter" type="radio" id="poi1" name="poi" aria-labelledby="poiFilter-legend poi1-label" value="25.199645,55.280626" data-track="HOT:SR:POI:6123356">
+        Dubai Mall
+    </label><label class="filter-label-wrapper check filter-label filterOptionItem" id="poi6083273-label"><input class="filter" type="radio" id="poi2" name="poi" aria-labelledby="poiFilter-legend poi2-label" value="25.119804,55.199652" data-track="HOT:SR:POI:6083273">
+        Ski Dubai
+    </label><label class="filter-label-wrapper check filter-label filterOptionItem" id="poi6128875-label"><input class="filter" type="radio" id="poi3" name="poi" aria-labelledby="poiFilter-legend poi3-label" value="25.13304,55.118445" data-track="HOT:SR:POI:6128875">
+        Aquaventure
+    </label><label class="filter-label-wrapper check filter-label filterOptionItem" id="poi6083277-label"><input class="filter" type="radio" id="poi4" name="poi" aria-labelledby="poiFilter-legend poi4-label" value="25.119802,55.199877" data-track="HOT:SR:POI:6083277">
+        Mall of the Emirates
+    </label><label class="filter-label-wrapper check filter-label filterOptionItem" id="poi6123358-label"><input class="filter" type="radio" id="poi5" name="poi" aria-labelledby="poiFilter-legend poi5-label" value="25.084967,55.150243" data-track="HOT:SR:POI:6123358">
+        Dubai Marina
+    </label><label class="filter-label-wrapper check filter-label filterOptionItem" id="poi6083295-label"><input class="filter" type="radio" id="poi6" name="poi" aria-labelledby="poiFilter-legend poi6-label" value="25.241077,55.325418" data-track="HOT:SR:POI:6083295">
+        Dubai Creek
+    </label><label class="filter-label-wrapper check filter-label filterOptionItem" id="poi6083269-label"><input class="filter" type="radio" id="poi7" name="poi" aria-labelledby="poiFilter-legend poi7-label" value="25.269982,55.29822" data-track="HOT:SR:POI:6083269">
+        Gold Souk
+    </label><label class="filter-label-wrapper check filter-label filterOptionItem" id="poi6083279-label"><input class="filter" type="radio" id="poi8" name="poi" aria-labelledby="poiFilter-legend poi8-label" value="25.263451,55.297201" data-track="HOT:SR:POI:6083279">
+        Dubai Museum
+    </label><label class="filter-label-wrapper check filter-label filterOptionItem" id="poi6123360-label"><input class="filter" type="radio" id="poi9" name="poi" aria-labelledby="poiFilter-legend poi9-label" value="25.222168,55.353776" data-track="HOT:SR:POI:6123360">
+        Dubai Festival City Mall
+    </label><label class="filter-label-wrapper check filter-label filterOptionItem" id="poi6114220-label"><input class="filter" type="radio" id="poi10" name="poi" aria-labelledby="poiFilter-legend poi10-label" value="25.049598,55.236896" data-track="HOT:SR:POI:6114220">
+        Dubai Autodrome
+    </label><label class="filter-label-wrapper check filter-label filterOptionItem" id="poi6083271-label"><input class="filter" type="radio" id="poi11" name="poi" aria-labelledby="poiFilter-legend poi11-label" value="25.139435,55.189177" data-track="HOT:SR:POI:6083271">
+        Wild Wadi Water Park
+    </label><label class="filter-label-wrapper check filter-label filterOptionItem" id="poi6139669-label"><input class="filter" type="radio" id="poi12" name="poi" aria-labelledby="poiFilter-legend poi12-label" value="25.123787,55.38197" data-track="HOT:SR:POI:6139669">
+        Dubai Silicon Oasis
+    </label><label class="filter-label-wrapper check filter-label filterOptionItem" id="poi6083297-label"><input class="filter" type="radio" id="poi13" name="poi" aria-labelledby="poiFilter-legend poi13-label" value="25.044445,55.12049" data-track="HOT:SR:POI:6083297">
+        Ibn Battuta Mall
+    </label><label class="filter-label-wrapper check filter-label filterOptionItem" id="poi6114212-label"><input class="filter" type="radio" id="poi14" name="poi" aria-labelledby="poiFilter-legend poi14-label" value="25.251669,55.329413" data-track="HOT:SR:POI:6114212">
+        Deira City Centre
+    </label><label class="filter-label-wrapper check filter-label filterOptionItem" id="poi6083309-label"><input class="filter" type="radio" id="poi15" name="poi" aria-labelledby="poiFilter-legend poi15-label" value="25.264282,55.296836" data-track="HOT:SR:POI:6083309">
+        Grand Mosque
+    </label><label class="filter-label-wrapper check filter-label filterOptionItem" id="poi6083287-label"><input class="filter" type="radio" id="poi16" name="poi" aria-labelledby="poiFilter-legend poi16-label" value="25.233809,55.265522" data-track="HOT:SR:POI:6083287">
+        Jumeirah Mosque
+    </label><label class="filter-label-wrapper check filter-label filterOptionItem" id="poi6114216-label"><input class="filter" type="radio" id="poi17" name="poi" aria-labelledby="poiFilter-legend poi17-label" value="25.223713,55.286118" data-track="HOT:SR:POI:6114216">
+        Dubai International Convention and Exhibition Centre
+    </label><label class="filter-label-wrapper check filter-label filterOptionItem" id="poi6083301-label"><input class="filter" type="radio" id="poi18" name="poi" aria-labelledby="poiFilter-legend poi18-label" value="25.086376,55.163367" data-track="HOT:SR:POI:6083301">
+        Emirates Golf Club
+    </label><label class="filter-label-wrapper check filter-label filterOptionItem" id="poi6114194-label"><input class="filter" type="radio" id="poi19" name="poi" aria-labelledby="poiFilter-legend poi19-label" value="25.243418,55.342423" data-track="HOT:SR:POI:6114194">
+        Dubai Tennis Stadium
+    </label></div>
+    <a href="javascript:void(0);" class="toggleFilters" data-expand-text="Read more" data-collapse-text="Read less" data-transition="fade" role="button" aria-expanded="false">
+                <span class="less" aria-hidden="true">
+                    Show less
+                </span>
+        <span class="visuallyhidden less">
+                    Show fewer Popular location filters
+                </span>
+        <span class="more" aria-hidden="true">
+                    Show more
+                </span>
+        <span class="visuallyhidden more">
+                    Show more Popular location filters
+                </span>
+    </a>
+</details>
+</fieldset></fieldset><div id="taapHotelTypeContainer"></div><div id="rateplansContainer"></div><div id="topThemeContainer"></div><div id="accessibilitiesContainer"><fieldset class="filterContainer">    <details class="filterDetails">
+    <summary class="filterSummary" data-section="accessibilities">
+            <span class="filterTitle " id="accessibilities-legend">
+                Accessibility
+            </span>
+        <span class="resetButtonContainer">
+                <a class="resetFilterButton" data-section="accessibilities">
+                    Reset
+                </a>
+            </span>
+        <div class="numberOfSelectedOptions">
+            Any
+        </div>
+        <span class="icon icon-toggle90 filterSummaryIcon" aria-hidden="true"></span>
+
+
+    </summary>
+    <div class="filterList " id="accessibilities">
+        <label class="filter-label-wrapper check filter-label filterOptionItem" id="accessibility58-label"><input class="filter" type="checkbox" id="accessibility58" name="amenities" aria-labelledby="accessibilities-legend accessibility58-label" value="58" data-track="HOT:SR:HotelAccessibility:58:true">
+            Accessible bathroom
+        </label><label class="filter-label-wrapper check filter-label filterOptionItem" id="accessibility62-label"><input class="filter" type="checkbox" id="accessibility62" name="amenities" aria-labelledby="accessibilities-legend accessibility62-label" value="62" data-track="HOT:SR:HotelAccessibility:62:true">
+        In-room accessibility
+    </label><label class="filter-label-wrapper check filter-label filterOptionItem" id="accessibility63-label"><input class="filter" type="checkbox" id="accessibility63" name="amenities" aria-labelledby="accessibilities-legend accessibility63-label" value="63" data-track="HOT:SR:HotelAccessibility:63:true">
+        Roll-in shower
+    </label></div>
+</details>
+</fieldset></div></aside>
+<section id="bcol" class="uitk-col desktop-col-3-4 all-x-gutter-12" role="main">
+<div class="bColumn">
+    <div id="resultsContainer" class="container">
+    <section class="cf flex-1up flex-listing flex-theme-light cols-nested">
+<!--<div class="container">-->
+    <!--<h1>Database Output index</h1>-->
+
+
+
+    <th:block th:each="record : ${records}">
+
+        <article th:data-hotelid="${record.hotelInfo.hotelId}" th:data-mid="${record.hotelInfo.hotelId}"
+                 th:id="${record.hotelInfo.hotelId}" data-automation="organic"
+                 propertytype="nonVacationRental"
+                 th:class="'hotel listing col organic urgencyMsg available organic h-' + ${record.hotelInfo.hotelId} + '-organic'">
+
+            <h3 th:inline="text" class="visuallyhidden">
+                [[${record.hotelInfo.hotelName}]]
+            </h3>
+
+            <div class="result-header">
+                <div>
+                </div>
+            </div>
+
+            <div class="flex-card">
+                <div class="flex-link-wrap">
+                    <div class="flex-content info-and-price MULTICITYVICINITY ">
+
+                        <div class="flex-figure thumbnail-container">
+                            <div>
+                                <div class="hotel-thumbnail"
+                                     th:data-image="${record.hotelInfo.hotelImageUrl}"
+                                     >
+                                    <img th:src="${record.hotelInfo.hotelImageUrl}" style="width: 42%;"/>
+                <span class="visuallyhidden" th:id="'thb-img-' + ${record.hotelInfo.hotelId} + '-organic'">
+                    <span th:utext="'Property image gallery for ' + ${record.hotelInfo.hotelName}">Property image gallery for ${record.hotelInfo.hotelName}</span>
+                    <span>photo 1</span>
+                </span>
+                                    <div class="media-loader">
+                                        <span class=" loader-primary loader-dark loader-static" aria-hidden="true"
+                                              title="Loading..."></span>
+
+                                    </div>
+                                    <div class="noImg"></div>
+                                </div>
+
+                                <button th:id="'modal-gallery-btn-' + ${record.hotelInfo.hotelId} + '-focus'"
+                                        class="modal-gallery-button"
+                                        data-automation="modal-gallery-button">
+            <span class="visuallyhidden">
+                Click to see more images
+            </span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="flex-area-primary" style="float: left;">
+                            <ul class="hotel-info">
+                                <li class="scratchpad-region">
+                                    <div class="shortlist-save">
+                                        <button type="button" data-track="HOT.SR.Scratchpad.Save"
+                                                class="btn-primary btn-text shortlist-hotel-add">
+             <span class="btn-label">
+                 <span class="visuallyhidden" th:utext="'Save ' + ${record.hotelPricingInfo.averagePriceValue} + ' to your lists'">Save ${record.hotelInfo.hotelName} to your lists</span>
+                 <span class="heart-icon" aria-hidden="true"></span>
+             </span>
+                                        </button>
+                                    </div>
+
+                                </li>
+
+                                <li class="discount-ribbon secondary flex-flag
+                                hidden
+                                ">
+
+                                    Today % off
+                                </li>
+
+                                <li class="drrWrapper"></li>
+
+                                <li class="npp hidden"></li>
+
+
+                                <li class="hotelTitle" aria-hidden="true">
+                                    <h4 th:inline="text" class="hotelName fakeLink" data-automation="hotel-name">
+                                        [[${record.hotelInfo.hotelName}]]
+                                    </h4>
+                                </li>
+
+
+                                <li class="starRating secondary">
+                                    <strong class="star-rating rating-secondary star rating">
+                                        <span class="visuallyhidden" th:utext="${#numbers.formatDecimal(record.hotelInfo.hotelStarRating, 0, 0)} + ' out of 5.0'">${record.hotelInfo.hotelStarRating} out of 5.0
+                                        </span>
+                                        <span
+                                                th:class="'icon icon-stars' + ${#numbers.formatDecimal(record.hotelInfo.hotelStarRating, 0, 0)} + '-0 stars-grey value-title'"
+                                                th:title="${record.hotelInfo.hotelStarRating}"
+                                                aria-hidden="true"></span>
+                                    </strong>
+
+                                </li>
+
+
+                                <li class="neighborhood secondary">
+                                    Beach &amp; Coast
+                                    <!--neighborhoodOrCityName-->
+                                </li>
+
+                                <li class="topAmenities">
+
+                                    <div class="amenity-block">
+                                        <div class="amenity-icon amenity-icon-pool"></div>
+                                        <div class="amenity-icon-text-block">
+                                            <span>Pool</span>
+                                        </div>
+                                    </div>
+                                    <div class="amenity-block">
+                                        <div class="amenity-icon amenity-icon-wifi"></div>
+                                        <div class="amenity-icon-text-block">
+                                            <span>WiFi</span>
+                                        </div>
+                                    </div>
+                                    <div class="amenity-block">
+                                        <div class="amenity-icon amenity-icon-parking"></div>
+                                        <div class="amenity-icon-text-block">
+                                            <span>Parking</span>
+                                        </div>
+                                    </div>
+                                </li>
+
+
+                                <li class="guestRatingText secondary gt-mobile-hidden hideGuestRatingInInfoCol">
+
+                                  <span class="overallRatingText">
+                                      <span
+                                              class="ratingText" th:utext="${record.hotelInfo.hotelGuestReviewRating}">${record.hotelInfo.hotelGuestReviewRating}</span>
+                                      <span class="maxRatingText">/5
+                                  </span>
+                            </span>
+
+                                    <span class="superlativeText">Wonderful!</span>
+
+                                    <span th:class="${record.hotelInfo.hotelReviewTotal} + 'reviewCount fakeLink'" th:utext="'(' + ${record.hotelInfo.hotelReviewTotal} + 'reviews)'">
+                                        (${record.hotelInfo.hotelReviewTotal} reviews)
+                                    </span>
+
+                                </li>
+
+
+                                <div class="transport-info secondary">
+                                    <div></div>
+                                </div>
+
+
+                                <li class="phone secondary gt-mobile">
+                                    <span class="no-wrap">1-800-222-0892</span>
+                                </li>
+
+                                <li class="esr-flex secondary gt-mobile">
+                                       <span class="nowrap">
+                                           <span aria-hidden="true">•</span>
+                                          <span style="color: yellow"><b>Expedia</b></span>Rate
+                                       </span>
+                                </li>
+
+
+                                <li class="secondary snippet-content">
+                                <span class="snippet-chat-icon">
+                                    <span class="icon icon-comment"
+                                          aria-hidden="true"></span>
+                                    <span class="alt">Comment</span>
+                                </span>
+                                    <span class="snippet-data"></span>
+                                </li>
+                            </ul>
+                            <h4 th:inline="text" class="visuallyhidden">
+                                More hotel information for [[${record.hotelInfo.hotelName}]]
+                            </h4>
+
+                            <ul class="hotel-value-prop">
+
+
+                                <li class="flightCarIncluded">
+                                    <div class="flight-car-wrapper">
+                                        <span class="icon icon-flightsalt" aria-hidden="true"></span>
+
+                                        <span class="icon-text" aria-hidden="true">+</span> <span
+                                            class="icon icon-carsalt"
+                                            aria-hidden="true"></span>
+
+
+                                        <span class="included-text">
+                                                    Economy/Coach nonstop flights and Economy car included in price
+                                            </span>
+                                    </div>
+                                </li>
+
+                                <li class="bookingVelocitySection bookingVelocity secondary gt-mobile hidden"></li>
+
+                            </ul>
+                        </div>
+
+                        <div class="flex-area-secondary" style="float: right;">
+                            <div class="can-we-use-modern-libraries-please">
+                                <div class="price-col-1">
+                                    <div class="recentlyViewed">
+                                    </div>
+                                    <h4 th:inline="text" class="visuallyhidden">
+                                        Guest rating for [[${record.hotelInfo.hotelName}]]
+                                    </h4>
+
+                                    <ul class="hotel-ugc">
+                                        <li class="reviewOverall">
+                                            <span class="visuallyhidden"
+                                                  th:utext="${record.hotelInfo.hotelGuestReviewRating}">Guest rating is
+                                                ${record.hotelInfo.hotelGuestReviewRating} out of 5
+                                            </span>
+                                            <span aria-hidden="true" th:utext="${record.hotelInfo.hotelGuestReviewRating} + '/5'">
+                                            </span>
+
+                                        </li>
+
+                                        <li class="superlative">
+                                            Wonderful!
+                                        </li>
+
+                                        <li class="reviewCount fakeLink secondary">
+                                            <span class="visuallyhidden" th:utext="${record.hotelInfo.hotelReviewTotal} + 'reviews'">Based on
+                                                ${record.hotelInfo.hotelReviewTotal} reviews
+                                            </span>
+                                            <span aria-hidden="true" th:utext="'(' + ${record.hotelInfo.hotelReviewTotal} + 'reviews)'">
+                                                (${record.hotelInfo.hotelReviewTotal} reviews)
+                                            </span>
+                                        </li>
+                                    </ul>
+                                    <h4 th:inline="text" class="visuallyhidden">
+                                        Price information for [[${record.hotelInfo.hotelName}]]
+                                    </h4>
+
+                                    <span class="notranslate">
+            <ul class="hotel-price">
+                <li class="burnPointsText">
+                    Expedia+ points applied
+                </li>
+
+
+                    <li th:utext="'In high demand! ' + '<br/>' + ' We have ' + ${record.hotelUrgencyInfo.numberOfRoomsLeft} + ' left at'" class="urgencyContainer secondary">
+                        <span class="visuallyhidden">this price</span>
+                    </li>
+
+
+                        <li class="price">
+                            <span class="visuallyhidden">Price if booked separately: </span>
+                            <span class="strikePrice" th:utext="${record.hotelPricingInfo.crossOutPriceValue}">$${record.hotelPricingInfo.averagePriceValue}</span>
+                            <span class="visuallyhidden">Price is now: </span>
+                        </li>
+                        <li th:text="'$' + ${record.hotelPricingInfo.averagePriceValue}" class="actualPrice price fakeLink ">
+
+                        </li>
+
+
+                    <li class="priceType secondary">
+                                            Per person includes flight + hotel + car
+                    </li>
+
+            </ul>
+            </span>
+                                </div>
+
+                                <div class="price-col-2">
+                                    <ul class="hotel-price-supplemental">
+
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a class="flex-link"
+                       data-track-vars="{prop59:'BDClick-44.N.false'}"
+                       tabindex="0"
+                       th:data-track="clicked-on-branded-deals"
+                       th:href="${record.hotelUrls.hotelInfositeUrl}"
+                       th:target="${record.hotelInfo.hotelId}">
+
+                    <span class="visuallyhidden" th:utext="'Select' + ${record.hotelInfo.hotelName} + '. Opens in a new window.'">
+                    </span>
+                    </a>
+
+                    <div class="hidden spid automationTag">MERCHANT</div>
+                </div>
+
+
+            </div>
+
+        </article>
+        <div class="result-header"><div>
+        </div></div>
+
+    </th:block>
+
+<!--</div>-->
+    </section>
+</div>
+</div>
+</section>
+</div>
+</body>
+</html>
