@@ -49,6 +49,11 @@ import static com.expedia.Constants.*;
 @SpringBootApplication
 public class MainEmulation {
 
+    public static final String MESSAGE = "message";
+    public static final String RECORDS = "records";
+    public static final String INDEX = "index";
+    public static final String ERROR = "error";
+    public static final String DB = "db";
     /**
      * data source used for testing and play only there is nothing with expedia to do with it
      * but i liked to do it any way
@@ -75,7 +80,7 @@ public class MainEmulation {
 
     @RequestMapping("/")
     String index() {
-        return "index";
+        return INDEX;
     }
 
     /**
@@ -101,11 +106,11 @@ public class MainEmulation {
                 output.add("Read from DB: " + rs.getTimestamp("tick"));
             }
 
-            model.put("records", output);
-            return "db";
+            model.put(RECORDS, output);
+            return DB;
         } catch (Exception e) {
-            model.put("message", e.getMessage());
-            return "error";
+            model.put(MESSAGE, e.getMessage());
+            return ERROR;
         } finally {
             try {
                 if (stmt != null)
@@ -139,7 +144,7 @@ public class MainEmulation {
 
     @RequestMapping("/index")
     String homepage(Map<String, Object> model) {
-        return "index";
+        return INDEX;
     }
 
 
@@ -221,12 +226,12 @@ public class MainEmulation {
             OffersContainer responseOffersFromJson = new OffersContainer();
 
             responseOffersFromJson.fromJSON(response);
-            model.put("records", responseOffersFromJson.getOffers().getHotel());
-            return "index";
+            model.put(RECORDS, responseOffersFromJson.getOffers().getHotel());
+            return INDEX;
         } catch (Exception e) {
             //should be shown only to developer
-            model.put("message", e.getMessage());
-            return "error";
+            model.put(MESSAGE, e.getMessage());
+            return ERROR;
         }
     }
 
