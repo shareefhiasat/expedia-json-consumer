@@ -1,4 +1,12 @@
+
 Sorry if i forgot anything , but i doubt it.
+
+#Image
+
+<b>Menu</b>
+http://res.cloudinary.com/shareefhiasat/image/upload/v1509262321/menue_ercwfc.png
+<b>Sample of max guest rating</b>
+http://res.cloudinary.com/shareefhiasat/image/upload/v1509262414/sample-api-max-guest-rating_hz15ru.png
 
 #Check On Heroku
 https://expedia-json-consumer.herokuapp.com/ i hope its still up. :)
