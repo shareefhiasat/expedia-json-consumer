@@ -13,7 +13,7 @@
     <context:annotation-config />
     <context:property-placeholder location="file:test/resources/testApplication.properties"/>
 
-    <bean id="jrupalDataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
+    <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
         <property name="driverClassName" value="${spring.datasource.driver}" />
         <property name="url" value="${spring.datasource.url}" />
         <property name="username" value="${spring.datasource.username}" />
